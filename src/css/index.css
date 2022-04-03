@@ -1,0 +1,9 @@
+@import '~antd/dist/antd.css';
+@import './kg.css';
+@import './KgSettingPanel.css';
+
+
+#root {
+    height: 100%;
+}
+

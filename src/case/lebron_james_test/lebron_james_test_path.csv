@@ -1,0 +1,258 @@
+id,scores,path
+
+0,-3.4679036140441895,concept_coach_lebron_james -concept:athletehomestadium-> concept_stadiumoreventvenue_quicken_loans_arena <-concept:leaguestadiums- concept_sportsleague_nba -<null>-> concept_sportsleague_nba
+
+1,-3.594424247741699,concept_coach_lebron_james -concept:athleteplayssport-> concept_sport_basketball <-concept:athleteplayssport- concept_coach_al_jefferson -concept:coachesinleague-> concept_sportsleague_nba
+
+2,-3.631613254547119,concept_coach_lebron_james -concept:athleteplayssport-> concept_sport_basketball <-concept:athleteplayssport- concept_coach_derrick_rose -concept:coachesinleague-> concept_sportsleague_nba
+
+3,-3.6436495780944824,concept_coach_lebron_james -concept:athleteplaysforteam-> concept_sportsteam_cavaliers -concept:teamplaysagainstteam-> concept_sportsteam_los_angeles_lakers -concept:teamplaysinleague-> concept_sportsleague_nba
+
+4,-3.6914498805999756,concept_coach_lebron_james -concept:athleteplaysforteam-> concept_sportsteam_cavaliers -concept:teamplaysagainstteam-> concept_sportsteam_los_angeles_lakers <-concept:subpartoforganization- concept_sportsleague_nba
+
+5,-3.7080235481262207,concept_coach_lebron_james -concept:athleteplayssport-> concept_sport_basketball <-concept:athleteplayssport- concept_coach_al_jefferson -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+6,-3.7098069190979004,concept_coach_lebron_james -concept:athleteplayssport-> concept_sport_basketball <-concept:athleteplayssport- concept_coach_derrick_rose -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+7,-3.7530295848846436,concept_coach_lebron_james -concept:coachwontrophy-> concept_awardtrophytournament_nba_championship <-concept:teamwontrophy- concept_sportsteam_los_angeles_lakers -concept:teamplaysinleague-> concept_sportsleague_nba
+
+8,-3.761075973510742,concept_coach_lebron_james -concept:athleteledsportsteam-> concept_sportsteam_cavaliers -concept:teamplaysagainstteam-> concept_sportsteam_los_angeles_lakers -concept:teamplaysinleague-> concept_sportsleague_nba
+
+9,-3.799203872680664,concept_coach_lebron_james -concept:athleteledsportsteam-> concept_sportsteam_cavaliers -concept:teamplaysagainstteam-> concept_sportsteam_los_angeles_lakers <-concept:subpartoforganization- concept_sportsleague_nba
+
+10,-3.8637964725494385,concept_coach_lebron_james -concept:coachwontrophy-> concept_awardtrophytournament_nba_championship <-concept:teamwontrophy- concept_sportsteam_los_angeles_lakers <-concept:subpartoforganization- concept_sportsleague_nba
+
+11,-3.907514810562134,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba -concept:subpartoforganization-> concept_sportsteam_los_angeles_lakers <-concept:subpartoforganization- concept_sportsleague_nba
+
+12,-3.996349811553955,concept_coach_lebron_james -concept:athleteplaysforteam-> concept_sportsteam_cavaliers <-concept:teamplaysagainstteam- concept_sportsteam_los_angeles_lakers -concept:teamplaysinleague-> concept_sportsleague_nba
+
+13,-4.043187618255615,concept_coach_lebron_james -concept:athleteplaysforteam-> concept_sportsteam_cavaliers <-concept:teamplaysagainstteam- concept_sportsteam_los_angeles_lakers <-concept:subpartoforganization- concept_sportsleague_nba
+
+14,-4.061102867126465,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba -concept:subpartoforganization-> concept_sportsteam_los_angeles_lakers -concept:teamplaysinleague-> concept_sportsleague_nba
+
+15,-4.095189094543457,concept_coach_lebron_james -concept:coachesteam-> concept_sportsteam_cavaliers -concept:teamplaysagainstteam-> concept_sportsteam_los_angeles_lakers <-concept:subpartoforganization- concept_sportsleague_nba
+
+16,-4.111329078674316,concept_coach_lebron_james -concept:athleteledsportsteam-> concept_sportsteam_cavaliers <-concept:teamplaysagainstteam- concept_sportsteam_los_angeles_lakers -concept:teamplaysinleague-> concept_sportsleague_nba
+
+17,-4.14804744720459,concept_coach_lebron_james -concept:athleteledsportsteam-> concept_sportsteam_cavaliers <-concept:teamplaysagainstteam- concept_sportsteam_los_angeles_lakers <-concept:subpartoforganization- concept_sportsleague_nba
+
+18,-4.20106315612793,concept_coach_lebron_james -concept:coachesteam-> concept_sportsteam_cavaliers -concept:teamplaysagainstteam-> concept_sportsteam_los_angeles_lakers -concept:teamplaysinleague-> concept_sportsleague_nba
+
+19,-4.252447128295898,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:teamplaysinleague- concept_sportsteam_los_angeles_lakers -concept:teamplaysinleague-> concept_sportsleague_nba
+
+20,-4.279759407043457,concept_coach_lebron_james -concept:athletehomestadium-> concept_stadiumoreventvenue_quicken_loans_arena <-concept:athletehomestadium- concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba
+
+21,-4.280657768249512,concept_coach_lebron_james -concept:coachwontrophy-> concept_awardtrophytournament_nba_championship <-concept:coachwontrophy- concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba
+
+22,-4.301011085510254,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba -concept:subpartoforganization-> concept_sportsteam_san_antonio <-concept:subpartoforganization- concept_sportsleague_nba
+
+23,-4.309593200683594,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:teamplaysinleague- concept_sportsteam_los_angeles_lakers <-concept:subpartoforganization- concept_sportsleague_nba
+
+24,-4.357988357543945,concept_coach_lebron_james -concept:athleteplaysforteam-> concept_sportsteam_cavaliers -concept:teamplaysagainstteam-> concept_sportsteam_san_antonio -concept:teamplaysinleague-> concept_sportsleague_nba
+
+25,-4.370512008666992,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba -<null>-> concept_sportsleague_nba -<null>-> concept_sportsleague_nba
+
+26,-4.393211364746094,concept_coach_lebron_james -concept:athleteplaysforteam-> concept_sportsteam_cavaliers -concept:teamplaysagainstteam-> concept_sportsteam_san_antonio <-concept:subpartoforganization- concept_sportsleague_nba
+
+27,-4.422882556915283,concept_coach_lebron_james -concept:athleteledsportsteam-> concept_sportsteam_cavaliers -concept:teamplaysagainstteam-> concept_sportsteam_san_antonio -concept:teamplaysinleague-> concept_sportsleague_nba
+
+28,-4.432562351226807,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba -concept:subpartoforganization-> concept_sportsteam_san_antonio -concept:teamplaysinleague-> concept_sportsleague_nba
+
+29,-4.444286346435547,concept_coach_lebron_james -concept:coachesteam-> concept_sportsteam_cavaliers <-concept:teamplaysagainstteam- concept_sportsteam_los_angeles_lakers <-concept:subpartoforganization- concept_sportsleague_nba
+
+30,-4.454272747039795,concept_coach_lebron_james -concept:athleteledsportsteam-> concept_sportsteam_cavaliers -concept:teamplaysagainstteam-> concept_sportsteam_san_antonio <-concept:subpartoforganization- concept_sportsleague_nba
+
+31,-4.548487186431885,concept_coach_lebron_james -concept:coachesteam-> concept_sportsteam_cavaliers <-concept:teamplaysagainstteam- concept_sportsteam_los_angeles_lakers -concept:teamplaysinleague-> concept_sportsleague_nba
+
+32,-4.60552978515625,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:athleteplaysinleague- concept_coach_derrick_rose -concept:coachesinleague-> concept_sportsleague_nba
+
+33,-4.6402177810668945,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:teamplaysinleague- concept_sportsteam_san_antonio -concept:teamplaysinleague-> concept_sportsleague_nba
+
+34,-4.685598850250244,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:athleteplaysinleague- concept_coach_derrick_rose -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+35,-4.687691688537598,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:teamplaysinleague- concept_sportsteam_san_antonio <-concept:subpartoforganization- concept_sportsleague_nba
+
+36,-4.710574150085449,concept_coach_lebron_james -concept:athleteplaysforteam-> concept_sportsteam_cavaliers <-concept:teamplaysagainstteam- concept_sportsteam_san_antonio -concept:teamplaysinleague-> concept_sportsleague_nba
+
+37,-4.717421531677246,concept_coach_lebron_james -concept:athleteplayssport-> concept_sport_basketball <-concept:athleteplayssport- concept_athlete_deltha_o_neal -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+38,-4.722630977630615,concept_coach_lebron_james -concept:coachesteam-> concept_sportsteam_cavaliers -concept:teamplaysagainstteam-> concept_sportsteam_san_antonio <-concept:subpartoforganization- concept_sportsleague_nba
+
+39,-4.745092391967773,concept_coach_lebron_james -concept:athleteplaysforteam-> concept_sportsteam_cavaliers <-concept:teamplaysagainstteam- concept_sportsteam_san_antonio <-concept:subpartoforganization- concept_sportsleague_nba
+
+40,-4.747267723083496,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:athleteplaysinleague- concept_coach_al_jefferson -concept:coachesinleague-> concept_sportsleague_nba
+
+41,-4.773041725158691,concept_coach_lebron_james -concept:athleteledsportsteam-> concept_sportsteam_cavaliers <-concept:teamplaysagainstteam- concept_sportsteam_san_antonio -concept:teamplaysinleague-> concept_sportsleague_nba
+
+42,-4.803234100341797,concept_coach_lebron_james -concept:athleteledsportsteam-> concept_sportsteam_cavaliers <-concept:teamplaysagainstteam- concept_sportsteam_san_antonio <-concept:subpartoforganization- concept_sportsleague_nba
+
+43,-4.81504487991333,concept_coach_lebron_james -concept:coachesteam-> concept_sportsteam_cavaliers -concept:teamplaysagainstteam-> concept_sportsteam_san_antonio -concept:teamplaysinleague-> concept_sportsleague_nba
+
+44,-4.879546165466309,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:athleteplaysinleague- concept_coach_al_jefferson -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+45,-5.0062255859375,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:athleteplaysinleague- concept_athlete_deltha_o_neal -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+46,-5.038169860839844,concept_coach_lebron_james -concept:athleteplayssportsteamposition-> concept_sportsteamposition_player <-concept:athleteplayssportsteamposition- concept_athlete_sean_taylor -concept:personbelongstoorganization-> concept_sportsleague_nfl
+
+47,-5.071600914001465,concept_coach_lebron_james -concept:coachesteam-> concept_sportsteam_cavaliers <-concept:teamplaysagainstteam- concept_sportsteam_san_antonio <-concept:subpartoforganization- concept_sportsleague_nba
+
+48,-5.126505374908447,concept_coach_lebron_james -concept:athleteplayssport-> concept_sport_basketball <-concept:athleteplayssport- concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba
+
+49,-5.138894081115723,concept_coach_lebron_james -concept:athleteplayssportsteamposition-> concept_sportsteamposition_player <-concept:athleteplayssportsteamposition- concept_athlete_sean_taylor -concept:athleteplaysinleague-> concept_sportsleague_nfl
+
+50,-5.144619464874268,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:coachesinleague- concept_coach_derrick_rose -concept:coachesinleague-> concept_sportsleague_nba
+
+51,-5.162549018859863,concept_coach_lebron_james -concept:coachesteam-> concept_sportsteam_cavaliers <-concept:teamplaysagainstteam- concept_sportsteam_san_antonio -concept:teamplaysinleague-> concept_sportsleague_nba
+
+52,-5.2257537841796875,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:coachesinleague- concept_coach_derrick_rose -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+53,-5.285580635070801,concept_coach_lebron_james -concept:athleteplayssport-> concept_sport_basketball <-concept:athleteplayssport- concept_athlete_andre_brown -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+54,-5.292122840881348,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:coachesinleague- concept_coach_al_jefferson -concept:coachesinleague-> concept_sportsleague_nba
+
+55,-5.415371417999268,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:coachesinleague- concept_coach_al_jefferson -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+56,-5.55773401260376,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:athleteplaysinleague- concept_athlete_andres_nocioni -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+57,-5.562002182006836,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:teamplaysinleague- concept_sportsteam_utah_jazz -concept:teamplaysinleague-> concept_sportsleague_nba
+
+58,-5.565719127655029,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:teamplaysinleague- concept_sportsteam_pistons -concept:teamplaysinleague-> concept_sportsleague_nba
+
+59,-5.568037509918213,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:athleteplaysinleague- concept_athlete_andre_brown -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+60,-5.607669830322266,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba -concept:subpartoforganization-> concept_sportsteam_suns <-concept:subpartoforganization- concept_sportsleague_nba
+
+61,-5.617642879486084,concept_coach_lebron_james -<null>-> concept_coach_lebron_james -concept:athletehomestadium-> concept_stadiumoreventvenue_quicken_loans_arena <-concept:leaguestadiums- concept_sportsleague_nba
+
+62,-5.621354579925537,concept_coach_lebron_james -concept:athleteplayssportsteamposition-> concept_sportsteamposition_player <-concept:athleteplayssportsteamposition- concept_personus_jeremy_shockey -concept:athleteplaysinleague-> concept_sportsleague_nfl
+
+63,-5.687464714050293,concept_coach_lebron_james -concept:athleteplayssport-> concept_sport_basketball <-concept:athleteplayssport- concept_athlete_jermaine_o_neal -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+64,-5.71701192855835,concept_coach_lebron_james -concept:athleteplayssportsteamposition-> concept_sportsteamposition_player <-concept:athleteplayssportsteamposition- concept_athlete_curtis_martin -concept:athleteplaysinleague-> concept_sportsleague_nfl
+
+65,-5.768714427947998,concept_coach_lebron_james -concept:athleteplaysforteam-> concept_sportsteam_cavaliers -concept:teamplaysagainstteam-> concept_sportsteam_pistons -concept:teamplaysinleague-> concept_sportsleague_nba
+
+66,-5.783343315124512,concept_coach_lebron_james -concept:athleteledsportsteam-> concept_sportsteam_cavaliers -concept:teamplaysagainstteam-> concept_sportsteam_pistons -concept:teamplaysinleague-> concept_sportsleague_nba
+
+67,-5.802115440368652,concept_coach_lebron_james -concept:athleteplayssport-> concept_sport_basketball <-concept:athleteplayssport- concept_athlete_tyrus_thomas -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+68,-5.82452917098999,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:athleteplaysinleague- concept_athlete_ronnie_brewer -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+69,-5.8267598152160645,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:subpartoforganization- concept_sportsteam_new_mexico_state_university -concept:subpartoforganization-> concept_sportsleague_nba
+
+70,-5.836761951446533,concept_coach_lebron_james -concept:athleteinjuredhisbodypart-> concept_bone_ankle <-concept:athleteinjuredhisbodypart- concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba
+
+71,-5.850366592407227,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:athleteplaysinleague- concept_athlete_tyrus_thomas -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+72,-5.861509799957275,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba -concept:agentcontrols-> concept_coach_san_antonio_spurs <-concept:agentcontrols- concept_sportsleague_nba
+
+73,-5.8707427978515625,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:athleteplaysinleague- concept_athlete_jermaine_o_neal -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+74,-5.933094501495361,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba -concept:agentcontrols-> concept_coach_san_antonio_spurs -concept:subpartof-> concept_sportsleague_nba
+
+75,-5.94664192199707,concept_coach_lebron_james -concept:coachwontrophy-> concept_awardtrophytournament_nba_championship <-concept:coachwontrophy- concept_coach_chris_quinn -concept:coachesinleague-> concept_sportsleague_nba
+
+76,-5.978519439697266,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:coachesinleague- concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba
+
+77,-6.011746883392334,concept_coach_lebron_james -concept:coachwontrophy-> concept_awardtrophytournament_nba_championship <-concept:coachwontrophy- concept_coach_chris_quinn -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+78,-6.026367664337158,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:teamplaysinleague- concept_sportsteam_bobcats -concept:teamplaysinleague-> concept_sportsleague_nba
+
+79,-6.043384075164795,concept_coach_lebron_james -concept:coachwontrophy-> concept_awardtrophytournament_nba_championship <-concept:teamwontrophy- concept_sportsteam_boston_celtics -concept:teamplaysinleague-> concept_sportsleague_nba
+
+80,-6.045632839202881,concept_coach_lebron_james -concept:coachesteam-> concept_sportsteam_cavaliers -concept:teamplaysagainstteam-> concept_sportsteam_pistons -concept:teamplaysinleague-> concept_sportsleague_nba
+
+81,-6.077348709106445,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:athleteplaysinleague- concept_athlete_amare_stoudemire -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+82,-6.120955944061279,concept_coach_lebron_james -concept:athleteplaysforteam-> concept_sportsteam_cavaliers <-concept:teamplaysagainstteam- concept_sportsteam_pistons -concept:teamplaysinleague-> concept_sportsleague_nba
+
+83,-6.132914066314697,concept_coach_lebron_james -concept:athleteledsportsteam-> concept_sportsteam_cavaliers <-concept:teamplaysagainstteam- concept_sportsteam_pistons -concept:teamplaysinleague-> concept_sportsleague_nba
+
+84,-6.171535968780518,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:coachesinleague- concept_coach_doc_rivers -concept:coachesinleague-> concept_sportsleague_nba
+
+85,-6.211238384246826,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:athleteplaysinleague- concept_coach_dwayne_wade -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+86,-6.22858190536499,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:coachesinleague- concept_athlete_vinny_del_negro -concept:coachesinleague-> concept_sportsleague_nba
+
+87,-6.259076118469238,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:athleteplaysinleague- concept_athlete_deron_williams -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+88,-6.271142482757568,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:athleteplaysinleague- concept_athlete_leon_powe -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+89,-6.288559436798096,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:athleteplaysinleague- concept_athlete_chris_duhon -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+90,-6.3296427726745605,concept_coach_lebron_james -concept:athleteplayssport-> concept_sport_basketball <-concept:athleteplayssport- concept_athlete_amare_stoudemire -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+91,-6.336699962615967,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:athleteplaysinleague- concept_athlete_jason_kidd -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+92,-6.336781024932861,concept_coach_lebron_james -concept:athleteledsportsteam-> concept_sportsteam_cavaliers -concept:teamplaysagainstteam-> concept_sportsteam_suns <-concept:subpartoforganization- concept_sportsleague_nba
+
+93,-6.358851432800293,concept_coach_lebron_james -concept:athleteplaysforteam-> concept_sportsteam_cavaliers -concept:teamplaysagainstteam-> concept_sportsteam_suns <-concept:subpartoforganization- concept_sportsleague_nba
+
+94,-6.362140655517578,concept_coach_lebron_james -concept:athleteledsportsteam-> concept_sportsteam_cavaliers -concept:teamplaysagainstteam-> concept_sportsteam_bobcats -concept:teamplaysinleague-> concept_sportsleague_nba
+
+95,-6.379841327667236,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:coachesinleague- concept_coach_marc_iavaroni -concept:coachesinleague-> concept_sportsleague_nba
+
+96,-6.380529880523682,concept_coach_lebron_james -concept:athleteplaysforteam-> concept_sportsteam_cavaliers -concept:teamplaysagainstteam-> concept_sportsteam_bobcats -concept:teamplaysinleague-> concept_sportsleague_nba
+
+97,-6.39387845993042,concept_coach_lebron_james -concept:coachesteam-> concept_sportsteam_cavaliers <-concept:teamplaysagainstteam- concept_sportsteam_pistons -concept:teamplaysinleague-> concept_sportsleague_nba
+
+98,-6.399243354797363,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba -concept:leaguestadiums-> concept_stadiumoreventvenue_target_center <-concept:leaguestadiums- concept_sportsleague_nba
+
+99,-6.39993953704834,concept_coach_lebron_james -concept:athleteplayssport-> concept_sport_basketball <-concept:athleteplayssport- concept_athlete_deron_williams -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+100,-6.433132171630859,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:athleteplaysinleague- concept_athlete_zach_randolph -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+101,-6.463718891143799,concept_coach_lebron_james -concept:athleteplayssport-> concept_sport_basketball <-concept:athleteplayssport- concept_athlete_chris_duhon -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+102,-6.480123043060303,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:athleteplaysinleague- concept_athlete_andrei_kirilenko -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+103,-6.487818717956543,concept_coach_lebron_james -concept:athleteplaysforteam-> concept_sportsteam_cavaliers <-concept:athleteplaysforteam- concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba
+
+104,-6.494223117828369,concept_coach_lebron_james -concept:athleteledsportsteam-> concept_sportsteam_cavaliers <-concept:athleteplaysforteam- concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba
+
+105,-6.509891986846924,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:coachesinleague- concept_coach_mike_woodson -concept:coachesinleague-> concept_sportsleague_nba
+
+106,-6.521132946014404,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:athleteplaysinleague- concept_personmexico_roger_mason -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+107,-6.5214996337890625,concept_coach_lebron_james -concept:athleteinjuredhisbodypart-> concept_bone_ankle <-concept:athleteinjuredhisbodypart- concept_athlete_sidney_crosby -concept:athleteplaysinleague-> concept_sportsleague_nhl
+
+108,-6.5307183265686035,concept_coach_lebron_james -concept:athleteledsportsteam-> concept_sportsteam_cavaliers -concept:teamplaysagainstteam-> concept_sportsteam_charlotte_bobcats -concept:teamplaysinleague-> concept_sportsleague_nba
+
+109,-6.5690202713012695,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:athleteplaysinleague- concept_athlete_dwyane_wade -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+110,-6.575162410736084,concept_coach_lebron_james -concept:athleteplayssport-> concept_sport_basketball <-concept:athleteplayssport- concept_coach_dwayne_wade -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+111,-6.59868049621582,concept_coach_lebron_james -concept:athleteplaysforteam-> concept_sportsteam_cavaliers -concept:teamplaysagainstteam-> concept_sportsteam_charlotte_bobcats -concept:teamplaysinleague-> concept_sportsleague_nba
+
+112,-6.624601364135742,concept_coach_lebron_james -concept:coachesteam-> concept_sportsteam_cavaliers -concept:teamplaysagainstteam-> concept_sportsteam_bobcats -concept:teamplaysinleague-> concept_sportsleague_nba
+
+113,-6.624610900878906,concept_coach_lebron_james -concept:coachesteam-> concept_sportsteam_cavaliers -concept:teamplaysagainstteam-> concept_sportsteam_suns <-concept:subpartoforganization- concept_sportsleague_nba
+
+114,-6.626226425170898,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:teamplaysinleague- concept_sportsteam_charlotte_bobcats -concept:teamplaysinleague-> concept_sportsleague_nba
+
+115,-6.628615856170654,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:athleteplaysinleague- concept_athlete_drew_doughty -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+116,-6.6786980628967285,concept_coach_lebron_james -concept:athleteplayssport-> concept_sport_basketball <-concept:athleteplayssport- concept_athlete_jason_kidd -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+117,-6.69362211227417,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:athleteplaysinleague- concept_athlete_tracy_mcgrady -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+118,-6.694514751434326,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba -concept:leaguestadiums-> concept_stadiumoreventvenue_wachovia_center <-concept:leaguestadiums- concept_sportsleague_nba
+
+119,-6.705201148986816,concept_coach_lebron_james -concept:athleteledsportsteam-> concept_sportsteam_cavaliers <-concept:coachesteam- concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba
+
+120,-6.711691379547119,concept_coach_lebron_james -concept:athleteledsportsteam-> concept_sportsteam_cavaliers <-concept:teamplaysagainstteam- concept_sportsteam_bobcats -concept:teamplaysinleague-> concept_sportsleague_nba
+
+121,-6.720229625701904,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:athleteplaysinleague- concept_athlete_andrea_bargnani -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+122,-6.730589866638184,concept_coach_lebron_james -concept:athleteplaysforteam-> concept_sportsteam_cavaliers <-concept:coachesteam- concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba
+
+123,-6.732754707336426,concept_coach_lebron_james -concept:athleteplaysforteam-> concept_sportsteam_cavaliers <-concept:teamplaysagainstteam- concept_sportsteam_bobcats -concept:teamplaysinleague-> concept_sportsleague_nba
+
+124,-6.737032413482666,concept_coach_lebron_james -concept:athleteledsportsteam-> concept_sportsteam_cavaliers <-concept:athleteledsportsteam- concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba
+
+125,-6.737288951873779,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba <-concept:athleteplaysinleague- concept_athlete_rudy_gay -concept:athleteplaysinleague-> concept_sportsleague_nba
+
+126,-6.750155448913574,concept_coach_lebron_james -concept:athleteplaysforteam-> concept_sportsteam_cavaliers <-concept:athleteledsportsteam- concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba
+
+127,-6.773097991943359,concept_coach_lebron_james -concept:coachesinleague-> concept_sportsleague_nba -concept:leaguestadiums-> concept_stadiumoreventvenue_oracle_arena <-concept:leaguestadiums- concept_sportsleague_nba
+

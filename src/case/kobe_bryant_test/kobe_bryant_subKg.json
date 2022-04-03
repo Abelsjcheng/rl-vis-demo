@@ -1,0 +1,1958 @@
+{
+    "nodes": [
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3106,
+            "name": "concept_awardtrophytournament_nba_championship"
+        },
+        {
+            "id": 212,
+            "name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": 53,
+            "name": "concept_sportsleague_nba"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 8175,
+            "name": "concept_coach_dwayne_wade"
+        },
+        {
+            "id": 53,
+            "name": "concept_sportsleague_nba"
+        },
+        {
+            "id": 53,
+            "name": "concept_sportsleague_nba"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3106,
+            "name": "concept_awardtrophytournament_nba_championship"
+        },
+        {
+            "id": 212,
+            "name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": 53,
+            "name": "concept_sportsleague_nba"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 212,
+            "name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": 53,
+            "name": "concept_sportsleague_nba"
+        },
+        {
+            "id": 53,
+            "name": "concept_sportsleague_nba"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 212,
+            "name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": 53,
+            "name": "concept_sportsleague_nba"
+        },
+        {
+            "id": 53,
+            "name": "concept_sportsleague_nba"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 25,
+            "name": "concept_sportsteamposition_center"
+        },
+        {
+            "id": 5099,
+            "name": "concept_athlete_mark_hendrickson"
+        },
+        {
+            "id": 19,
+            "name": "concept_sportsleague_mlb"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 25,
+            "name": "concept_sportsteamposition_center"
+        },
+        {
+            "id": 4575,
+            "name": "concept_coach_j_j__hardy"
+        },
+        {
+            "id": 19,
+            "name": "concept_sportsleague_mlb"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 212,
+            "name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": 484,
+            "name": "concept_sportsteam_san_antonio"
+        },
+        {
+            "id": 53,
+            "name": "concept_sportsleague_nba"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 212,
+            "name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": 484,
+            "name": "concept_sportsteam_san_antonio"
+        },
+        {
+            "id": 53,
+            "name": "concept_sportsleague_nba"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 25,
+            "name": "concept_sportsteamposition_center"
+        },
+        {
+            "id": 5099,
+            "name": "concept_athlete_mark_hendrickson"
+        },
+        {
+            "id": 19,
+            "name": "concept_sportsleague_mlb"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 25,
+            "name": "concept_sportsteamposition_center"
+        },
+        {
+            "id": 4575,
+            "name": "concept_coach_j_j__hardy"
+        },
+        {
+            "id": 19,
+            "name": "concept_sportsleague_mlb"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 309,
+            "name": "concept_sportsteamposition_player"
+        },
+        {
+            "id": 7634,
+            "name": "concept_athlete_sean_taylor"
+        },
+        {
+            "id": 47,
+            "name": "concept_sportsleague_nfl"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 9203,
+            "name": "concept_sportsteamposition_guard"
+        },
+        {
+            "id": 938,
+            "name": "concept_athlete_williams"
+        },
+        {
+            "id": 6062,
+            "name": "concept_athlete_dinara_safina"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 309,
+            "name": "concept_sportsteamposition_player"
+        },
+        {
+            "id": 7634,
+            "name": "concept_athlete_sean_taylor"
+        },
+        {
+            "id": 47,
+            "name": "concept_sportsleague_nfl"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 212,
+            "name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": 484,
+            "name": "concept_sportsteam_san_antonio"
+        },
+        {
+            "id": 53,
+            "name": "concept_sportsleague_nba"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3106,
+            "name": "concept_awardtrophytournament_nba_championship"
+        },
+        {
+            "id": 3557,
+            "name": "concept_coach_lebron_james"
+        },
+        {
+            "id": 53,
+            "name": "concept_sportsleague_nba"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 212,
+            "name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": 484,
+            "name": "concept_sportsteam_san_antonio"
+        },
+        {
+            "id": 53,
+            "name": "concept_sportsleague_nba"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3106,
+            "name": "concept_awardtrophytournament_nba_championship"
+        },
+        {
+            "id": 3557,
+            "name": "concept_coach_lebron_james"
+        },
+        {
+            "id": 53,
+            "name": "concept_sportsleague_nba"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 309,
+            "name": "concept_sportsteamposition_player"
+        },
+        {
+            "id": 4189,
+            "name": "concept_personus_jeremy_shockey"
+        },
+        {
+            "id": 47,
+            "name": "concept_sportsleague_nfl"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 309,
+            "name": "concept_sportsteamposition_player"
+        },
+        {
+            "id": 6058,
+            "name": "concept_athlete_curtis_martin"
+        },
+        {
+            "id": 47,
+            "name": "concept_sportsleague_nfl"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 9203,
+            "name": "concept_sportsteamposition_guard"
+        },
+        {
+            "id": 938,
+            "name": "concept_athlete_williams"
+        },
+        {
+            "id": 332,
+            "name": "concept_sport_tennis"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 212,
+            "name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": 53,
+            "name": "concept_sportsleague_nba"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 2197,
+            "name": "concept_bone_ankle"
+        },
+        {
+            "id": 3557,
+            "name": "concept_coach_lebron_james"
+        },
+        {
+            "id": 53,
+            "name": "concept_sportsleague_nba"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 212,
+            "name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": 470,
+            "name": "concept_sportsteam_pistons"
+        },
+        {
+            "id": 53,
+            "name": "concept_sportsleague_nba"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 2197,
+            "name": "concept_bone_ankle"
+        },
+        {
+            "id": 3557,
+            "name": "concept_coach_lebron_james"
+        },
+        {
+            "id": 53,
+            "name": "concept_sportsleague_nba"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3106,
+            "name": "concept_awardtrophytournament_nba_championship"
+        },
+        {
+            "id": 8168,
+            "name": "concept_coach_chris_quinn"
+        },
+        {
+            "id": 53,
+            "name": "concept_sportsleague_nba"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3106,
+            "name": "concept_awardtrophytournament_nba_championship"
+        },
+        {
+            "id": 8168,
+            "name": "concept_coach_chris_quinn"
+        },
+        {
+            "id": 53,
+            "name": "concept_sportsleague_nba"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 212,
+            "name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": 428,
+            "name": "concept_sportsteam_utah_jazz"
+        },
+        {
+            "id": 53,
+            "name": "concept_sportsleague_nba"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 212,
+            "name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": 958,
+            "name": "concept_sportsteam_bobcats"
+        },
+        {
+            "id": 53,
+            "name": "concept_sportsleague_nba"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 25,
+            "name": "concept_sportsteamposition_center"
+        },
+        {
+            "id": 6477,
+            "name": "concept_coach_johnny_damon"
+        },
+        {
+            "id": 19,
+            "name": "concept_sportsleague_mlb"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        },
+        {
+            "id": 3720,
+            "name": "concept_personus_kobe_bryant"
+        }
+    ],
+    "links": [
+        {
+            "name": "concept:athletewinsawardtrophytournament",
+            "source": 3720,
+            "target": 3106,
+            "id": "3720-363-3106",
+            "rel_id": 363,
+            "path_id": 0,
+            "path_order": 1,
+            "es_name": "concept_personus_kobe_bryant",
+            "et_name": "concept_awardtrophytournament_nba_championship",
+            "path_sorce": -2.465
+        },
+        {
+            "name": "concept:teamwontrophy_inv",
+            "source": 212,
+            "target": 3106,
+            "id": "212-220-3106",
+            "rel_id": 220,
+            "path_id": 0,
+            "path_order": 2,
+            "es_name": "concept_sportsteam_los_angeles_lakers",
+            "et_name": "concept_awardtrophytournament_nba_championship",
+            "path_sorce": -2.465
+        },
+        {
+            "name": "concept:teamplaysinleague",
+            "source": 212,
+            "target": 53,
+            "id": "212-55-53",
+            "rel_id": 55,
+            "path_id": 0,
+            "path_order": 3,
+            "es_name": "concept_sportsteam_los_angeles_lakers",
+            "et_name": "concept_sportsleague_nba",
+            "path_sorce": -2.465
+        },
+        {
+            "name": "concept:athletebeatathlete_inv",
+            "source": 8175,
+            "target": 3720,
+            "id": "8175-362-3720",
+            "rel_id": 362,
+            "path_id": 1,
+            "path_order": 1,
+            "es_name": "concept_coach_dwayne_wade",
+            "et_name": "concept_personus_kobe_bryant",
+            "path_sorce": -2.53
+        },
+        {
+            "name": "concept:athleteplaysinleague",
+            "source": 8175,
+            "target": 53,
+            "id": "8175-67-53",
+            "rel_id": 67,
+            "path_id": 1,
+            "path_order": 2,
+            "es_name": "concept_coach_dwayne_wade",
+            "et_name": "concept_sportsleague_nba",
+            "path_sorce": -2.53
+        },
+        {
+            "name": "NO_OP_RELATION",
+            "source": 53,
+            "target": 53,
+            "id": "53-2-53",
+            "rel_id": 2,
+            "path_id": 1,
+            "path_order": 3,
+            "es_name": "concept_sportsleague_nba",
+            "et_name": "concept_sportsleague_nba",
+            "path_sorce": -2.53
+        },
+        {
+            "name": "concept:athletewinsawardtrophytournament",
+            "source": 3720,
+            "target": 3106,
+            "id": "3720-363-3106",
+            "rel_id": 363,
+            "path_id": 2,
+            "path_order": 1,
+            "es_name": "concept_personus_kobe_bryant",
+            "et_name": "concept_awardtrophytournament_nba_championship",
+            "path_sorce": -2.581
+        },
+        {
+            "name": "concept:teamwontrophy_inv",
+            "source": 212,
+            "target": 3106,
+            "id": "212-220-3106",
+            "rel_id": 220,
+            "path_id": 2,
+            "path_order": 2,
+            "es_name": "concept_sportsteam_los_angeles_lakers",
+            "et_name": "concept_awardtrophytournament_nba_championship",
+            "path_sorce": -2.581
+        },
+        {
+            "name": "concept:subpartoforganization_inv",
+            "source": 53,
+            "target": 212,
+            "id": "53-28-212",
+            "rel_id": 28,
+            "path_id": 2,
+            "path_order": 3,
+            "es_name": "concept_sportsleague_nba",
+            "et_name": "concept_sportsteam_los_angeles_lakers",
+            "path_sorce": -2.581
+        },
+        {
+            "name": "concept:athleteledsportsteam",
+            "source": 3720,
+            "target": 212,
+            "id": "3720-183-212",
+            "rel_id": 183,
+            "path_id": 3,
+            "path_order": 1,
+            "es_name": "concept_personus_kobe_bryant",
+            "et_name": "concept_sportsteam_los_angeles_lakers",
+            "path_sorce": -2.915
+        },
+        {
+            "name": "concept:subpartoforganization_inv",
+            "source": 53,
+            "target": 212,
+            "id": "53-28-212",
+            "rel_id": 28,
+            "path_id": 3,
+            "path_order": 2,
+            "es_name": "concept_sportsleague_nba",
+            "et_name": "concept_sportsteam_los_angeles_lakers",
+            "path_sorce": -2.915
+        },
+        {
+            "name": "NO_OP_RELATION",
+            "source": 53,
+            "target": 53,
+            "id": "53-2-53",
+            "rel_id": 2,
+            "path_id": 3,
+            "path_order": 3,
+            "es_name": "concept_sportsleague_nba",
+            "et_name": "concept_sportsleague_nba",
+            "path_sorce": -2.915
+        },
+        {
+            "name": "concept:athleteledsportsteam",
+            "source": 3720,
+            "target": 212,
+            "id": "3720-183-212",
+            "rel_id": 183,
+            "path_id": 4,
+            "path_order": 1,
+            "es_name": "concept_personus_kobe_bryant",
+            "et_name": "concept_sportsteam_los_angeles_lakers",
+            "path_sorce": -3.268
+        },
+        {
+            "name": "concept:teamplaysinleague",
+            "source": 212,
+            "target": 53,
+            "id": "212-55-53",
+            "rel_id": 55,
+            "path_id": 4,
+            "path_order": 2,
+            "es_name": "concept_sportsteam_los_angeles_lakers",
+            "et_name": "concept_sportsleague_nba",
+            "path_sorce": -3.268
+        },
+        {
+            "name": "NO_OP_RELATION",
+            "source": 53,
+            "target": 53,
+            "id": "53-2-53",
+            "rel_id": 2,
+            "path_id": 4,
+            "path_order": 3,
+            "es_name": "concept_sportsleague_nba",
+            "et_name": "concept_sportsleague_nba",
+            "path_sorce": -3.268
+        },
+        {
+            "name": "concept:athleteflyouttosportsteamposition",
+            "source": 3720,
+            "target": 25,
+            "id": "3720-99-25",
+            "rel_id": 99,
+            "path_id": 5,
+            "path_order": 1,
+            "es_name": "concept_personus_kobe_bryant",
+            "et_name": "concept_sportsteamposition_center",
+            "path_sorce": -3.385
+        },
+        {
+            "name": "concept:athleteflyouttosportsteamposition_inv",
+            "source": 5099,
+            "target": 25,
+            "id": "5099-100-25",
+            "rel_id": 100,
+            "path_id": 5,
+            "path_order": 2,
+            "es_name": "concept_athlete_mark_hendrickson",
+            "et_name": "concept_sportsteamposition_center",
+            "path_sorce": -3.385
+        },
+        {
+            "name": "concept:coachesinleague",
+            "source": 5099,
+            "target": 19,
+            "id": "5099-383-19",
+            "rel_id": 383,
+            "path_id": 5,
+            "path_order": 3,
+            "es_name": "concept_athlete_mark_hendrickson",
+            "et_name": "concept_sportsleague_mlb",
+            "path_sorce": -3.385
+        },
+        {
+            "name": "concept:athleteflyouttosportsteamposition",
+            "source": 3720,
+            "target": 25,
+            "id": "3720-99-25",
+            "rel_id": 99,
+            "path_id": 6,
+            "path_order": 1,
+            "es_name": "concept_personus_kobe_bryant",
+            "et_name": "concept_sportsteamposition_center",
+            "path_sorce": -3.422
+        },
+        {
+            "name": "concept:athleteflyouttosportsteamposition_inv",
+            "source": 4575,
+            "target": 25,
+            "id": "4575-100-25",
+            "rel_id": 100,
+            "path_id": 6,
+            "path_order": 2,
+            "es_name": "concept_coach_j_j__hardy",
+            "et_name": "concept_sportsteamposition_center",
+            "path_sorce": -3.422
+        },
+        {
+            "name": "concept:coachesinleague",
+            "source": 4575,
+            "target": 19,
+            "id": "4575-383-19",
+            "rel_id": 383,
+            "path_id": 6,
+            "path_order": 3,
+            "es_name": "concept_coach_j_j__hardy",
+            "et_name": "concept_sportsleague_mlb",
+            "path_sorce": -3.422
+        },
+        {
+            "name": "concept:athleteledsportsteam",
+            "source": 3720,
+            "target": 212,
+            "id": "3720-183-212",
+            "rel_id": 183,
+            "path_id": 7,
+            "path_order": 1,
+            "es_name": "concept_personus_kobe_bryant",
+            "et_name": "concept_sportsteam_los_angeles_lakers",
+            "path_sorce": -3.447
+        },
+        {
+            "name": "concept:teamplaysagainstteam",
+            "source": 212,
+            "target": 484,
+            "id": "212-15-484",
+            "rel_id": 15,
+            "path_id": 7,
+            "path_order": 2,
+            "es_name": "concept_sportsteam_los_angeles_lakers",
+            "et_name": "concept_sportsteam_san_antonio",
+            "path_sorce": -3.447
+        },
+        {
+            "name": "concept:teamplaysinleague",
+            "source": 484,
+            "target": 53,
+            "id": "484-55-53",
+            "rel_id": 55,
+            "path_id": 7,
+            "path_order": 3,
+            "es_name": "concept_sportsteam_san_antonio",
+            "et_name": "concept_sportsleague_nba",
+            "path_sorce": -3.447
+        },
+        {
+            "name": "concept:athleteledsportsteam",
+            "source": 3720,
+            "target": 212,
+            "id": "3720-183-212",
+            "rel_id": 183,
+            "path_id": 8,
+            "path_order": 1,
+            "es_name": "concept_personus_kobe_bryant",
+            "et_name": "concept_sportsteam_los_angeles_lakers",
+            "path_sorce": -3.511
+        },
+        {
+            "name": "concept:teamplaysagainstteam",
+            "source": 212,
+            "target": 484,
+            "id": "212-15-484",
+            "rel_id": 15,
+            "path_id": 8,
+            "path_order": 2,
+            "es_name": "concept_sportsteam_los_angeles_lakers",
+            "et_name": "concept_sportsteam_san_antonio",
+            "path_sorce": -3.511
+        },
+        {
+            "name": "concept:subpartoforganization_inv",
+            "source": 53,
+            "target": 484,
+            "id": "53-28-484",
+            "rel_id": 28,
+            "path_id": 8,
+            "path_order": 3,
+            "es_name": "concept_sportsleague_nba",
+            "et_name": "concept_sportsteam_san_antonio",
+            "path_sorce": -3.511
+        },
+        {
+            "name": "concept:athleteflyouttosportsteamposition",
+            "source": 3720,
+            "target": 25,
+            "id": "3720-99-25",
+            "rel_id": 99,
+            "path_id": 9,
+            "path_order": 1,
+            "es_name": "concept_personus_kobe_bryant",
+            "et_name": "concept_sportsteamposition_center",
+            "path_sorce": -3.535
+        },
+        {
+            "name": "concept:athleteflyouttosportsteamposition_inv",
+            "source": 5099,
+            "target": 25,
+            "id": "5099-100-25",
+            "rel_id": 100,
+            "path_id": 9,
+            "path_order": 2,
+            "es_name": "concept_athlete_mark_hendrickson",
+            "et_name": "concept_sportsteamposition_center",
+            "path_sorce": -3.535
+        },
+        {
+            "name": "concept:athleteplaysinleague",
+            "source": 5099,
+            "target": 19,
+            "id": "5099-67-19",
+            "rel_id": 67,
+            "path_id": 9,
+            "path_order": 3,
+            "es_name": "concept_athlete_mark_hendrickson",
+            "et_name": "concept_sportsleague_mlb",
+            "path_sorce": -3.535
+        },
+        {
+            "name": "concept:athleteflyouttosportsteamposition",
+            "source": 3720,
+            "target": 25,
+            "id": "3720-99-25",
+            "rel_id": 99,
+            "path_id": 10,
+            "path_order": 1,
+            "es_name": "concept_personus_kobe_bryant",
+            "et_name": "concept_sportsteamposition_center",
+            "path_sorce": -3.58
+        },
+        {
+            "name": "concept:athleteflyouttosportsteamposition_inv",
+            "source": 4575,
+            "target": 25,
+            "id": "4575-100-25",
+            "rel_id": 100,
+            "path_id": 10,
+            "path_order": 2,
+            "es_name": "concept_coach_j_j__hardy",
+            "et_name": "concept_sportsteamposition_center",
+            "path_sorce": -3.58
+        },
+        {
+            "name": "concept:athleteplaysinleague",
+            "source": 4575,
+            "target": 19,
+            "id": "4575-67-19",
+            "rel_id": 67,
+            "path_id": 10,
+            "path_order": 3,
+            "es_name": "concept_coach_j_j__hardy",
+            "et_name": "concept_sportsleague_mlb",
+            "path_sorce": -3.58
+        },
+        {
+            "name": "concept:athleteplayssportsteamposition",
+            "source": 3720,
+            "target": 309,
+            "id": "3720-309-309",
+            "rel_id": 309,
+            "path_id": 11,
+            "path_order": 1,
+            "es_name": "concept_personus_kobe_bryant",
+            "et_name": "concept_sportsteamposition_player",
+            "path_sorce": -3.631
+        },
+        {
+            "name": "concept:athleteplayssportsteamposition_inv",
+            "source": 7634,
+            "target": 309,
+            "id": "7634-310-309",
+            "rel_id": 310,
+            "path_id": 11,
+            "path_order": 2,
+            "es_name": "concept_athlete_sean_taylor",
+            "et_name": "concept_sportsteamposition_player",
+            "path_sorce": -3.631
+        },
+        {
+            "name": "concept:personbelongstoorganization",
+            "source": 7634,
+            "target": 47,
+            "id": "7634-85-47",
+            "rel_id": 85,
+            "path_id": 11,
+            "path_order": 3,
+            "es_name": "concept_athlete_sean_taylor",
+            "et_name": "concept_sportsleague_nfl",
+            "path_sorce": -3.631
+        },
+        {
+            "name": "concept:athleteplayssportsteamposition",
+            "source": 3720,
+            "target": 9203,
+            "id": "3720-309-9203",
+            "rel_id": 309,
+            "path_id": 12,
+            "path_order": 1,
+            "es_name": "concept_personus_kobe_bryant",
+            "et_name": "concept_sportsteamposition_guard",
+            "path_sorce": -3.654
+        },
+        {
+            "name": "concept:athleteplayssportsteamposition_inv",
+            "source": 938,
+            "target": 9203,
+            "id": "938-310-9203",
+            "rel_id": 310,
+            "path_id": 12,
+            "path_order": 2,
+            "es_name": "concept_athlete_williams",
+            "et_name": "concept_sportsteamposition_guard",
+            "path_sorce": -3.654
+        },
+        {
+            "name": "concept:athletebeatathlete_inv",
+            "source": 6062,
+            "target": 938,
+            "id": "6062-362-938",
+            "rel_id": 362,
+            "path_id": 12,
+            "path_order": 3,
+            "es_name": "concept_athlete_dinara_safina",
+            "et_name": "concept_athlete_williams",
+            "path_sorce": -3.654
+        },
+        {
+            "name": "concept:athleteplayssportsteamposition",
+            "source": 3720,
+            "target": 309,
+            "id": "3720-309-309",
+            "rel_id": 309,
+            "path_id": 13,
+            "path_order": 1,
+            "es_name": "concept_personus_kobe_bryant",
+            "et_name": "concept_sportsteamposition_player",
+            "path_sorce": -3.813
+        },
+        {
+            "name": "concept:athleteplayssportsteamposition_inv",
+            "source": 7634,
+            "target": 309,
+            "id": "7634-310-309",
+            "rel_id": 310,
+            "path_id": 13,
+            "path_order": 2,
+            "es_name": "concept_athlete_sean_taylor",
+            "et_name": "concept_sportsteamposition_player",
+            "path_sorce": -3.813
+        },
+        {
+            "name": "concept:athleteplaysinleague",
+            "source": 7634,
+            "target": 47,
+            "id": "7634-67-47",
+            "rel_id": 67,
+            "path_id": 13,
+            "path_order": 3,
+            "es_name": "concept_athlete_sean_taylor",
+            "et_name": "concept_sportsleague_nfl",
+            "path_sorce": -3.813
+        },
+        {
+            "name": "concept:athleteledsportsteam",
+            "source": 3720,
+            "target": 212,
+            "id": "3720-183-212",
+            "rel_id": 183,
+            "path_id": 14,
+            "path_order": 1,
+            "es_name": "concept_personus_kobe_bryant",
+            "et_name": "concept_sportsteam_los_angeles_lakers",
+            "path_sorce": -3.842
+        },
+        {
+            "name": "concept:teamplaysagainstteam_inv",
+            "source": 484,
+            "target": 212,
+            "id": "484-16-212",
+            "rel_id": 16,
+            "path_id": 14,
+            "path_order": 2,
+            "es_name": "concept_sportsteam_san_antonio",
+            "et_name": "concept_sportsteam_los_angeles_lakers",
+            "path_sorce": -3.842
+        },
+        {
+            "name": "concept:teamplaysinleague",
+            "source": 484,
+            "target": 53,
+            "id": "484-55-53",
+            "rel_id": 55,
+            "path_id": 14,
+            "path_order": 3,
+            "es_name": "concept_sportsteam_san_antonio",
+            "et_name": "concept_sportsleague_nba",
+            "path_sorce": -3.842
+        },
+        {
+            "name": "concept:athletewinsawardtrophytournament",
+            "source": 3720,
+            "target": 3106,
+            "id": "3720-363-3106",
+            "rel_id": 363,
+            "path_id": 15,
+            "path_order": 1,
+            "es_name": "concept_personus_kobe_bryant",
+            "et_name": "concept_awardtrophytournament_nba_championship",
+            "path_sorce": -3.877
+        },
+        {
+            "name": "concept:coachwontrophy_inv",
+            "source": 3557,
+            "target": 3106,
+            "id": "3557-178-3106",
+            "rel_id": 178,
+            "path_id": 15,
+            "path_order": 2,
+            "es_name": "concept_coach_lebron_james",
+            "et_name": "concept_awardtrophytournament_nba_championship",
+            "path_sorce": -3.877
+        },
+        {
+            "name": "concept:coachesinleague",
+            "source": 3557,
+            "target": 53,
+            "id": "3557-383-53",
+            "rel_id": 383,
+            "path_id": 15,
+            "path_order": 3,
+            "es_name": "concept_coach_lebron_james",
+            "et_name": "concept_sportsleague_nba",
+            "path_sorce": -3.877
+        },
+        {
+            "name": "concept:athleteledsportsteam",
+            "source": 3720,
+            "target": 212,
+            "id": "3720-183-212",
+            "rel_id": 183,
+            "path_id": 16,
+            "path_order": 1,
+            "es_name": "concept_personus_kobe_bryant",
+            "et_name": "concept_sportsteam_los_angeles_lakers",
+            "path_sorce": -3.901
+        },
+        {
+            "name": "concept:teamplaysagainstteam_inv",
+            "source": 484,
+            "target": 212,
+            "id": "484-16-212",
+            "rel_id": 16,
+            "path_id": 16,
+            "path_order": 2,
+            "es_name": "concept_sportsteam_san_antonio",
+            "et_name": "concept_sportsteam_los_angeles_lakers",
+            "path_sorce": -3.901
+        },
+        {
+            "name": "concept:subpartoforganization_inv",
+            "source": 53,
+            "target": 484,
+            "id": "53-28-484",
+            "rel_id": 28,
+            "path_id": 16,
+            "path_order": 3,
+            "es_name": "concept_sportsleague_nba",
+            "et_name": "concept_sportsteam_san_antonio",
+            "path_sorce": -3.901
+        },
+        {
+            "name": "concept:athletewinsawardtrophytournament",
+            "source": 3720,
+            "target": 3106,
+            "id": "3720-363-3106",
+            "rel_id": 363,
+            "path_id": 17,
+            "path_order": 1,
+            "es_name": "concept_personus_kobe_bryant",
+            "et_name": "concept_awardtrophytournament_nba_championship",
+            "path_sorce": -3.974
+        },
+        {
+            "name": "concept:coachwontrophy_inv",
+            "source": 3557,
+            "target": 3106,
+            "id": "3557-178-3106",
+            "rel_id": 178,
+            "path_id": 17,
+            "path_order": 2,
+            "es_name": "concept_coach_lebron_james",
+            "et_name": "concept_awardtrophytournament_nba_championship",
+            "path_sorce": -3.974
+        },
+        {
+            "name": "concept:athleteplaysinleague",
+            "source": 3557,
+            "target": 53,
+            "id": "3557-67-53",
+            "rel_id": 67,
+            "path_id": 17,
+            "path_order": 3,
+            "es_name": "concept_coach_lebron_james",
+            "et_name": "concept_sportsleague_nba",
+            "path_sorce": -3.974
+        },
+        {
+            "name": "concept:athleteplayssportsteamposition",
+            "source": 3720,
+            "target": 309,
+            "id": "3720-309-309",
+            "rel_id": 309,
+            "path_id": 18,
+            "path_order": 1,
+            "es_name": "concept_personus_kobe_bryant",
+            "et_name": "concept_sportsteamposition_player",
+            "path_sorce": -4.132
+        },
+        {
+            "name": "concept:athleteplayssportsteamposition_inv",
+            "source": 4189,
+            "target": 309,
+            "id": "4189-310-309",
+            "rel_id": 310,
+            "path_id": 18,
+            "path_order": 2,
+            "es_name": "concept_personus_jeremy_shockey",
+            "et_name": "concept_sportsteamposition_player",
+            "path_sorce": -4.132
+        },
+        {
+            "name": "concept:athleteplaysinleague",
+            "source": 4189,
+            "target": 47,
+            "id": "4189-67-47",
+            "rel_id": 67,
+            "path_id": 18,
+            "path_order": 3,
+            "es_name": "concept_personus_jeremy_shockey",
+            "et_name": "concept_sportsleague_nfl",
+            "path_sorce": -4.132
+        },
+        {
+            "name": "concept:athleteplayssportsteamposition",
+            "source": 3720,
+            "target": 309,
+            "id": "3720-309-309",
+            "rel_id": 309,
+            "path_id": 19,
+            "path_order": 1,
+            "es_name": "concept_personus_kobe_bryant",
+            "et_name": "concept_sportsteamposition_player",
+            "path_sorce": -4.179
+        },
+        {
+            "name": "concept:athleteplayssportsteamposition_inv",
+            "source": 6058,
+            "target": 309,
+            "id": "6058-310-309",
+            "rel_id": 310,
+            "path_id": 19,
+            "path_order": 2,
+            "es_name": "concept_athlete_curtis_martin",
+            "et_name": "concept_sportsteamposition_player",
+            "path_sorce": -4.179
+        },
+        {
+            "name": "concept:athleteplaysinleague",
+            "source": 6058,
+            "target": 47,
+            "id": "6058-67-47",
+            "rel_id": 67,
+            "path_id": 19,
+            "path_order": 3,
+            "es_name": "concept_athlete_curtis_martin",
+            "et_name": "concept_sportsleague_nfl",
+            "path_sorce": -4.179
+        },
+        {
+            "name": "concept:athleteplayssportsteamposition",
+            "source": 3720,
+            "target": 9203,
+            "id": "3720-309-9203",
+            "rel_id": 309,
+            "path_id": 20,
+            "path_order": 1,
+            "es_name": "concept_personus_kobe_bryant",
+            "et_name": "concept_sportsteamposition_guard",
+            "path_sorce": -4.221
+        },
+        {
+            "name": "concept:athleteplayssportsteamposition_inv",
+            "source": 938,
+            "target": 9203,
+            "id": "938-310-9203",
+            "rel_id": 310,
+            "path_id": 20,
+            "path_order": 2,
+            "es_name": "concept_athlete_williams",
+            "et_name": "concept_sportsteamposition_guard",
+            "path_sorce": -4.221
+        },
+        {
+            "name": "concept:athleteplayssport",
+            "source": 938,
+            "target": 332,
+            "id": "938-33-332",
+            "rel_id": 33,
+            "path_id": 20,
+            "path_order": 3,
+            "es_name": "concept_athlete_williams",
+            "et_name": "concept_sport_tennis",
+            "path_sorce": -4.221
+        },
+        {
+            "name": "NO_OP_RELATION",
+            "source": 3720,
+            "target": 3720,
+            "id": "3720-2-3720",
+            "rel_id": 2,
+            "path_id": 21,
+            "path_order": 1,
+            "es_name": "concept_personus_kobe_bryant",
+            "et_name": "concept_personus_kobe_bryant",
+            "path_sorce": -4.69
+        },
+        {
+            "name": "concept:athleteledsportsteam",
+            "source": 3720,
+            "target": 212,
+            "id": "3720-183-212",
+            "rel_id": 183,
+            "path_id": 21,
+            "path_order": 2,
+            "es_name": "concept_personus_kobe_bryant",
+            "et_name": "concept_sportsteam_los_angeles_lakers",
+            "path_sorce": -4.69
+        },
+        {
+            "name": "concept:teamplaysinleague",
+            "source": 212,
+            "target": 53,
+            "id": "212-55-53",
+            "rel_id": 55,
+            "path_id": 21,
+            "path_order": 3,
+            "es_name": "concept_sportsteam_los_angeles_lakers",
+            "et_name": "concept_sportsleague_nba",
+            "path_sorce": -4.69
+        },
+        {
+            "name": "concept:athleteinjuredhisbodypart",
+            "source": 3720,
+            "target": 2197,
+            "id": "3720-273-2197",
+            "rel_id": 273,
+            "path_id": 22,
+            "path_order": 1,
+            "es_name": "concept_personus_kobe_bryant",
+            "et_name": "concept_bone_ankle",
+            "path_sorce": -4.949
+        },
+        {
+            "name": "concept:athleteinjuredhisbodypart_inv",
+            "source": 3557,
+            "target": 2197,
+            "id": "3557-274-2197",
+            "rel_id": 274,
+            "path_id": 22,
+            "path_order": 2,
+            "es_name": "concept_coach_lebron_james",
+            "et_name": "concept_bone_ankle",
+            "path_sorce": -4.949
+        },
+        {
+            "name": "concept:coachesinleague",
+            "source": 3557,
+            "target": 53,
+            "id": "3557-383-53",
+            "rel_id": 383,
+            "path_id": 22,
+            "path_order": 3,
+            "es_name": "concept_coach_lebron_james",
+            "et_name": "concept_sportsleague_nba",
+            "path_sorce": -4.949
+        },
+        {
+            "name": "concept:athleteledsportsteam",
+            "source": 3720,
+            "target": 212,
+            "id": "3720-183-212",
+            "rel_id": 183,
+            "path_id": 23,
+            "path_order": 1,
+            "es_name": "concept_personus_kobe_bryant",
+            "et_name": "concept_sportsteam_los_angeles_lakers",
+            "path_sorce": -4.962
+        },
+        {
+            "name": "concept:teamplaysagainstteam",
+            "source": 212,
+            "target": 470,
+            "id": "212-15-470",
+            "rel_id": 15,
+            "path_id": 23,
+            "path_order": 2,
+            "es_name": "concept_sportsteam_los_angeles_lakers",
+            "et_name": "concept_sportsteam_pistons",
+            "path_sorce": -4.962
+        },
+        {
+            "name": "concept:teamplaysinleague",
+            "source": 470,
+            "target": 53,
+            "id": "470-55-53",
+            "rel_id": 55,
+            "path_id": 23,
+            "path_order": 3,
+            "es_name": "concept_sportsteam_pistons",
+            "et_name": "concept_sportsleague_nba",
+            "path_sorce": -4.962
+        },
+        {
+            "name": "concept:athleteinjuredhisbodypart",
+            "source": 3720,
+            "target": 2197,
+            "id": "3720-273-2197",
+            "rel_id": 273,
+            "path_id": 24,
+            "path_order": 1,
+            "es_name": "concept_personus_kobe_bryant",
+            "et_name": "concept_bone_ankle",
+            "path_sorce": -4.974
+        },
+        {
+            "name": "concept:athleteinjuredhisbodypart_inv",
+            "source": 3557,
+            "target": 2197,
+            "id": "3557-274-2197",
+            "rel_id": 274,
+            "path_id": 24,
+            "path_order": 2,
+            "es_name": "concept_coach_lebron_james",
+            "et_name": "concept_bone_ankle",
+            "path_sorce": -4.974
+        },
+        {
+            "name": "concept:athleteplaysinleague",
+            "source": 3557,
+            "target": 53,
+            "id": "3557-67-53",
+            "rel_id": 67,
+            "path_id": 24,
+            "path_order": 3,
+            "es_name": "concept_coach_lebron_james",
+            "et_name": "concept_sportsleague_nba",
+            "path_sorce": -4.974
+        },
+        {
+            "name": "concept:athletewinsawardtrophytournament",
+            "source": 3720,
+            "target": 3106,
+            "id": "3720-363-3106",
+            "rel_id": 363,
+            "path_id": 25,
+            "path_order": 1,
+            "es_name": "concept_personus_kobe_bryant",
+            "et_name": "concept_awardtrophytournament_nba_championship",
+            "path_sorce": -5.086
+        },
+        {
+            "name": "concept:coachwontrophy_inv",
+            "source": 8168,
+            "target": 3106,
+            "id": "8168-178-3106",
+            "rel_id": 178,
+            "path_id": 25,
+            "path_order": 2,
+            "es_name": "concept_coach_chris_quinn",
+            "et_name": "concept_awardtrophytournament_nba_championship",
+            "path_sorce": -5.086
+        },
+        {
+            "name": "concept:coachesinleague",
+            "source": 8168,
+            "target": 53,
+            "id": "8168-383-53",
+            "rel_id": 383,
+            "path_id": 25,
+            "path_order": 3,
+            "es_name": "concept_coach_chris_quinn",
+            "et_name": "concept_sportsleague_nba",
+            "path_sorce": -5.086
+        },
+        {
+            "name": "concept:athletewinsawardtrophytournament",
+            "source": 3720,
+            "target": 3106,
+            "id": "3720-363-3106",
+            "rel_id": 363,
+            "path_id": 26,
+            "path_order": 1,
+            "es_name": "concept_personus_kobe_bryant",
+            "et_name": "concept_awardtrophytournament_nba_championship",
+            "path_sorce": -5.181
+        },
+        {
+            "name": "concept:coachwontrophy_inv",
+            "source": 8168,
+            "target": 3106,
+            "id": "8168-178-3106",
+            "rel_id": 178,
+            "path_id": 26,
+            "path_order": 2,
+            "es_name": "concept_coach_chris_quinn",
+            "et_name": "concept_awardtrophytournament_nba_championship",
+            "path_sorce": -5.181
+        },
+        {
+            "name": "concept:athleteplaysinleague",
+            "source": 8168,
+            "target": 53,
+            "id": "8168-67-53",
+            "rel_id": 67,
+            "path_id": 26,
+            "path_order": 3,
+            "es_name": "concept_coach_chris_quinn",
+            "et_name": "concept_sportsleague_nba",
+            "path_sorce": -5.181
+        },
+        {
+            "name": "concept:athleteledsportsteam",
+            "source": 3720,
+            "target": 212,
+            "id": "3720-183-212",
+            "rel_id": 183,
+            "path_id": 27,
+            "path_order": 1,
+            "es_name": "concept_personus_kobe_bryant",
+            "et_name": "concept_sportsteam_los_angeles_lakers",
+            "path_sorce": -5.261
+        },
+        {
+            "name": "concept:teamplaysagainstteam",
+            "source": 212,
+            "target": 428,
+            "id": "212-15-428",
+            "rel_id": 15,
+            "path_id": 27,
+            "path_order": 2,
+            "es_name": "concept_sportsteam_los_angeles_lakers",
+            "et_name": "concept_sportsteam_utah_jazz",
+            "path_sorce": -5.261
+        },
+        {
+            "name": "concept:teamplaysinleague",
+            "source": 428,
+            "target": 53,
+            "id": "428-55-53",
+            "rel_id": 55,
+            "path_id": 27,
+            "path_order": 3,
+            "es_name": "concept_sportsteam_utah_jazz",
+            "et_name": "concept_sportsleague_nba",
+            "path_sorce": -5.261
+        },
+        {
+            "name": "concept:athleteledsportsteam",
+            "source": 3720,
+            "target": 212,
+            "id": "3720-183-212",
+            "rel_id": 183,
+            "path_id": 28,
+            "path_order": 1,
+            "es_name": "concept_personus_kobe_bryant",
+            "et_name": "concept_sportsteam_los_angeles_lakers",
+            "path_sorce": -5.295
+        },
+        {
+            "name": "concept:teamplaysagainstteam",
+            "source": 212,
+            "target": 958,
+            "id": "212-15-958",
+            "rel_id": 15,
+            "path_id": 28,
+            "path_order": 2,
+            "es_name": "concept_sportsteam_los_angeles_lakers",
+            "et_name": "concept_sportsteam_bobcats",
+            "path_sorce": -5.295
+        },
+        {
+            "name": "concept:teamplaysinleague",
+            "source": 958,
+            "target": 53,
+            "id": "958-55-53",
+            "rel_id": 55,
+            "path_id": 28,
+            "path_order": 3,
+            "es_name": "concept_sportsteam_bobcats",
+            "et_name": "concept_sportsleague_nba",
+            "path_sorce": -5.295
+        },
+        {
+            "name": "concept:athleteflyouttosportsteamposition",
+            "source": 3720,
+            "target": 25,
+            "id": "3720-99-25",
+            "rel_id": 99,
+            "path_id": 29,
+            "path_order": 1,
+            "es_name": "concept_personus_kobe_bryant",
+            "et_name": "concept_sportsteamposition_center",
+            "path_sorce": -5.295
+        },
+        {
+            "name": "concept:athleteflyouttosportsteamposition_inv",
+            "source": 6477,
+            "target": 25,
+            "id": "6477-100-25",
+            "rel_id": 100,
+            "path_id": 29,
+            "path_order": 2,
+            "es_name": "concept_coach_johnny_damon",
+            "et_name": "concept_sportsteamposition_center",
+            "path_sorce": -5.295
+        },
+        {
+            "name": "concept:athleteplaysinleague",
+            "source": 6477,
+            "target": 19,
+            "id": "6477-67-19",
+            "rel_id": 67,
+            "path_id": 29,
+            "path_order": 3,
+            "es_name": "concept_coach_johnny_damon",
+            "et_name": "concept_sportsleague_mlb",
+            "path_sorce": -5.295
+        }
+    ]
+}

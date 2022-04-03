@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
 
+import React from 'react';
+import Main from './components/Main.js'
+//import kobe_bryant from './case/kg.json'
+import James_jason_train_subKg from './case/lebron_james_train/James_jason_train_subKg.json'
+import kobe_test_kg from "./case/kobe_bryant_test/kobe_bryant_subKg.json"
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Main kgData={James_jason_train_subKg} sourceNode={kobe_test_kg.nodes[0]} ></Main>
     </div>
   );
 }
