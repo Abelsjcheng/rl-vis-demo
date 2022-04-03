@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import IndexPage from './pages/index';
 import './css/index.css'
 
 ReactDOM.render(
-    <App />,
+    <IndexPage />,
   document.getElementById('root')
 );
 

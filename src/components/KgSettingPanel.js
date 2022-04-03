@@ -8,8 +8,7 @@ class KgSettingPanel extends React.Component {
         super(props);
         this.state = {
             showSettingCard: false, // 显示隐藏控制面板
-            key: 'tab1', // 标签页索引
-            Dropdownvisible: false,
+            tabKey: 'layout', // 标签页索引
         };
     }
     componentDidMount() {
@@ -22,21 +21,21 @@ class KgSettingPanel extends React.Component {
     handleOpenCard = (e) => {
         this.setState({ showSettingCard: true });
     }
-    onTabChange = (key, type) => {
+    handelTabChange = (type, key) => {
         this.setState({ [type]: key });
     }
 
     render() {
-        const { showSettingCard, key} = this.state
+        const { showSettingCard, tabKey} = this.state
         const { forceSet, svgStyle, switchSet } = this.props;
-        const tabList = [{ key: 'tab1', tab: '布局设置' }, { key: 'tab2', tab: "节点设置" }, { key: 'tab3', tab: "边设置" }]
+        const tabList = [{ key: 'layout', tab: '布局设置' }, { key: 'node', tab: "节点设置" }, { key: 'link', tab: "边设置" }]
         const labelSetList = [
             { title: '节点标签', type: 'showNodeText', data: switchSet.showNodeText },
             { title: '关系标签', type: 'showLinkText', data: switchSet.showLinkText },
             { title: '自适应缩放并居中', type: 'autoZoomFlag', data: switchSet.autoZoomFlag }
         ]
         const contentList = {
-            tab1: <div className="kg-setting-title">
+            layout: <div className="kg-setting-title">
                 <Row gutter={[0, 4]} justify="space-between">
                     <Col span={24} className="kg-setting-title">节点排斥力</Col>
                     <Col span={17}>
@@ -61,7 +60,7 @@ class KgSettingPanel extends React.Component {
                     })
                 }
             </div>,
-            tab2: <div>
+            node: <div>
                 <Row gutter={[0, 4]} justify="space-between">
                     <Col span={24} className="kg-setting-title">节点大小</Col>
                     <Col span={17}>
@@ -79,7 +78,7 @@ class KgSettingPanel extends React.Component {
                     </Col>
                 </Row>
             </div>,
-            tab3: <div>
+            link: <div>
                 <Row gutter={[0, 4]} justify="space-between">
                     <Col span={24} className="kg-setting-title">边宽度</Col>
                     <Col span={17}>
@@ -115,12 +114,12 @@ class KgSettingPanel extends React.Component {
                     style={showSettingCard ? { display: '' } : { display: 'none' }}
                     bodyStyle={{ padding: "15px" }}
                     tabList={tabList}
-                    activeTabKey={key}
+                    activeTabKey={tabKey}
                     tabBarExtraContent={<Button shape="circle" icon={<CloseOutlined />} onClick={this.handleCloseCard}></Button>}
                     onTabChange={key => {
-                        this.onTabChange(key, 'key');
+                        this.handelTabChange('tabKey', key);
                     }}>
-                    {contentList[this.state.key]}
+                    {contentList[tabKey]}
                 </Card>
             </div>
         )
