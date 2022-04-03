@@ -16,6 +16,8 @@ import james_train_8 from "../case/lebron_james_train/train_path/james_train_70.
 import james_train_9 from "../case/lebron_james_train/train_path/james_train_80.json"
 import james_train_10 from "../case/lebron_james_train/train_path/james_train_90.json"
 import james_train_11 from "../case/lebron_james_train/train_path/james_train_100.json"
+import james_test_kg from "../case/lebron_james_test/lebron_james_test_subKg.json"
+import james_test_path from "../case/lebron_james_test/lebron_james_test_action_space.json"
 import kobe_test_kg from "../case/kobe_bryant_test/kobe_bryant_subKg.json"
 import kobe_test_path from "../case/kobe_bryant_test/kobe_bryant_test_action_space.json"
 
@@ -32,6 +34,7 @@ const dataSet = [
     { "dataName": "训练9", pathData: james_train_9, kgData: James_jason_train_subKg, caseIndex: 0 },
     { "dataName": "训练10", pathData: james_train_10, kgData: James_jason_train_subKg, caseIndex: 0 },
     { "dataName": "训练11", pathData: james_train_11, kgData: James_jason_train_subKg, caseIndex: 0 },
+    { "dataName": "验证集", pathData: james_test_path, kgData: james_test_kg, caseIndex: 0 },
     { "dataName": "测试集", pathData: kobe_test_path, kgData: kobe_test_kg, caseIndex: 1 },
 ]
 
@@ -91,14 +94,14 @@ class SidePanel extends React.Component {
     }
     handleSelectDataSetChange = (value) => {
         const { getStateChange } = this.props
-        if (dataSet[value].dataName !== "测试集") {
+        if (["验证集", "测试集"].indexOf(dataSet[value].dataName) === -1) {
             this.pathGroup = initPathGroup(dataSet[value].pathData);
         } else {
             this.pathGroup = initTestPathGroup(dataSet[value].pathData, dataSet[value].kgData.links);
         }
         this.setState({ path: this.pathGroup[0] })
-        getStateChange({kgData:dataSet[value].kgData, caseTriple:dataSet[value].caseIndex})
-        
+        getStateChange({ kgData: dataSet[value].kgData, caseTriple: dataSet[value].caseIndex })
+
     }
     handleSelectPathChange = (value) => {
         this.setState({ path: this.pathGroup[value] })
@@ -176,7 +179,7 @@ class SidePanel extends React.Component {
                                 <Popconfirm
                                     placement="rightTop"
                                     icon={false}
-                                    title={<CalendarChart chartId={0} step={path[0]} nodes={kgData.nodes} links={kgData.links} />}
+                                    title={<CalendarChart step={path[0]} nodes={kgData.nodes} links={kgData.links} />}
                                     showCancel={false}
                                 >
                                     <Timeline.Item className="timeline-item" >{splitNodeName(path[0].es_name)}</Timeline.Item>
@@ -185,7 +188,7 @@ class SidePanel extends React.Component {
                                 <Popconfirm
                                     placement="rightTop"
                                     icon={false}
-                                    title={<CalendarChart chartId={1} step={path[1]} nodes={kgData.nodes} links={kgData.links} />}
+                                    title={<CalendarChart step={path[1]} nodes={kgData.nodes} links={kgData.links} />}
                                     showCancel={false}
                                 >
                                     <Timeline.Item className="timeline-item" >{splitNodeName(path[0].et_name)}</Timeline.Item>
@@ -194,7 +197,7 @@ class SidePanel extends React.Component {
                                 <Popconfirm
                                     placement="rightTop"
                                     icon={false}
-                                    title={<CalendarChart chartId={2} step={path[2]} nodes={kgData.nodes} links={kgData.links} />}
+                                    title={<CalendarChart step={path[2]} nodes={kgData.nodes} links={kgData.links} />}
                                     showCancel={false}
                                 >
                                     <Timeline.Item className="timeline-item" >{splitNodeName(path[1].et_name)}</Timeline.Item>

@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import * as echarts from 'echarts';
 
 class CalendarChart extends React.Component {
@@ -6,9 +7,9 @@ class CalendarChart extends React.Component {
         super(props);
         this.nodes = rebuild(props.nodes, 'node')
         this.links = rebuild(props.links, 'link')
-        this.next_entity = getNextEntity(props.step.next_e_space)
-        this.next_relation = getNextRelation(props.step.next_r_space)
-        this.action_prob = getActionProb(props.step, this.next_entity, this.next_relation)
+        this.e_space = getNextEntity(props.step.next_e_space)
+        this.r_space = getNextRelation(props.step.next_r_space)
+        this.action_prob = getActionProb(props.step, this.e_space, this.r_space)
         this.step = props.step
         this.state = {
 
@@ -19,18 +20,18 @@ class CalendarChart extends React.Component {
     }
     componentWillReceiveProps(nextProps) {
         if (this.props.step.path_id !== nextProps.step.path_id) {
-            this.next_entity = getNextEntity(nextProps.step.next_e_space)
-            this.next_relation = getNextRelation(nextProps.step.next_r_space)
-            this.action_prob = getActionProb(nextProps.step, this.next_entity, this.next_relation)
+            this.e_space = getNextEntity(nextProps.step.next_e_space)
+            this.r_space = getNextRelation(nextProps.step.next_r_space)
+            this.action_prob = getActionProb(nextProps.step, this.e_space, this.r_space)
             this.step = nextProps.step
             this.initCalendarChart()
         }
 
     }
     initCalendarChart() {
-        const { chartId } = this.props
-        const _this = this
-        let chart = echarts.init(document.getElementById('chart' + chartId));
+        const _this = this;
+        const chartDom = ReactDOM.findDOMNode(this);
+        let chart = echarts.init(chartDom);
         chart.setOption({
             title: {
                 text: "动作空间及动作选择概率",
@@ -39,7 +40,7 @@ class CalendarChart extends React.Component {
             tooltip: {
                 position: 'top',
                 formatter: function (info) {
-                    let res = `下一跳的关系:${_this.links.get(_this.next_relation[info.data[1]])}<br/>下一跳的实体:${_this.nodes.get(_this.next_entity[info.data[0]])}<br/>动作选择概率:${info.data[2]}`
+                    let res = `下一跳的关系:${_this.links.get(_this.r_space[info.data[1]])}<br/>下一跳的实体:${_this.nodes.get(_this.e_space[info.data[0]])}<br/>动作选择概率:${info.data[2]}`
                     return res;
                 },
             },
@@ -58,7 +59,7 @@ class CalendarChart extends React.Component {
             xAxis: {
                 type: 'category',
                 name: "实体id",
-                data: this.next_entity,
+                data: this.e_space,
                 splitArea: {
                     show: true
                 }
@@ -66,7 +67,7 @@ class CalendarChart extends React.Component {
             yAxis: {
                 type: 'category',
                 name: "关系id",
-                data: this.next_relation,
+                data: this.r_space,
                 splitArea: {
                     show: true
                 }
@@ -93,9 +94,8 @@ class CalendarChart extends React.Component {
         });
     }
     render() {
-        const { chartId } = this.props
         return (
-            <div id={"chart" + chartId} style={{ width: 500, height: 300 }}></div>
+            <div style={{ width: 500, height: 300 }}></div>
         );
     }
 }
@@ -108,13 +108,13 @@ function getNextRelation(r_space) {
     let set = new Set(r_space)
     return [...set]
 }
-function getActionProb(step, next_entity, next_relation) {
+function getActionProb(step, e_space, r_space) {
     const { next_e_space, next_r_space, aciton_dist } = step
     return aciton_dist.map((item, index) => {
         const e_id = next_e_space[index],
             r_id = next_r_space[index],
-            e_index = next_entity.indexOf(e_id),
-            r_index = next_relation.indexOf(r_id)
+            e_index = e_space.indexOf(e_id),
+            r_index = r_space.indexOf(r_id)
 
         return [e_index, r_index, item];
     })
