@@ -30,16 +30,16 @@ class Kg extends React.Component {
             nodes: dataFilter(_kgData.nodes),
             links: dataFilter(_kgData.links),
             forceSet: {
-                bodyStrength: -1000, // 节点排斥力，负数为模拟电荷力
-                linkDistance: 200, // 边长度
-                nodeSize: 15, // 节点大小
+                bodyStrength: -400, // 节点排斥力，负数为模拟电荷力
+                linkDistance: 100, // 边长度
+                nodeSize: 10, // 节点大小
             },
             svgStyle: {
-                linkWidth: 2, // 边长度
+                linkWidth: 1,
                 linkStroke: '#D3D3D3', // 边颜色
-                linkLabelSize: 20,
+                linkLabelSize: 13,
                 nodeColor: '#DE9BF9',
-                nodeLabelSize: 20
+                nodeLabelSize: 14
             },
             switchSet: {
                 showNodeText: true, // 显示隐藏节点标签
@@ -140,8 +140,9 @@ class Kg extends React.Component {
 
         this.simulation.force("link")
             .id(function (d) { return d.id; })
-            .distance(forceSet.linkDistance)
             .links(links)
+            .distance(forceSet.linkDistance)
+
 
         this.simulation.force("charge")
             .strength(forceSet.bodyStrength);
@@ -167,7 +168,11 @@ class Kg extends React.Component {
         this.linkGroup = this.svg_kg.append("g")
             .attr("class", "link-group")
 
-        this.marker = this.linkGroup.append("marker")
+        this.marker = this.linkGroup.selectAll("marker.marker")
+            .data(["noself", "self"], d => d)
+            .enter()
+            .append("marker")
+
         this.markerPath = this.marker.append("path")
 
         let textGroup = this.svg_kg.append("g")
@@ -188,49 +193,43 @@ class Kg extends React.Component {
         const { caseTriple } = this.props
 
 
-        // 加载link数据
         let link = this.linkGroup.selectAll("path.link")
             .data(links, d => d.id)
         setDoubleLink(links)
-        // 移出旧数据
+
         link.exit().remove();
 
-        // 创建边
         let linkEnter = link.enter()
             .append("path")
             .attr("id", d => "link" + d.id)
             .attr("class", "link")
 
-        // 合并数据用于全局更新样式和tick
         this.updateLink = linkEnter.merge(link)
             .style("stroke", svgStyle.linkStroke)
             .style("stroke-width", svgStyle.linkWidth)
             .style('fill', 'rgba(0, 0, 0, 0)')
-            .attr("marker-end", "url(#resolved)");
+            .attr("marker-end", d => d.rel_id === 2 ? "url(#self)" : "url(#noself)");
 
-        // 绘制箭头
         this.marker
-            .attr("id", "resolved")
+            .attr("id", d => d)
             .attr("markerUnits", "userSpaceOnUse")
-            .attr("viewBox", "0 -" + forceSet.nodeSize * 0.4 + " " + forceSet.nodeSize * 0.8 + " " + forceSet.nodeSize * 0.8)
-            .attr("refX", forceSet.nodeSize * 1.8)
+            .attr("viewBox", "0 -" + forceSet.nodeSize * 0.3 + " " + forceSet.nodeSize * 0.6 + " " + forceSet.nodeSize * 0.6)
+            .attr("refX", d => d === "self" ? forceSet.nodeSize * 0.6 : forceSet.nodeSize * 1.6)
             .attr("refY", 0)
-            .attr("markerWidth", forceSet.nodeSize * 0.8)
-            .attr("markerHeight", forceSet.nodeSize * 0.8)
+            .attr("markerWidth", forceSet.nodeSize * 0.6)
+            .attr("markerHeight", forceSet.nodeSize * 0.6)
             .attr("orient", "auto")
-            .attr("stroke-width", 2)
+            .attr("stroke-width", svgStyle.linkWidth)
 
-        // 绘制箭头路径
+
         this.markerPath
-            .attr("d", "M0,-" + forceSet.nodeSize * 0.4 + "L" + forceSet.nodeSize * 0.8 + ",0L0," + forceSet.nodeSize * 0.4)
+            .attr("d", "M0,-" + forceSet.nodeSize * 0.3 + "L" + forceSet.nodeSize * 0.6 + ",0L0," + forceSet.nodeSize * 0.3)
             .attr('fill', svgStyle.linkStroke)
 
-        // 加载node数据
         let node = this.nodeGroup.selectAll("circle.node").data(nodes, d => d.id);
-        // 移出node旧数据
 
         node.exit().remove()
-        // 添加node新数据
+
         let nodeEnter = node.enter()
             .append("circle")
             .attr("id", d => "node" + d.id)
@@ -238,7 +237,6 @@ class Kg extends React.Component {
             .attr("r", forceSet.nodeSize)
             .call(this.drag(this.simulation))
 
-        // 合并节点数据用于全局更新相似和tick
         this.updateNode = nodeEnter.merge(node)
             .style("fill", d => {
                 if (d.name === caseTriple.sourceEntity) {
@@ -250,11 +248,11 @@ class Kg extends React.Component {
                 }
             })
 
-        // 加载nodeText数据
+
         let nodeText = this.nodeTextGroup.selectAll("text.node-text").data(nodes, d => d.id);
-        // 移出nodeText旧数据
+
         nodeText.exit().remove();
-        // 绘制节点标签
+
         let nodeTextEnter = nodeText.enter()
             .append("text")
             .attr("class", "node-text")
@@ -274,14 +272,13 @@ class Kg extends React.Component {
                     .text(splitNodeName(d.name))
             })
 
-        // 合并节点数据用于全局修改节点标签样式和tick
+
         this.updateNodeText = nodeTextEnter.merge(nodeText)
 
-        // 加载linkText数据
         let linkText = this.linkTextGroup.selectAll("text.link-text").data(links, d => d.id);
-        // 移出linkText旧数据
+
         linkText.exit().remove();
-        // 绘制link标签
+
         let linkTextEnter = linkText.enter()
             .append("text")
 
@@ -297,7 +294,6 @@ class Kg extends React.Component {
             .attr("text-anchor", 'middle')
             .text(d => splitLinkName(d.name))
 
-        // 合并边数据用于全局修改边标签样式和tick
         this.updateLinkText = linkTextEnter.merge(linkText)
 
 
@@ -305,22 +301,22 @@ class Kg extends React.Component {
     updateKgDisplay = () => {
         const { svgStyle, forceSet, switchSet } = this.state
 
-        // 更新边样式
         this.updateLink
             .style("stroke", svgStyle.linkStroke)
             .style("stroke-width", svgStyle.linkWidth)
 
-        // 更新箭头样式
         this.marker
-            .attr("viewBox", "0 -" + forceSet.nodeSize * 0.4 + " " + forceSet.nodeSize * 0.8 + " " + forceSet.nodeSize * 0.8)
-            .attr("refX", forceSet.nodeSize * 1.8)
-            .attr("markerWidth", forceSet.nodeSize * 0.8)
-            .attr("markerHeight", forceSet.nodeSize * 0.8)
+            .attr("viewBox", "0 -" + forceSet.nodeSize * 0.3 + " " + forceSet.nodeSize * 0.6 + " " + forceSet.nodeSize * 0.6)
+            .attr("refX", d => d === "self" ? forceSet.nodeSize * 0.6 : forceSet.nodeSize * 1.6)
+            .attr("markerWidth", forceSet.nodeSize * 0.6)
+            .attr("markerHeight", forceSet.nodeSize * 0.6)
 
-        // 更新箭头路径样式
         this.markerPath
-            .attr("d", "M0,-" + forceSet.nodeSize * 0.4 + "L" + forceSet.nodeSize * 0.8 + ",0L0," + forceSet.nodeSize * 0.4)
+            .attr("d", "M0,-" + forceSet.nodeSize * 0.3 + "L" + forceSet.nodeSize * 0.6 + ",0L0," + forceSet.nodeSize * 0.3)
             .attr('fill', svgStyle.linkStroke)
+
+        this.updateNode
+            .attr("r", forceSet.nodeSize)
 
         this.updateLinkText
             .attr("dy", -3 - svgStyle.linkWidth)
@@ -337,17 +333,31 @@ class Kg extends React.Component {
         const { forceSet } = this.state
         this.simulation.on('tick', () => {
 
-            // 边显示位置
             this.updateLink
                 .attr('d', d => {
                     if (d.rel_id === 2) {
                         const x1 = d.source.x - Math.sin(2 * Math.PI / 360 * 60) * forceSet.nodeSize,
                             x2 = d.source.x + Math.sin(2 * Math.PI / 360 * 60) * forceSet.nodeSize,
                             y = d.source.y - Math.cos(2 * Math.PI / 360 * 60) * forceSet.nodeSize
-                        return 'M ' + x1 + ',' + y + ' C' + (x1 - 30) + ',' + (y - forceSet.nodeSize * 4) + ' ' + (x2 + 30) + ',' + (y - forceSet.nodeSize * 4) + ' ' + x2 + ',' + y
+                        return 'M ' + x1 + ' ' + y + ' C' + (x1 - 20) + ' ' + (y - forceSet.nodeSize * 5) + ' ' + (x2 + 20) + ' ' + (y - forceSet.nodeSize * 5) + ' ' + x2 + ' ' + y
                     } else {
-                        //return 'M ' + d.source.x + ' ' + d.source.y + ' L ' + d.target.x + ' ' + d.target.y
-                        return 'M ' + d.source.x + ' ' + d.source.y + ' Q ' + (d.source.x + d.target.x) / 2 + ' ' + ((d.source.y + d.target.y) / 2 + d.linknum * 50) + ' ' + d.target.x + ' ' + d.target.y
+                        /*
+                            cos为负sin+ ++
+                            ++ cos为负sin+
+                        */
+                        let bevelEdge = Math.sqrt(Math.pow(d.target.x - d.source.x, 2) + Math.pow(d.target.y - d.source.y, 2)),
+                            rotateAngleCos = (d.target.x - d.source.x) / bevelEdge,
+                            rotateAngleSin = (d.source.y - d.target.y) / bevelEdge;
+
+                        if (d.target.y < d.source.y && d.target.x > d.source.x) {
+                            rotateAngleCos = -rotateAngleCos
+                            rotateAngleSin = -rotateAngleSin
+                        } else if (d.target.y < d.source.y && d.target.x < d.source.x) {
+                            rotateAngleCos = -rotateAngleCos
+                            rotateAngleSin = -rotateAngleSin
+                        }
+
+                        return 'M ' + d.source.x + ' ' + d.source.y + ' Q ' + ((d.source.x + d.target.x) / 2 + rotateAngleSin * d.linknum * 20) + ' ' + ((d.source.y + d.target.y) / 2 + rotateAngleCos * d.linknum * 20) + ' ' + d.target.x + ' ' + d.target.y
                     }
                 })
             // 节点显示位置
@@ -386,7 +396,7 @@ class Kg extends React.Component {
             pre_scale = transform.k;
 
         if (viewBox.width > this.svgWidth || viewBox.height > this.svgHeight) {
-            const next_scale = Math.min((this.svgWidth - 100) / viewBox.width, (this.svgHeight - 100) / viewBox.height),
+            const next_scale = Math.min((this.svgWidth - 50) / viewBox.width, (this.svgHeight - 50) / viewBox.height),
                 center_x = this.svgWidth / 2 - (viewBox.x + viewBox.width / 2 - transform.x) / pre_scale * next_scale,
                 center_y = this.svgHeight / 2 - (viewBox.y + viewBox.height / 2 - transform.y) / pre_scale * next_scale;
 
@@ -473,15 +483,10 @@ class Kg extends React.Component {
                 break;
             case 'switchSet':
                 const switchSet = { ...this.state.switchSet }
-
                 this.setState({ switchSet: Object.assign({}, switchSet, { [set.switchSetType]: set.value }) })
                 if (set.switchSetType === "autoZoomFlag" && set.value) {
                     this.autoZoom()
                 }
-                break;
-            case 'nodeMore':
-                // 节点扩展和收缩
-                this.setState({ nodes: set.nodes, links: set.links })
                 break;
             default:
                 break;
