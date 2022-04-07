@@ -19,13 +19,14 @@ class CalendarChart extends React.Component {
         this.initCalendarChart()
     }
     componentWillReceiveProps(nextProps) {
-        if (this.props.step.path_id !== nextProps.step.path_id) {
-            this.e_space = getNextEntity(nextProps.step.next_e_space)
-            this.r_space = getNextRelation(nextProps.step.next_r_space)
-            this.action_prob = getActionProb(nextProps.step, this.e_space, this.r_space)
-            this.step = nextProps.step
-            this.initCalendarChart()
-        }
+        this.nodes = rebuild(nextProps.nodes, 'node')
+        this.links = rebuild(nextProps.links, 'link')
+        this.e_space = getNextEntity(nextProps.step.next_e_space)
+        this.r_space = getNextRelation(nextProps.step.next_r_space)
+        this.action_prob = getActionProb(nextProps.step, this.e_space, this.r_space)
+        this.step = nextProps.step
+        this.initCalendarChart()
+
 
     }
     initCalendarChart() {

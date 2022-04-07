@@ -15,6 +15,11 @@ const cases = [
         relation: "concept:athleteplaysinleague",
         targetEntity: "concept_sportsleague_nba"
     },
+    {
+        sourceEntity: "concept_athlete_pau_gasol",
+        relation: "concept:athleteplaysinleague",
+        targetEntity: "concept_sportsleague_nba"
+    }
 ]
 class IndexPage extends React.Component {
     constructor(props) {
