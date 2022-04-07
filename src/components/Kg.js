@@ -31,7 +31,7 @@ class Kg extends React.Component {
             links: dataFilter(_kgData.links),
             forceSet: {
                 bodyStrength: -400, // 节点排斥力，负数为模拟电荷力
-                linkDistance: 100, // 边长度
+                linkDistance: 200, // 边长度
                 nodeSize: 10, // 节点大小
             },
             svgStyle: {
@@ -81,7 +81,7 @@ class Kg extends React.Component {
             this.updateKgDisplay()
         }
     }
-    componentWillReceiveProps(nextProps) {
+    UNSAFE_componentWillReceiveProps(nextProps) {
         // 图谱更新
         const prevkgData = JSON.stringify(this.props.kgData),
             nextKgData = JSON.stringify(nextProps.kgData)
@@ -192,9 +192,9 @@ class Kg extends React.Component {
         const { links, nodes, svgStyle, forceSet, switchSet } = this.state
         const { caseTriple } = this.props
 
-
         let link = this.linkGroup.selectAll("path.link")
             .data(links, d => d.id)
+
         setDoubleLink(links)
 
         link.exit().remove();
@@ -203,12 +203,16 @@ class Kg extends React.Component {
             .append("path")
             .attr("id", d => "link" + d.id)
             .attr("class", "link")
+            .on('mouseover', function (e, d) {
+                d3.select(`#linkText${d.id}`)
+                    .style("visibility", 'visible')
+            })
 
         this.updateLink = linkEnter.merge(link)
             .style("stroke", svgStyle.linkStroke)
             .style("stroke-width", svgStyle.linkWidth)
             .style('fill', 'rgba(0, 0, 0, 0)')
-            .attr("marker-end", d => d.rel_id === 2 ? "url(#self)" : "url(#noself)");
+            .attr("marker-end", d => d.type === "self" ? "url(#self)" : "url(#noself)");
 
         this.marker
             .attr("id", d => d)
@@ -256,7 +260,7 @@ class Kg extends React.Component {
         let nodeTextEnter = nodeText.enter()
             .append("text")
             .attr("class", "node-text")
-            .attr("dy", forceSet.nodeSize + 20)
+            .attr("dy", forceSet.nodeSize * 2)
             .style("visibility", switchSet.showNodeText ? 'visible' : 'hidden')
             .style('fill', "black")
             .attr("font-size", svgStyle.nodeLabelSize)
@@ -265,7 +269,7 @@ class Kg extends React.Component {
             .attr("text-anchor", "middle")
             .on('mouseover', function (e, d) {
                 d3.select(this)
-                    .text(() => d.name)
+                    .text(d.name)
             })
             .on('mouseout', function (e, d) {
                 d3.select(this)
@@ -284,6 +288,7 @@ class Kg extends React.Component {
 
         linkTextEnter
             .attr("class", "link-text")
+            .attr("id", d => "linkText" + d.id)
             .attr("dy", -3 - svgStyle.linkWidth)
             .attr("font-size", svgStyle.linkLabelSize)
             .style("visibility", switchSet.showLinkText ? 'visible' : 'hidden')
@@ -330,12 +335,11 @@ class Kg extends React.Component {
 
     }
     updateDragTick() {
-        const { forceSet } = this.state
+        const { forceSet } = this.state;
         this.simulation.on('tick', () => {
-
             this.updateLink
                 .attr('d', d => {
-                    if (d.rel_id === 2) {
+                    if (d.type === "self") {
                         const x1 = d.source.x - Math.sin(2 * Math.PI / 360 * 60) * forceSet.nodeSize,
                             x2 = d.source.x + Math.sin(2 * Math.PI / 360 * 60) * forceSet.nodeSize,
                             y = d.source.y - Math.cos(2 * Math.PI / 360 * 60) * forceSet.nodeSize
@@ -373,7 +377,7 @@ class Kg extends React.Component {
             // this.updateLinkText
             //     .attr('transform', (d) => {
             //         if (d.target.x <= d.source.x) {
-            //             return 'rotate(180 ' + (d.source.x + d.target.x) / 2 + ' ' + (d.source.y + d.target.y) / 2 + ')';
+            //             return 'rotate(180 ' + (d.source.x + d.target.x) / 2 + ' ' + ((d.source.y + d.target.y) / 2 ) + ')';
             //         }
             //         else {
             //             return 'rotate(0)';
@@ -539,12 +543,12 @@ function setDoubleLink(links) {
         const key = setLinkName(link);
         link.size = linkGroup[key].length;
         const group = linkGroup[key];
-        // const keyPair = key.split(':');
-        // let type = 'noself';
-        // if (keyPair[0] === keyPair[1]) {
-        //     type = 'self';
-        // }
-        // link.type = type
+        const keyPair = key.split(':');
+        let type = 'noself';
+        if (keyPair[0] === keyPair[1]) {
+            type = 'self';
+        }
+        link.type = type
         setLinkNumbers(group);
     });
 }
