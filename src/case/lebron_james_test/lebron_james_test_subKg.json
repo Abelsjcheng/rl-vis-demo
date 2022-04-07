@@ -875,6 +875,16 @@
     ],
     "links": [
         {
+            "name": "concept:athleteplaysinleague",
+            "source": 3557,
+            "target": 53,
+            "id": "3557-67-53",
+            "rel_id": 67,
+            "path_id": 0,
+            "es_name": "concept_coach_lebron_james",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
             "name": "concept:athletehomestadium",
             "source": 3557,
             "target": 7243,

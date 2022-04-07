@@ -9,220 +9,172 @@
             "name": "concept_sportsleague_nba"
         },
         {
-            "id": 7480,
-            "name": "concept_athlete_andre_brown"
+            "id": 12614,
+            "name": "concept_stadiumoreventvenue_arco_arena"
         },
         {
             "id": 79,
             "name": "concept_sport_basketball"
         },
         {
-            "id": 9813,
-            "name": "concept_athlete_dwyane_wade"
-        },
-        {
-            "id": 490,
-            "name": "concept_sportsteam_cavaliers"
-        },
-        {
-            "id": 11441,
-            "name": "concept_male_joakim_noah"
-        },
-        {
-            "id": 224,
-            "name": "concept_sportsteam_chicago_bulls"
-        },
-        {
-            "id": 9759,
-            "name": "concept_athlete_baron_davis"
-        },
-        {
-            "id": 13426,
-            "name": "concept_athlete_delonte_west"
-        },
-        {
-            "id": 9774,
-            "name": "concept_athlete_carlos_boozer"
-        },
-        {
-            "id": 388,
-            "name": "concept_sportsteam_spurs"
-        },
-        {
-            "id": 8178,
-            "name": "concept_coach_greg_oden"
-        },
-        {
-            "id": 93,
-            "name": "concept_sportsteam_yankees"
-        },
-        {
-            "id": 9756,
-            "name": "concept_athlete_antawn_jamison"
-        },
-        {
-            "id": 7243,
-            "name": "concept_stadiumoreventvenue_quicken_loans_arena"
-        },
-        {
-            "id": 13722,
-            "name": "concept_athlete_zydrunas_ilgauskas"
-        },
-        {
-            "id": 565,
-            "name": "concept_city_cleveland"
-        },
-        {
-            "id": 66284,
-            "name": "concept_radiostation_wruw"
-        },
-        {
-            "id": 13395,
-            "name": "concept_athlete_chris_webber"
+            "id": 3106,
+            "name": "concept_awardtrophytournament_nba_championship"
         },
         {
             "id": 285,
             "name": "concept_sportsteam_knicks"
         },
         {
-            "id": 470,
-            "name": "concept_sportsteam_pistons"
+            "id": 7504,
+            "name": "concept_athlete_chris_duhon"
         },
         {
-            "id": 7657,
-            "name": "concept_athlete_tyrus_thomas"
+            "id": 7243,
+            "name": "concept_stadiumoreventvenue_quicken_loans_arena"
         },
         {
-            "id": 8175,
-            "name": "concept_coach_dwayne_wade"
+            "id": 20326,
+            "name": "concept_athlete_anthony_parker"
         },
         {
-            "id": 355,
-            "name": "concept_sportsteam_heat"
+            "id": 13524,
+            "name": "concept_athlete_jorge_garbajosa"
+        },
+        {
+            "id": 490,
+            "name": "concept_sportsteam_cavaliers"
+        },
+        {
+            "id": 9857,
+            "name": "concept_athlete_jermaine_o_neal"
+        },
+        {
+            "id": 20631,
+            "name": "concept_athlete_sprewell"
         },
         {
             "id": 7624,
             "name": "concept_athlete_rudy_gay"
         },
         {
+            "id": 309,
+            "name": "concept_sportsteamposition_player"
+        },
+        {
+            "id": 5104,
+            "name": "concept_athlete_peyton_manning"
+        },
+        {
+            "id": 251,
+            "name": "concept_sportsteam_colts"
+        },
+        {
+            "id": 20418,
+            "name": "concept_athlete_devin_brown"
+        },
+        {
+            "id": 11892,
+            "name": "concept_personasia_anthony_grundy"
+        },
+        {
+            "id": 31000,
+            "name": "concept_stadiumoreventvenue_mci_center"
+        },
+        {
+            "id": 46,
+            "name": "concept_city_washington_d_c"
+        },
+        {
+            "id": 2551,
+            "name": "concept_stadiumoreventvenue_toyota_center"
+        },
+        {
+            "id": 7658,
+            "name": "concept_athlete_vinny_del_negro"
+        },
+        {
+            "id": 9759,
+            "name": "concept_athlete_baron_davis"
+        },
+        {
+            "id": 39589,
+            "name": "concept_athlete_emeka_okafor"
+        },
+        {
+            "id": 18283,
+            "name": "concept_stadiumoreventvenue_ford_center"
+        },
+        {
             "id": 4573,
             "name": "concept_coach_derrick_rose"
         },
         {
-            "id": 402,
-            "name": "concept_sportsteam_raptors"
+            "id": 10896,
+            "name": "concept_coach_marc_iavaroni"
         },
         {
-            "id": 212,
-            "name": "concept_sportsteam_los_angeles_lakers"
-        },
-        {
-            "id": 2335,
-            "name": "concept_sportsteam_sonics"
-        },
-        {
-            "id": 753,
-            "name": "concept_sportsteam_trail_blazers"
-        },
-        {
-            "id": 7575,
-            "name": "concept_athlete_leon_powe"
-        },
-        {
-            "id": 247,
-            "name": "concept_sportsteam_boston_celtics"
-        },
-        {
-            "id": 484,
-            "name": "concept_sportsteam_san_antonio"
-        },
-        {
-            "id": 7504,
-            "name": "concept_athlete_chris_duhon"
-        },
-        {
-            "id": 3106,
-            "name": "concept_awardtrophytournament_nba_championship"
-        },
-        {
-            "id": 9753,
-            "name": "concept_athlete_amare_stoudemire"
-        },
-        {
-            "id": 961,
-            "name": "concept_sportsteam_golden_state_warriors"
-        },
-        {
-            "id": 379,
-            "name": "concept_sportsteam_hawks"
-        },
-        {
-            "id": 9954,
-            "name": "concept_athlete_tracy_mcgrady"
-        },
-        {
-            "id": 11429,
-            "name": "concept_male_allen_iverson"
-        },
-        {
-            "id": 1364,
-            "name": "concept_sportsteam_denver_nuggets"
-        },
-        {
-            "id": 115,
-            "name": "concept_sportsgame_games"
-        },
-        {
-            "id": 1495,
-            "name": "concept_sportsteam_new_orleans_hornets"
-        },
-        {
-            "id": 10880,
-            "name": "concept_coach_jason_williams"
-        },
-        {
-            "id": 2020,
-            "name": "concept_sportsteam_sacramento_kings"
-        },
-        {
-            "id": 2545,
-            "name": "concept_sportsteam_portland_trailblazers"
-        },
-        {
-            "id": 30479,
-            "name": "concept_sportsteam_buffalo_braves"
-        },
-        {
-            "id": 9950,
-            "name": "concept_athlete_tayshaun_prince"
-        },
-        {
-            "id": 4267,
-            "name": "concept_stadiumoreventvenue_palace_of_auburn_hills"
-        },
-        {
-            "id": 328,
-            "name": "concept_sportsteam_rockets"
-        },
-        {
-            "id": 6473,
-            "name": "concept_coach_gregg_popovich"
+            "id": 9756,
+            "name": "concept_athlete_antawn_jamison"
         },
         {
             "id": 4566,
             "name": "concept_coach_al_jefferson"
         },
         {
-            "id": 886,
-            "name": "concept_sportsteam_pacers"
+            "id": 7518,
+            "name": "concept_athlete_deltha_o_neal"
         },
         {
-            "id": 2149,
-            "name": "concept_sportsteam_hokies"
+            "id": 212,
+            "name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": 11429,
+            "name": "concept_male_allen_iverson"
+        },
+        {
+            "id": 1137,
+            "name": "concept_sportsteam_sixers"
+        },
+        {
+            "id": 484,
+            "name": "concept_sportsteam_san_antonio"
+        },
+        {
+            "id": 8175,
+            "name": "concept_coach_dwayne_wade"
         },
         {
             "id": 548,
             "name": "concept_sportsteam_bucks"
+        },
+        {
+            "id": 247,
+            "name": "concept_sportsteam_boston_celtics"
+        },
+        {
+            "id": 470,
+            "name": "concept_sportsteam_pistons"
+        },
+        {
+            "id": 379,
+            "name": "concept_sportsteam_hawks"
+        },
+        {
+            "id": 7617,
+            "name": "concept_athlete_rashard_lewis"
+        },
+        {
+            "id": 7481,
+            "name": "concept_athlete_andrew_bogut"
+        },
+        {
+            "id": 6095,
+            "name": "concept_athlete_ronnie_brewer"
+        },
+        {
+            "id": 9839,
+            "name": "concept_athlete_iverson"
         },
         {
             "id": 2197,
@@ -233,140 +185,108 @@
             "name": "concept_athlete_sidney_crosby"
         },
         {
-            "id": 437,
-            "name": "concept_sportsteam_pittsburgh_penguins"
+            "id": 163,
+            "name": "concept_sportsleague_nhl"
         },
         {
-            "id": 428,
-            "name": "concept_sportsteam_utah_jazz"
-        },
-        {
-            "id": 9782,
-            "name": "concept_athlete_chauncey_billups"
-        },
-        {
-            "id": 1100,
-            "name": "concept_stadiumoreventvenue_united_center"
-        },
-        {
-            "id": 1137,
-            "name": "concept_sportsteam_sixers"
-        },
-        {
-            "id": 8162,
-            "name": "concept_coach_bobby_jackson"
-        },
-        {
-            "id": 7518,
-            "name": "concept_athlete_deltha_o_neal"
-        },
-        {
-            "id": 509,
-            "name": "concept_sportsteam_new_jersey_nets"
-        },
-        {
-            "id": 7521,
-            "name": "concept_athlete_donell_taylor"
-        },
-        {
-            "id": 4785,
-            "name": "concept_person_eric_williams"
-        },
-        {
-            "id": 1166,
-            "name": "concept_sportsteam_orlando_magic"
-        },
-        {
-            "id": 13450,
-            "name": "concept_athlete_eric_gordon"
-        },
-        {
-            "id": 697,
-            "name": "concept_sportsteam_la_clippers"
-        },
-        {
-            "id": 9850,
-            "name": "concept_athlete_jason_richardson"
-        },
-        {
-            "id": 938,
-            "name": "concept_athlete_williams"
-        },
-        {
-            "id": 332,
-            "name": "concept_sport_tennis"
-        },
-        {
-            "id": 2331,
-            "name": "concept_sportsteam_duke_blue_devils"
-        },
-        {
-            "id": 309,
-            "name": "concept_sportsteamposition_player"
-        },
-        {
-            "id": 6058,
-            "name": "concept_athlete_curtis_martin"
-        },
-        {
-            "id": 58,
-            "name": "concept_sport_football"
-        },
-        {
-            "id": 9805,
-            "name": "concept_athlete_deron_williams"
-        },
-        {
-            "id": 958,
-            "name": "concept_sportsteam_bobcats"
+            "id": 2537,
+            "name": "concept_sportsteam_charlotte_bobcats"
         },
         {
             "id": 338,
             "name": "concept_sportsteam_suns"
         },
         {
-            "id": 83,
-            "name": "concept_country___america"
+            "id": 2552,
+            "name": "concept_stadiumoreventvenue_verizon_center"
         },
         {
-            "id": 13325,
-            "name": "concept_athlete_allan_houston"
+            "id": 10839,
+            "name": "concept_coach_al_harrington"
         },
         {
-            "id": 549,
-            "name": "concept_sportsteam_esu_hornets"
+            "id": 886,
+            "name": "concept_sportsteam_pacers"
         },
         {
-            "id": 7227,
-            "name": "concept_sportsteam_terps"
+            "id": 13683,
+            "name": "concept_athlete_t_j__ford"
         },
         {
-            "id": 601,
-            "name": "concept_sportsteam_man_utd"
+            "id": 958,
+            "name": "concept_sportsteam_bobcats"
         },
         {
-            "id": 68664,
-            "name": "concept_sportsteam_middle_tennessee_state_university"
+            "id": 7242,
+            "name": "concept_stadiumoreventvenue_oracle_arena"
         },
         {
-            "id": 2333,
-            "name": "concept_sportsteam_milwaukee_bucks"
+            "id": 961,
+            "name": "concept_sportsteam_golden_state_warriors"
         },
         {
-            "id": 65877,
-            "name": "concept_professor_toni_morrison"
+            "id": 9963,
+            "name": "concept_athlete_zach_randolph"
         },
         {
-            "id": 4189,
-            "name": "concept_personus_jeremy_shockey"
+            "id": 10867,
+            "name": "concept_coach_doc_rivers"
         },
         {
-            "id": 30675,
-            "name": "concept_sportsteam_nyu_bobcats"
+            "id": 10914,
+            "name": "concept_coach_phil_jackson"
         },
         {
-            "id": 20318,
-            "name": "concept_athlete_alonzo_mourning"
+            "id": 9813,
+            "name": "concept_athlete_dwyane_wade"
+        },
+        {
+            "id": 6491,
+            "name": "concept_coach_san_antonio_spurs"
+        },
+        {
+            "id": 3391,
+            "name": "concept_stadiumoreventvenue_philips_arena"
+        },
+        {
+            "id": 1100,
+            "name": "concept_stadiumoreventvenue_united_center"
+        },
+        {
+            "id": 13691,
+            "name": "concept_athlete_tim_duncan"
+        },
+        {
+            "id": 475,
+            "name": "concept_company_los_angeles"
+        },
+        {
+            "id": 509,
+            "name": "concept_sportsteam_new_jersey_nets"
+        },
+        {
+            "id": 7657,
+            "name": "concept_athlete_tyrus_thomas"
+        },
+        {
+            "id": 518,
+            "name": "concept_sportsteam_washington_wizards"
+        },
+        {
+            "id": 11441,
+            "name": "concept_male_joakim_noah"
+        },
+        {
+            "id": 20627,
+            "name": "concept_athlete_shannon_brown"
+        },
+        {
+            "id": 20341,
+            "name": "concept_athlete_bill_russell"
+        },
+        {
+            "id": 1166,
+            "name": "concept_sportsteam_orlando_magic"
         }
     ],
     "links": [
@@ -380,40 +300,94 @@
             "et_name": "concept_sportsleague_nba"
         },
         {
-            "id": "7480-68-53",
+            "id": "53-245-12614",
+            "name": "concept:leaguestadiums",
+            "source": 53,
+            "target": 12614,
+            "rel_id": 245,
+            "es_name": "concept_sportsleague_nba",
+            "et_name": "concept_stadiumoreventvenue_arco_arena"
+        },
+        {
+            "id": "79-316-12614",
+            "name": "concept:sportusesstadium_inv",
+            "source": 79,
+            "target": 12614,
+            "rel_id": 316,
+            "es_name": "concept_sport_basketball",
+            "et_name": "concept_stadiumoreventvenue_arco_arena"
+        },
+        {
+            "id": "3557-177-3106",
+            "name": "concept:coachwontrophy",
+            "source": 3557,
+            "target": 3106,
+            "rel_id": 177,
+            "es_name": "concept_coach_lebron_james",
+            "et_name": "concept_awardtrophytournament_nba_championship"
+        },
+        {
+            "id": "285-220-3106",
+            "name": "concept:teamwontrophy_inv",
+            "source": 285,
+            "target": 3106,
+            "rel_id": 220,
+            "es_name": "concept_sportsteam_knicks",
+            "et_name": "concept_awardtrophytournament_nba_championship"
+        },
+        {
+            "id": "7504-66-285",
+            "name": "concept:athleteplaysforteam_inv",
+            "source": 7504,
+            "target": 285,
+            "rel_id": 66,
+            "es_name": "concept_athlete_chris_duhon",
+            "et_name": "concept_sportsteam_knicks"
+        },
+        {
+            "id": "3557-119-7243",
+            "name": "concept:athletehomestadium",
+            "source": 3557,
+            "target": 7243,
+            "rel_id": 119,
+            "es_name": "concept_coach_lebron_james",
+            "et_name": "concept_stadiumoreventvenue_quicken_loans_arena"
+        },
+        {
+            "id": "53-246-7243",
+            "name": "concept:leaguestadiums_inv",
+            "source": 53,
+            "target": 7243,
+            "rel_id": 246,
+            "es_name": "concept_sportsleague_nba",
+            "et_name": "concept_stadiumoreventvenue_quicken_loans_arena"
+        },
+        {
+            "id": "20326-68-53",
             "name": "concept:athleteplaysinleague_inv",
-            "source": 7480,
+            "source": 20326,
             "target": 53,
             "rel_id": 68,
-            "es_name": "concept_athlete_andre_brown",
+            "es_name": "concept_athlete_anthony_parker",
             "et_name": "concept_sportsleague_nba"
         },
         {
-            "id": "7480-33-79",
-            "name": "concept:athleteplayssport",
-            "source": 7480,
-            "target": 79,
-            "rel_id": 33,
-            "es_name": "concept_athlete_andre_brown",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "9813-68-53",
-            "name": "concept:athleteplaysinleague_inv",
-            "source": 9813,
+            "id": "53-78-53",
+            "name": "concept:agentcompeteswithagent_inv",
+            "source": 53,
             "target": 53,
-            "rel_id": 68,
-            "es_name": "concept_athlete_dwyane_wade",
+            "rel_id": 78,
+            "es_name": "concept_sportsleague_nba",
             "et_name": "concept_sportsleague_nba"
         },
         {
-            "id": "9813-33-79",
-            "name": "concept:athleteplayssport",
-            "source": 9813,
-            "target": 79,
-            "rel_id": 33,
-            "es_name": "concept_athlete_dwyane_wade",
-            "et_name": "concept_sport_basketball"
+            "id": "13524-68-53",
+            "name": "concept:athleteplaysinleague_inv",
+            "source": 13524,
+            "target": 53,
+            "rel_id": 68,
+            "es_name": "concept_athlete_jorge_garbajosa",
+            "et_name": "concept_sportsleague_nba"
         },
         {
             "id": "3557-183-490",
@@ -421,6 +395,339 @@
             "source": 3557,
             "target": 490,
             "rel_id": 183,
+            "es_name": "concept_coach_lebron_james",
+            "et_name": "concept_sportsteam_cavaliers"
+        },
+        {
+            "id": "3557-354-490",
+            "name": "concept:coachesteam_inv",
+            "source": 3557,
+            "target": 490,
+            "rel_id": 354,
+            "es_name": "concept_coach_lebron_james",
+            "et_name": "concept_sportsteam_cavaliers"
+        },
+        {
+            "id": "3557-353-490",
+            "name": "concept:coachesteam",
+            "source": 3557,
+            "target": 490,
+            "rel_id": 353,
+            "es_name": "concept_coach_lebron_james",
+            "et_name": "concept_sportsteam_cavaliers"
+        },
+        {
+            "id": "9857-68-53",
+            "name": "concept:athleteplaysinleague_inv",
+            "source": 9857,
+            "target": 53,
+            "rel_id": 68,
+            "es_name": "concept_athlete_jermaine_o_neal",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "9857-67-53",
+            "name": "concept:athleteplaysinleague",
+            "source": 9857,
+            "target": 53,
+            "rel_id": 67,
+            "es_name": "concept_athlete_jermaine_o_neal",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "20631-68-53",
+            "name": "concept:athleteplaysinleague_inv",
+            "source": 20631,
+            "target": 53,
+            "rel_id": 68,
+            "es_name": "concept_athlete_sprewell",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "20631-67-53",
+            "name": "concept:athleteplaysinleague",
+            "source": 20631,
+            "target": 53,
+            "rel_id": 67,
+            "es_name": "concept_athlete_sprewell",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "7624-68-53",
+            "name": "concept:athleteplaysinleague_inv",
+            "source": 7624,
+            "target": 53,
+            "rel_id": 68,
+            "es_name": "concept_athlete_rudy_gay",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "7624-67-53",
+            "name": "concept:athleteplaysinleague",
+            "source": 7624,
+            "target": 53,
+            "rel_id": 67,
+            "es_name": "concept_athlete_rudy_gay",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "3557-66-490",
+            "name": "concept:athleteplaysforteam_inv",
+            "source": 3557,
+            "target": 490,
+            "rel_id": 66,
+            "es_name": "concept_coach_lebron_james",
+            "et_name": "concept_sportsteam_cavaliers"
+        },
+        {
+            "id": "3557-309-309",
+            "name": "concept:athleteplayssportsteamposition",
+            "source": 3557,
+            "target": 309,
+            "rel_id": 309,
+            "es_name": "concept_coach_lebron_james",
+            "et_name": "concept_sportsteamposition_player"
+        },
+        {
+            "id": "5104-310-309",
+            "name": "concept:athleteplayssportsteamposition_inv",
+            "source": 5104,
+            "target": 309,
+            "rel_id": 310,
+            "es_name": "concept_athlete_peyton_manning",
+            "et_name": "concept_sportsteamposition_player"
+        },
+        {
+            "id": "5104-183-251",
+            "name": "concept:athleteledsportsteam",
+            "source": 5104,
+            "target": 251,
+            "rel_id": 183,
+            "es_name": "concept_athlete_peyton_manning",
+            "et_name": "concept_sportsteam_colts"
+        },
+        {
+            "id": "20418-68-53",
+            "name": "concept:athleteplaysinleague_inv",
+            "source": 20418,
+            "target": 53,
+            "rel_id": 68,
+            "es_name": "concept_athlete_devin_brown",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "20418-67-53",
+            "name": "concept:athleteplaysinleague",
+            "source": 20418,
+            "target": 53,
+            "rel_id": 67,
+            "es_name": "concept_athlete_devin_brown",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "11892-68-53",
+            "name": "concept:athleteplaysinleague_inv",
+            "source": 11892,
+            "target": 53,
+            "rel_id": 68,
+            "es_name": "concept_personasia_anthony_grundy",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "11892-67-53",
+            "name": "concept:athleteplaysinleague",
+            "source": 11892,
+            "target": 53,
+            "rel_id": 67,
+            "es_name": "concept_personasia_anthony_grundy",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "3557-33-79",
+            "name": "concept:athleteplayssport",
+            "source": 3557,
+            "target": 79,
+            "rel_id": 33,
+            "es_name": "concept_coach_lebron_james",
+            "et_name": "concept_sport_basketball"
+        },
+        {
+            "id": "3557-34-79",
+            "name": "concept:athleteplayssport_inv",
+            "source": 3557,
+            "target": 79,
+            "rel_id": 34,
+            "es_name": "concept_coach_lebron_james",
+            "et_name": "concept_sport_basketball"
+        },
+        {
+            "id": "53-245-31000",
+            "name": "concept:leaguestadiums",
+            "source": 53,
+            "target": 31000,
+            "rel_id": 245,
+            "es_name": "concept_sportsleague_nba",
+            "et_name": "concept_stadiumoreventvenue_mci_center"
+        },
+        {
+            "id": "31000-191-46",
+            "name": "concept:stadiumlocatedincity",
+            "source": 31000,
+            "target": 46,
+            "rel_id": 191,
+            "es_name": "concept_stadiumoreventvenue_mci_center",
+            "et_name": "concept_city_washington_d_c"
+        },
+        {
+            "id": "53-245-2551",
+            "name": "concept:leaguestadiums",
+            "source": 53,
+            "target": 2551,
+            "rel_id": 245,
+            "es_name": "concept_sportsleague_nba",
+            "et_name": "concept_stadiumoreventvenue_toyota_center"
+        },
+        {
+            "id": "53-246-2551",
+            "name": "concept:leaguestadiums_inv",
+            "source": 53,
+            "target": 2551,
+            "rel_id": 246,
+            "es_name": "concept_sportsleague_nba",
+            "et_name": "concept_stadiumoreventvenue_toyota_center"
+        },
+        {
+            "id": "7658-384-53",
+            "name": "concept:coachesinleague_inv",
+            "source": 7658,
+            "target": 53,
+            "rel_id": 384,
+            "es_name": "concept_athlete_vinny_del_negro",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "7658-383-53",
+            "name": "concept:coachesinleague",
+            "source": 7658,
+            "target": 53,
+            "rel_id": 383,
+            "es_name": "concept_athlete_vinny_del_negro",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "9759-68-53",
+            "name": "concept:athleteplaysinleague_inv",
+            "source": 9759,
+            "target": 53,
+            "rel_id": 68,
+            "es_name": "concept_athlete_baron_davis",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "9759-67-53",
+            "name": "concept:athleteplaysinleague",
+            "source": 9759,
+            "target": 53,
+            "rel_id": 67,
+            "es_name": "concept_athlete_baron_davis",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "39589-68-53",
+            "name": "concept:athleteplaysinleague_inv",
+            "source": 39589,
+            "target": 53,
+            "rel_id": 68,
+            "es_name": "concept_athlete_emeka_okafor",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "39589-67-53",
+            "name": "concept:athleteplaysinleague",
+            "source": 39589,
+            "target": 53,
+            "rel_id": 67,
+            "es_name": "concept_athlete_emeka_okafor",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "53-245-18283",
+            "name": "concept:leaguestadiums",
+            "source": 53,
+            "target": 18283,
+            "rel_id": 245,
+            "es_name": "concept_sportsleague_nba",
+            "et_name": "concept_stadiumoreventvenue_ford_center"
+        },
+        {
+            "id": "53-246-18283",
+            "name": "concept:leaguestadiums_inv",
+            "source": 53,
+            "target": 18283,
+            "rel_id": 246,
+            "es_name": "concept_sportsleague_nba",
+            "et_name": "concept_stadiumoreventvenue_ford_center"
+        },
+        {
+            "id": "4573-68-53",
+            "name": "concept:athleteplaysinleague_inv",
+            "source": 4573,
+            "target": 53,
+            "rel_id": 68,
+            "es_name": "concept_coach_derrick_rose",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "4573-67-53",
+            "name": "concept:athleteplaysinleague",
+            "source": 4573,
+            "target": 53,
+            "rel_id": 67,
+            "es_name": "concept_coach_derrick_rose",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "53-77-53",
+            "name": "concept:agentcompeteswithagent",
+            "source": 53,
+            "target": 53,
+            "rel_id": 77,
+            "es_name": "concept_sportsleague_nba",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "10896-384-53",
+            "name": "concept:coachesinleague_inv",
+            "source": 10896,
+            "target": 53,
+            "rel_id": 384,
+            "es_name": "concept_coach_marc_iavaroni",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "10896-383-53",
+            "name": "concept:coachesinleague",
+            "source": 10896,
+            "target": 53,
+            "rel_id": 383,
+            "es_name": "concept_coach_marc_iavaroni",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "4573-383-53",
+            "name": "concept:coachesinleague",
+            "source": 4573,
+            "target": 53,
+            "rel_id": 383,
+            "es_name": "concept_coach_derrick_rose",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "3557-65-490",
+            "name": "concept:athleteplaysforteam",
+            "source": 3557,
+            "target": 490,
+            "rel_id": 65,
             "es_name": "concept_coach_lebron_james",
             "et_name": "concept_sportsteam_cavaliers"
         },
@@ -434,166 +741,13 @@
             "et_name": "concept_sportsteam_cavaliers"
         },
         {
-            "id": "3557-65-490",
-            "name": "concept:athleteplaysforteam",
+            "id": "3557-2-3557",
+            "name": "NO_OP_RELATION",
             "source": 3557,
-            "target": 490,
-            "rel_id": 65,
+            "target": 3557,
+            "rel_id": 2,
             "es_name": "concept_coach_lebron_james",
-            "et_name": "concept_sportsteam_cavaliers"
-        },
-        {
-            "id": "3557-67-53",
-            "name": "concept:athleteplaysinleague",
-            "source": 3557,
-            "target": 53,
-            "rel_id": 67,
-            "es_name": "concept_coach_lebron_james",
-            "et_name": "concept_sportsleague_nba"
-        },
-        {
-            "id": "11441-68-53",
-            "name": "concept:athleteplaysinleague_inv",
-            "source": 11441,
-            "target": 53,
-            "rel_id": 68,
-            "es_name": "concept_male_joakim_noah",
-            "et_name": "concept_sportsleague_nba"
-        },
-        {
-            "id": "11441-65-224",
-            "name": "concept:athleteplaysforteam",
-            "source": 11441,
-            "target": 224,
-            "rel_id": 65,
-            "es_name": "concept_male_joakim_noah",
-            "et_name": "concept_sportsteam_chicago_bulls"
-        },
-        {
-            "id": "9759-68-53",
-            "name": "concept:athleteplaysinleague_inv",
-            "source": 9759,
-            "target": 53,
-            "rel_id": 68,
-            "es_name": "concept_athlete_baron_davis",
-            "et_name": "concept_sportsleague_nba"
-        },
-        {
-            "id": "9759-33-79",
-            "name": "concept:athleteplayssport",
-            "source": 9759,
-            "target": 79,
-            "rel_id": 33,
-            "es_name": "concept_athlete_baron_davis",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "13426-184-490",
-            "name": "concept:athleteledsportsteam_inv",
-            "source": 13426,
-            "target": 490,
-            "rel_id": 184,
-            "es_name": "concept_athlete_delonte_west",
-            "et_name": "concept_sportsteam_cavaliers"
-        },
-        {
-            "id": "13426-67-53",
-            "name": "concept:athleteplaysinleague",
-            "source": 13426,
-            "target": 53,
-            "rel_id": 67,
-            "es_name": "concept_athlete_delonte_west",
-            "et_name": "concept_sportsleague_nba"
-        },
-        {
-            "id": "3557-353-490",
-            "name": "concept:coachesteam",
-            "source": 3557,
-            "target": 490,
-            "rel_id": 353,
-            "es_name": "concept_coach_lebron_james",
-            "et_name": "concept_sportsteam_cavaliers"
-        },
-        {
-            "id": "3557-66-490",
-            "name": "concept:athleteplaysforteam_inv",
-            "source": 3557,
-            "target": 490,
-            "rel_id": 66,
-            "es_name": "concept_coach_lebron_james",
-            "et_name": "concept_sportsteam_cavaliers"
-        },
-        {
-            "id": "9774-68-53",
-            "name": "concept:athleteplaysinleague_inv",
-            "source": 9774,
-            "target": 53,
-            "rel_id": 68,
-            "es_name": "concept_athlete_carlos_boozer",
-            "et_name": "concept_sportsleague_nba"
-        },
-        {
-            "id": "9774-33-79",
-            "name": "concept:athleteplayssport",
-            "source": 9774,
-            "target": 79,
-            "rel_id": 33,
-            "es_name": "concept_athlete_carlos_boozer",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "388-16-490",
-            "name": "concept:teamplaysagainstteam_inv",
-            "source": 388,
-            "target": 490,
-            "rel_id": 16,
-            "es_name": "concept_sportsteam_spurs",
-            "et_name": "concept_sportsteam_cavaliers"
-        },
-        {
-            "id": "388-201-79",
-            "name": "concept:teamplayssport",
-            "source": 388,
-            "target": 79,
-            "rel_id": 201,
-            "es_name": "concept_sportsteam_spurs",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "8178-68-53",
-            "name": "concept:athleteplaysinleague_inv",
-            "source": 8178,
-            "target": 53,
-            "rel_id": 68,
-            "es_name": "concept_coach_greg_oden",
-            "et_name": "concept_sportsleague_nba"
-        },
-        {
-            "id": "8178-33-79",
-            "name": "concept:athleteplayssport",
-            "source": 8178,
-            "target": 79,
-            "rel_id": 33,
-            "es_name": "concept_coach_greg_oden",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "490-15-224",
-            "name": "concept:teamplaysagainstteam",
-            "source": 490,
-            "target": 224,
-            "rel_id": 15,
-            "es_name": "concept_sportsteam_cavaliers",
-            "et_name": "concept_sportsteam_chicago_bulls"
-        },
-        {
-            "id": "93-16-224",
-            "name": "concept:teamplaysagainstteam_inv",
-            "source": 93,
-            "target": 224,
-            "rel_id": 16,
-            "es_name": "concept_sportsteam_yankees",
-            "et_name": "concept_sportsteam_chicago_bulls"
+            "et_name": "concept_coach_lebron_james"
         },
         {
             "id": "490-201-79",
@@ -602,15 +756,6 @@
             "target": 79,
             "rel_id": 201,
             "es_name": "concept_sportsteam_cavaliers",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "9756-34-79",
-            "name": "concept:athleteplayssport_inv",
-            "source": 9756,
-            "target": 79,
-            "rel_id": 34,
-            "es_name": "concept_athlete_antawn_jamison",
             "et_name": "concept_sport_basketball"
         },
         {
@@ -623,51 +768,6 @@
             "et_name": "concept_sportsleague_nba"
         },
         {
-            "id": "9756-33-79",
-            "name": "concept:athleteplayssport",
-            "source": 9756,
-            "target": 79,
-            "rel_id": 33,
-            "es_name": "concept_athlete_antawn_jamison",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "11441-33-79",
-            "name": "concept:athleteplayssport",
-            "source": 11441,
-            "target": 79,
-            "rel_id": 33,
-            "es_name": "concept_male_joakim_noah",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "3557-119-7243",
-            "name": "concept:athletehomestadium",
-            "source": 3557,
-            "target": 7243,
-            "rel_id": 119,
-            "es_name": "concept_coach_lebron_james",
-            "et_name": "concept_stadiumoreventvenue_quicken_loans_arena"
-        },
-        {
-            "id": "13722-120-7243",
-            "name": "concept:athletehomestadium_inv",
-            "source": 13722,
-            "target": 7243,
-            "rel_id": 120,
-            "es_name": "concept_athlete_zydrunas_ilgauskas",
-            "et_name": "concept_stadiumoreventvenue_quicken_loans_arena"
-        },
-        {
-            "id": "13722-119-7243",
-            "name": "concept:athletehomestadium",
-            "source": 13722,
-            "target": 7243,
-            "rel_id": 119,
-            "es_name": "concept_athlete_zydrunas_ilgauskas",
-            "et_name": "concept_stadiumoreventvenue_quicken_loans_arena"
-        },
-        {
             "id": "9756-67-53",
             "name": "concept:athleteplaysinleague",
             "source": 9756,
@@ -677,210 +777,48 @@
             "et_name": "concept_sportsleague_nba"
         },
         {
-            "id": "7243-191-565",
-            "name": "concept:stadiumlocatedincity",
-            "source": 7243,
-            "target": 565,
-            "rel_id": 191,
-            "es_name": "concept_stadiumoreventvenue_quicken_loans_arena",
-            "et_name": "concept_city_cleveland"
-        },
-        {
-            "id": "66284-290-565",
-            "name": "concept:radiostationincity_inv",
-            "source": 66284,
-            "target": 565,
-            "rel_id": 290,
-            "es_name": "concept_radiostation_wruw",
-            "et_name": "concept_city_cleveland"
-        },
-        {
-            "id": "13395-68-53",
+            "id": "4566-68-53",
             "name": "concept:athleteplaysinleague_inv",
-            "source": 13395,
+            "source": 4566,
             "target": 53,
             "rel_id": 68,
-            "es_name": "concept_athlete_chris_webber",
+            "es_name": "concept_coach_al_jefferson",
             "et_name": "concept_sportsleague_nba"
         },
         {
-            "id": "13395-67-53",
+            "id": "4566-383-53",
+            "name": "concept:coachesinleague",
+            "source": 4566,
+            "target": 53,
+            "rel_id": 383,
+            "es_name": "concept_coach_al_jefferson",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "7518-68-53",
+            "name": "concept:athleteplaysinleague_inv",
+            "source": 7518,
+            "target": 53,
+            "rel_id": 68,
+            "es_name": "concept_athlete_deltha_o_neal",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "7518-67-53",
             "name": "concept:athleteplaysinleague",
-            "source": 13395,
+            "source": 7518,
             "target": 53,
             "rel_id": 67,
-            "es_name": "concept_athlete_chris_webber",
+            "es_name": "concept_athlete_deltha_o_neal",
             "et_name": "concept_sportsleague_nba"
         },
         {
-            "id": "490-15-285",
+            "id": "490-15-212",
             "name": "concept:teamplaysagainstteam",
             "source": 490,
-            "target": 285,
-            "rel_id": 15,
-            "es_name": "concept_sportsteam_cavaliers",
-            "et_name": "concept_sportsteam_knicks"
-        },
-        {
-            "id": "490-16-285",
-            "name": "concept:teamplaysagainstteam_inv",
-            "source": 490,
-            "target": 285,
-            "rel_id": 16,
-            "es_name": "concept_sportsteam_cavaliers",
-            "et_name": "concept_sportsteam_knicks"
-        },
-        {
-            "id": "470-16-490",
-            "name": "concept:teamplaysagainstteam_inv",
-            "source": 470,
-            "target": 490,
-            "rel_id": 16,
-            "es_name": "concept_sportsteam_pistons",
-            "et_name": "concept_sportsteam_cavaliers"
-        },
-        {
-            "id": "470-201-79",
-            "name": "concept:teamplayssport",
-            "source": 470,
-            "target": 79,
-            "rel_id": 201,
-            "es_name": "concept_sportsteam_pistons",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "7657-68-53",
-            "name": "concept:athleteplaysinleague_inv",
-            "source": 7657,
-            "target": 53,
-            "rel_id": 68,
-            "es_name": "concept_athlete_tyrus_thomas",
-            "et_name": "concept_sportsleague_nba"
-        },
-        {
-            "id": "7657-33-79",
-            "name": "concept:athleteplayssport",
-            "source": 7657,
-            "target": 79,
-            "rel_id": 33,
-            "es_name": "concept_athlete_tyrus_thomas",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "8175-68-53",
-            "name": "concept:athleteplaysinleague_inv",
-            "source": 8175,
-            "target": 53,
-            "rel_id": 68,
-            "es_name": "concept_coach_dwayne_wade",
-            "et_name": "concept_sportsleague_nba"
-        },
-        {
-            "id": "8175-65-355",
-            "name": "concept:athleteplaysforteam",
-            "source": 8175,
-            "target": 355,
-            "rel_id": 65,
-            "es_name": "concept_coach_dwayne_wade",
-            "et_name": "concept_sportsteam_heat"
-        },
-        {
-            "id": "490-15-470",
-            "name": "concept:teamplaysagainstteam",
-            "source": 490,
-            "target": 470,
-            "rel_id": 15,
-            "es_name": "concept_sportsteam_cavaliers",
-            "et_name": "concept_sportsteam_pistons"
-        },
-        {
-            "id": "7624-68-53",
-            "name": "concept:athleteplaysinleague_inv",
-            "source": 7624,
-            "target": 53,
-            "rel_id": 68,
-            "es_name": "concept_athlete_rudy_gay",
-            "et_name": "concept_sportsleague_nba"
-        },
-        {
-            "id": "7624-33-79",
-            "name": "concept:athleteplayssport",
-            "source": 7624,
-            "target": 79,
-            "rel_id": 33,
-            "es_name": "concept_athlete_rudy_gay",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "4573-68-53",
-            "name": "concept:athleteplaysinleague_inv",
-            "source": 4573,
-            "target": 53,
-            "rel_id": 68,
-            "es_name": "concept_coach_derrick_rose",
-            "et_name": "concept_sportsleague_nba"
-        },
-        {
-            "id": "4573-33-79",
-            "name": "concept:athleteplayssport",
-            "source": 4573,
-            "target": 79,
-            "rel_id": 33,
-            "es_name": "concept_coach_derrick_rose",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "79-2-79",
-            "name": "NO_OP_RELATION",
-            "source": 79,
-            "target": 79,
-            "rel_id": 2,
-            "es_name": "concept_sport_basketball",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "402-16-490",
-            "name": "concept:teamplaysagainstteam_inv",
-            "source": 402,
-            "target": 490,
-            "rel_id": 16,
-            "es_name": "concept_sportsteam_raptors",
-            "et_name": "concept_sportsteam_cavaliers"
-        },
-        {
-            "id": "402-201-79",
-            "name": "concept:teamplayssport",
-            "source": 402,
-            "target": 79,
-            "rel_id": 201,
-            "es_name": "concept_sportsteam_raptors",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "490-15-388",
-            "name": "concept:teamplaysagainstteam",
-            "source": 490,
-            "target": 388,
-            "rel_id": 15,
-            "es_name": "concept_sportsteam_cavaliers",
-            "et_name": "concept_sportsteam_spurs"
-        },
-        {
-            "id": "212-16-490",
-            "name": "concept:teamplaysagainstteam_inv",
-            "source": 212,
-            "target": 490,
-            "rel_id": 16,
-            "es_name": "concept_sportsteam_los_angeles_lakers",
-            "et_name": "concept_sportsteam_cavaliers"
-        },
-        {
-            "id": "2335-16-212",
-            "name": "concept:teamplaysagainstteam_inv",
-            "source": 2335,
             "target": 212,
-            "rel_id": 16,
-            "es_name": "concept_sportsteam_sonics",
+            "rel_id": 15,
+            "es_name": "concept_sportsteam_cavaliers",
             "et_name": "concept_sportsteam_los_angeles_lakers"
         },
         {
@@ -893,195 +831,6 @@
             "et_name": "concept_sportsleague_nba"
         },
         {
-            "id": "753-16-490",
-            "name": "concept:teamplaysagainstteam_inv",
-            "source": 753,
-            "target": 490,
-            "rel_id": 16,
-            "es_name": "concept_sportsteam_trail_blazers",
-            "et_name": "concept_sportsteam_cavaliers"
-        },
-        {
-            "id": "490-16-753",
-            "name": "concept:teamplaysagainstteam_inv",
-            "source": 490,
-            "target": 753,
-            "rel_id": 16,
-            "es_name": "concept_sportsteam_cavaliers",
-            "et_name": "concept_sportsteam_trail_blazers"
-        },
-        {
-            "id": "7575-68-53",
-            "name": "concept:athleteplaysinleague_inv",
-            "source": 7575,
-            "target": 53,
-            "rel_id": 68,
-            "es_name": "concept_athlete_leon_powe",
-            "et_name": "concept_sportsleague_nba"
-        },
-        {
-            "id": "7575-183-247",
-            "name": "concept:athleteledsportsteam",
-            "source": 7575,
-            "target": 247,
-            "rel_id": 183,
-            "es_name": "concept_athlete_leon_powe",
-            "et_name": "concept_sportsteam_boston_celtics"
-        },
-        {
-            "id": "490-15-484",
-            "name": "concept:teamplaysagainstteam",
-            "source": 490,
-            "target": 484,
-            "rel_id": 15,
-            "es_name": "concept_sportsteam_cavaliers",
-            "et_name": "concept_sportsteam_san_antonio"
-        },
-        {
-            "id": "484-201-79",
-            "name": "concept:teamplayssport",
-            "source": 484,
-            "target": 79,
-            "rel_id": 201,
-            "es_name": "concept_sportsteam_san_antonio",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "7504-68-53",
-            "name": "concept:athleteplaysinleague_inv",
-            "source": 7504,
-            "target": 53,
-            "rel_id": 68,
-            "es_name": "concept_athlete_chris_duhon",
-            "et_name": "concept_sportsleague_nba"
-        },
-        {
-            "id": "7504-183-285",
-            "name": "concept:athleteledsportsteam",
-            "source": 7504,
-            "target": 285,
-            "rel_id": 183,
-            "es_name": "concept_athlete_chris_duhon",
-            "et_name": "concept_sportsteam_knicks"
-        },
-        {
-            "id": "3557-177-3106",
-            "name": "concept:coachwontrophy",
-            "source": 3557,
-            "target": 3106,
-            "rel_id": 177,
-            "es_name": "concept_coach_lebron_james",
-            "et_name": "concept_awardtrophytournament_nba_championship"
-        },
-        {
-            "id": "212-220-3106",
-            "name": "concept:teamwontrophy_inv",
-            "source": 212,
-            "target": 3106,
-            "rel_id": 220,
-            "es_name": "concept_sportsteam_los_angeles_lakers",
-            "et_name": "concept_awardtrophytournament_nba_championship"
-        },
-        {
-            "id": "212-201-79",
-            "name": "concept:teamplayssport",
-            "source": 212,
-            "target": 79,
-            "rel_id": 201,
-            "es_name": "concept_sportsteam_los_angeles_lakers",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "9753-68-53",
-            "name": "concept:athleteplaysinleague_inv",
-            "source": 9753,
-            "target": 53,
-            "rel_id": 68,
-            "es_name": "concept_athlete_amare_stoudemire",
-            "et_name": "concept_sportsleague_nba"
-        },
-        {
-            "id": "9753-33-79",
-            "name": "concept:athleteplayssport",
-            "source": 9753,
-            "target": 79,
-            "rel_id": 33,
-            "es_name": "concept_athlete_amare_stoudemire",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "224-16-490",
-            "name": "concept:teamplaysagainstteam_inv",
-            "source": 224,
-            "target": 490,
-            "rel_id": 16,
-            "es_name": "concept_sportsteam_chicago_bulls",
-            "et_name": "concept_sportsteam_cavaliers"
-        },
-        {
-            "id": "224-15-470",
-            "name": "concept:teamplaysagainstteam",
-            "source": 224,
-            "target": 470,
-            "rel_id": 15,
-            "es_name": "concept_sportsteam_chicago_bulls",
-            "et_name": "concept_sportsteam_pistons"
-        },
-        {
-            "id": "79-316-7243",
-            "name": "concept:sportusesstadium_inv",
-            "source": 79,
-            "target": 7243,
-            "rel_id": 316,
-            "es_name": "concept_sport_basketball",
-            "et_name": "concept_stadiumoreventvenue_quicken_loans_arena"
-        },
-        {
-            "id": "961-202-79",
-            "name": "concept:teamplayssport_inv",
-            "source": 961,
-            "target": 79,
-            "rel_id": 202,
-            "es_name": "concept_sportsteam_golden_state_warriors",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "490-15-379",
-            "name": "concept:teamplaysagainstteam",
-            "source": 490,
-            "target": 379,
-            "rel_id": 15,
-            "es_name": "concept_sportsteam_cavaliers",
-            "et_name": "concept_sportsteam_hawks"
-        },
-        {
-            "id": "379-201-79",
-            "name": "concept:teamplayssport",
-            "source": 379,
-            "target": 79,
-            "rel_id": 201,
-            "es_name": "concept_sportsteam_hawks",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "9954-68-53",
-            "name": "concept:athleteplaysinleague_inv",
-            "source": 9954,
-            "target": 53,
-            "rel_id": 68,
-            "es_name": "concept_athlete_tracy_mcgrady",
-            "et_name": "concept_sportsleague_nba"
-        },
-        {
-            "id": "9954-33-79",
-            "name": "concept:athleteplayssport",
-            "source": 9954,
-            "target": 79,
-            "rel_id": 33,
-            "es_name": "concept_athlete_tracy_mcgrady",
-            "et_name": "concept_sport_basketball"
-        },
-        {
             "id": "11429-68-53",
             "name": "concept:athleteplaysinleague_inv",
             "source": 11429,
@@ -1091,174 +840,129 @@
             "et_name": "concept_sportsleague_nba"
         },
         {
-            "id": "11429-33-79",
-            "name": "concept:athleteplayssport",
+            "id": "11429-67-53",
+            "name": "concept:athleteplaysinleague",
             "source": 11429,
-            "target": 79,
-            "rel_id": 33,
+            "target": 53,
+            "rel_id": 67,
             "es_name": "concept_male_allen_iverson",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "490-15-1364",
-            "name": "concept:teamplaysagainstteam",
-            "source": 490,
-            "target": 1364,
-            "rel_id": 15,
-            "es_name": "concept_sportsteam_cavaliers",
-            "et_name": "concept_sportsteam_denver_nuggets"
-        },
-        {
-            "id": "115-108-1364",
-            "name": "concept:sportsgameteam_inv",
-            "source": 115,
-            "target": 1364,
-            "rel_id": 108,
-            "es_name": "concept_sportsgame_games",
-            "et_name": "concept_sportsteam_denver_nuggets"
-        },
-        {
-            "id": "490-15-1495",
-            "name": "concept:teamplaysagainstteam",
-            "source": 490,
-            "target": 1495,
-            "rel_id": 15,
-            "es_name": "concept_sportsteam_cavaliers",
-            "et_name": "concept_sportsteam_new_orleans_hornets"
-        },
-        {
-            "id": "1495-201-79",
-            "name": "concept:teamplayssport",
-            "source": 1495,
-            "target": 79,
-            "rel_id": 201,
-            "es_name": "concept_sportsteam_new_orleans_hornets",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "10880-68-53",
-            "name": "concept:athleteplaysinleague_inv",
-            "source": 10880,
-            "target": 53,
-            "rel_id": 68,
-            "es_name": "concept_coach_jason_williams",
             "et_name": "concept_sportsleague_nba"
         },
         {
-            "id": "10880-183-2020",
-            "name": "concept:athleteledsportsteam",
-            "source": 10880,
-            "target": 2020,
-            "rel_id": 183,
-            "es_name": "concept_coach_jason_williams",
-            "et_name": "concept_sportsteam_sacramento_kings"
-        },
-        {
-            "id": "490-15-212",
-            "name": "concept:teamplaysagainstteam",
-            "source": 490,
-            "target": 212,
-            "rel_id": 15,
-            "es_name": "concept_sportsteam_cavaliers",
-            "et_name": "concept_sportsteam_los_angeles_lakers"
-        },
-        {
-            "id": "2545-56-53",
-            "name": "concept:teamplaysinleague_inv",
-            "source": 2545,
-            "target": 53,
-            "rel_id": 56,
-            "es_name": "concept_sportsteam_portland_trailblazers",
-            "et_name": "concept_sportsleague_nba"
-        },
-        {
-            "id": "285-16-2545",
+            "id": "212-16-490",
             "name": "concept:teamplaysagainstteam_inv",
-            "source": 285,
-            "target": 2545,
-            "rel_id": 16,
-            "es_name": "concept_sportsteam_knicks",
-            "et_name": "concept_sportsteam_portland_trailblazers"
-        },
-        {
-            "id": "30479-56-53",
-            "name": "concept:teamplaysinleague_inv",
-            "source": 30479,
-            "target": 53,
-            "rel_id": 56,
-            "es_name": "concept_sportsteam_buffalo_braves",
-            "et_name": "concept_sportsleague_nba"
-        },
-        {
-            "id": "30479-201-79",
-            "name": "concept:teamplayssport",
-            "source": 30479,
-            "target": 79,
-            "rel_id": 201,
-            "es_name": "concept_sportsteam_buffalo_braves",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "9950-68-53",
-            "name": "concept:athleteplaysinleague_inv",
-            "source": 9950,
-            "target": 53,
-            "rel_id": 68,
-            "es_name": "concept_athlete_tayshaun_prince",
-            "et_name": "concept_sportsleague_nba"
-        },
-        {
-            "id": "9950-119-4267",
-            "name": "concept:athletehomestadium",
-            "source": 9950,
-            "target": 4267,
-            "rel_id": 119,
-            "es_name": "concept_athlete_tayshaun_prince",
-            "et_name": "concept_stadiumoreventvenue_palace_of_auburn_hills"
-        },
-        {
-            "id": "285-220-3106",
-            "name": "concept:teamwontrophy_inv",
-            "source": 285,
-            "target": 3106,
-            "rel_id": 220,
-            "es_name": "concept_sportsteam_knicks",
-            "et_name": "concept_awardtrophytournament_nba_championship"
-        },
-        {
-            "id": "328-16-285",
-            "name": "concept:teamplaysagainstteam_inv",
-            "source": 328,
-            "target": 285,
-            "rel_id": 16,
-            "es_name": "concept_sportsteam_rockets",
-            "et_name": "concept_sportsteam_knicks"
-        },
-        {
-            "id": "212-15-247",
-            "name": "concept:teamplaysagainstteam",
             "source": 212,
-            "target": 247,
-            "rel_id": 15,
-            "es_name": "concept_sportsteam_los_angeles_lakers",
-            "et_name": "concept_sportsteam_boston_celtics"
-        },
-        {
-            "id": "285-16-490",
-            "name": "concept:teamplaysagainstteam_inv",
-            "source": 285,
             "target": 490,
             "rel_id": 16,
-            "es_name": "concept_sportsteam_knicks",
+            "es_name": "concept_sportsteam_los_angeles_lakers",
             "et_name": "concept_sportsteam_cavaliers"
         },
         {
-            "id": "285-201-79",
-            "name": "concept:teamplayssport",
-            "source": 285,
+            "id": "212-15-1137",
+            "name": "concept:teamplaysagainstteam",
+            "source": 212,
+            "target": 1137,
+            "rel_id": 15,
+            "es_name": "concept_sportsteam_los_angeles_lakers",
+            "et_name": "concept_sportsteam_sixers"
+        },
+        {
+            "id": "4566-67-53",
+            "name": "concept:athleteplaysinleague",
+            "source": 4566,
+            "target": 53,
+            "rel_id": 67,
+            "es_name": "concept_coach_al_jefferson",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "53-27-484",
+            "name": "concept:subpartoforganization",
+            "source": 53,
+            "target": 484,
+            "rel_id": 27,
+            "es_name": "concept_sportsleague_nba",
+            "et_name": "concept_sportsteam_san_antonio"
+        },
+        {
+            "id": "484-55-53",
+            "name": "concept:teamplaysinleague",
+            "source": 484,
+            "target": 53,
+            "rel_id": 55,
+            "es_name": "concept_sportsteam_san_antonio",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "8175-34-79",
+            "name": "concept:athleteplayssport_inv",
+            "source": 8175,
             "target": 79,
-            "rel_id": 201,
-            "es_name": "concept_sportsteam_knicks",
+            "rel_id": 34,
+            "es_name": "concept_coach_dwayne_wade",
+            "et_name": "concept_sport_basketball"
+        },
+        {
+            "id": "8175-67-53",
+            "name": "concept:athleteplaysinleague",
+            "source": 8175,
+            "target": 53,
+            "rel_id": 67,
+            "es_name": "concept_coach_dwayne_wade",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "53-28-212",
+            "name": "concept:subpartoforganization_inv",
+            "source": 53,
+            "target": 212,
+            "rel_id": 28,
+            "es_name": "concept_sportsleague_nba",
+            "et_name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": "490-15-548",
+            "name": "concept:teamplaysagainstteam",
+            "source": 490,
+            "target": 548,
+            "rel_id": 15,
+            "es_name": "concept_sportsteam_cavaliers",
+            "et_name": "concept_sportsteam_bucks"
+        },
+        {
+            "id": "4566-34-79",
+            "name": "concept:athleteplayssport_inv",
+            "source": 4566,
+            "target": 79,
+            "rel_id": 34,
+            "es_name": "concept_coach_al_jefferson",
+            "et_name": "concept_sport_basketball"
+        },
+        {
+            "id": "490-15-247",
+            "name": "concept:teamplaysagainstteam",
+            "source": 490,
+            "target": 247,
+            "rel_id": 15,
+            "es_name": "concept_sportsteam_cavaliers",
+            "et_name": "concept_sportsteam_boston_celtics"
+        },
+        {
+            "id": "247-55-53",
+            "name": "concept:teamplaysinleague",
+            "source": 247,
+            "target": 53,
+            "rel_id": 55,
+            "es_name": "concept_sportsteam_boston_celtics",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "4573-34-79",
+            "name": "concept:athleteplayssport_inv",
+            "source": 4573,
+            "target": 79,
+            "rel_id": 34,
+            "es_name": "concept_coach_derrick_rose",
             "et_name": "concept_sport_basketball"
         },
         {
@@ -1271,85 +975,148 @@
             "et_name": "concept_sportsteam_cavaliers"
         },
         {
-            "id": "484-15-490",
+            "id": "53-28-484",
+            "name": "concept:subpartoforganization_inv",
+            "source": 53,
+            "target": 484,
+            "rel_id": 28,
+            "es_name": "concept_sportsleague_nba",
+            "et_name": "concept_sportsteam_san_antonio"
+        },
+        {
+            "id": "490-15-470",
             "name": "concept:teamplaysagainstteam",
-            "source": 484,
-            "target": 490,
+            "source": 490,
+            "target": 470,
             "rel_id": 15,
-            "es_name": "concept_sportsteam_san_antonio",
-            "et_name": "concept_sportsteam_cavaliers"
+            "es_name": "concept_sportsteam_cavaliers",
+            "et_name": "concept_sportsteam_pistons"
         },
         {
-            "id": "484-43-6473",
-            "name": "concept:organizationhiredperson",
-            "source": 484,
-            "target": 6473,
-            "rel_id": 43,
-            "es_name": "concept_sportsteam_san_antonio",
-            "et_name": "concept_coach_gregg_popovich"
+            "id": "470-55-53",
+            "name": "concept:teamplaysinleague",
+            "source": 470,
+            "target": 53,
+            "rel_id": 55,
+            "es_name": "concept_sportsteam_pistons",
+            "et_name": "concept_sportsleague_nba"
         },
         {
-            "id": "4566-68-53",
+            "id": "490-15-379",
+            "name": "concept:teamplaysagainstteam",
+            "source": 490,
+            "target": 379,
+            "rel_id": 15,
+            "es_name": "concept_sportsteam_cavaliers",
+            "et_name": "concept_sportsteam_hawks"
+        },
+        {
+            "id": "379-55-53",
+            "name": "concept:teamplaysinleague",
+            "source": 379,
+            "target": 53,
+            "rel_id": 55,
+            "es_name": "concept_sportsteam_hawks",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "3557-178-3106",
+            "name": "concept:coachwontrophy_inv",
+            "source": 3557,
+            "target": 3106,
+            "rel_id": 178,
+            "es_name": "concept_coach_lebron_james",
+            "et_name": "concept_awardtrophytournament_nba_championship"
+        },
+        {
+            "id": "53-2-53",
+            "name": "NO_OP_RELATION",
+            "source": 53,
+            "target": 53,
+            "rel_id": 2,
+            "es_name": "concept_sportsleague_nba",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "7617-68-53",
             "name": "concept:athleteplaysinleague_inv",
-            "source": 4566,
+            "source": 7617,
             "target": 53,
             "rel_id": 68,
-            "es_name": "concept_coach_al_jefferson",
+            "es_name": "concept_athlete_rashard_lewis",
             "et_name": "concept_sportsleague_nba"
         },
         {
-            "id": "4566-33-79",
-            "name": "concept:athleteplayssport",
-            "source": 4566,
-            "target": 79,
-            "rel_id": 33,
-            "es_name": "concept_coach_al_jefferson",
-            "et_name": "concept_sport_basketball"
+            "id": "7617-67-53",
+            "name": "concept:athleteplaysinleague",
+            "source": 7617,
+            "target": 53,
+            "rel_id": 67,
+            "es_name": "concept_athlete_rashard_lewis",
+            "et_name": "concept_sportsleague_nba"
         },
         {
-            "id": "285-15-886",
-            "name": "concept:teamplaysagainstteam",
-            "source": 285,
-            "target": 886,
-            "rel_id": 15,
-            "es_name": "concept_sportsteam_knicks",
-            "et_name": "concept_sportsteam_pacers"
+            "id": "7481-184-212",
+            "name": "concept:athleteledsportsteam_inv",
+            "source": 7481,
+            "target": 212,
+            "rel_id": 184,
+            "es_name": "concept_athlete_andrew_bogut",
+            "et_name": "concept_sportsteam_los_angeles_lakers"
         },
         {
-            "id": "3557-2-3557",
-            "name": "NO_OP_RELATION",
+            "id": "6095-68-53",
+            "name": "concept:athleteplaysinleague_inv",
+            "source": 6095,
+            "target": 53,
+            "rel_id": 68,
+            "es_name": "concept_athlete_ronnie_brewer",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "6095-67-53",
+            "name": "concept:athleteplaysinleague",
+            "source": 6095,
+            "target": 53,
+            "rel_id": 67,
+            "es_name": "concept_athlete_ronnie_brewer",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "9839-68-53",
+            "name": "concept:athleteplaysinleague_inv",
+            "source": 9839,
+            "target": 53,
+            "rel_id": 68,
+            "es_name": "concept_athlete_iverson",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "9839-67-53",
+            "name": "concept:athleteplaysinleague",
+            "source": 9839,
+            "target": 53,
+            "rel_id": 67,
+            "es_name": "concept_athlete_iverson",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "3557-120-7243",
+            "name": "concept:athletehomestadium_inv",
             "source": 3557,
-            "target": 3557,
-            "rel_id": 2,
+            "target": 7243,
+            "rel_id": 120,
             "es_name": "concept_coach_lebron_james",
-            "et_name": "concept_coach_lebron_james"
+            "et_name": "concept_stadiumoreventvenue_quicken_loans_arena"
         },
         {
-            "id": "2149-16-490",
+            "id": "247-16-490",
             "name": "concept:teamplaysagainstteam_inv",
-            "source": 2149,
+            "source": 247,
             "target": 490,
             "rel_id": 16,
-            "es_name": "concept_sportsteam_hokies",
+            "es_name": "concept_sportsteam_boston_celtics",
             "et_name": "concept_sportsteam_cavaliers"
-        },
-        {
-            "id": "212-56-53",
-            "name": "concept:teamplaysinleague_inv",
-            "source": 212,
-            "target": 53,
-            "rel_id": 56,
-            "es_name": "concept_sportsteam_los_angeles_lakers",
-            "et_name": "concept_sportsleague_nba"
-        },
-        {
-            "id": "548-16-212",
-            "name": "concept:teamplaysagainstteam_inv",
-            "source": 548,
-            "target": 212,
-            "rel_id": 16,
-            "es_name": "concept_sportsteam_bucks",
-            "et_name": "concept_sportsteam_los_angeles_lakers"
         },
         {
             "id": "3557-273-2197",
@@ -1370,409 +1137,148 @@
             "et_name": "concept_bone_ankle"
         },
         {
-            "id": "6097-183-437",
-            "name": "concept:athleteledsportsteam",
+            "id": "6097-67-163",
+            "name": "concept:athleteplaysinleague",
             "source": 6097,
-            "target": 437,
-            "rel_id": 183,
+            "target": 163,
+            "rel_id": 67,
             "es_name": "concept_athlete_sidney_crosby",
-            "et_name": "concept_sportsteam_pittsburgh_penguins"
+            "et_name": "concept_sportsleague_nhl"
         },
         {
-            "id": "3557-384-53",
+            "id": "2537-16-212",
+            "name": "concept:teamplaysagainstteam_inv",
+            "source": 2537,
+            "target": 212,
+            "rel_id": 16,
+            "es_name": "concept_sportsteam_charlotte_bobcats",
+            "et_name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": "7518-183-338",
+            "name": "concept:athleteledsportsteam",
+            "source": 7518,
+            "target": 338,
+            "rel_id": 183,
+            "es_name": "concept_athlete_deltha_o_neal",
+            "et_name": "concept_sportsteam_suns"
+        },
+        {
+            "id": "490-15-484",
+            "name": "concept:teamplaysagainstteam",
+            "source": 490,
+            "target": 484,
+            "rel_id": 15,
+            "es_name": "concept_sportsteam_cavaliers",
+            "et_name": "concept_sportsteam_san_antonio"
+        },
+        {
+            "id": "4566-384-53",
             "name": "concept:coachesinleague_inv",
-            "source": 3557,
-            "target": 53,
-            "rel_id": 384,
-            "es_name": "concept_coach_lebron_james",
-            "et_name": "concept_sportsleague_nba"
-        },
-        {
-            "id": "428-56-53",
-            "name": "concept:teamplaysinleague_inv",
-            "source": 428,
-            "target": 53,
-            "rel_id": 56,
-            "es_name": "concept_sportsteam_utah_jazz",
-            "et_name": "concept_sportsleague_nba"
-        },
-        {
-            "id": "428-201-79",
-            "name": "concept:teamplayssport",
-            "source": 428,
-            "target": 79,
-            "rel_id": 201,
-            "es_name": "concept_sportsteam_utah_jazz",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "548-16-490",
-            "name": "concept:teamplaysagainstteam_inv",
-            "source": 548,
-            "target": 490,
-            "rel_id": 16,
-            "es_name": "concept_sportsteam_bucks",
-            "et_name": "concept_sportsteam_cavaliers"
-        },
-        {
-            "id": "548-201-79",
-            "name": "concept:teamplayssport",
-            "source": 548,
-            "target": 79,
-            "rel_id": 201,
-            "es_name": "concept_sportsteam_bucks",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "9782-68-53",
-            "name": "concept:athleteplaysinleague_inv",
-            "source": 9782,
-            "target": 53,
-            "rel_id": 68,
-            "es_name": "concept_athlete_chauncey_billups",
-            "et_name": "concept_sportsleague_nba"
-        },
-        {
-            "id": "9782-33-79",
-            "name": "concept:athleteplayssport",
-            "source": 9782,
-            "target": 79,
-            "rel_id": 33,
-            "es_name": "concept_athlete_chauncey_billups",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "11441-119-1100",
-            "name": "concept:athletehomestadium",
-            "source": 11441,
-            "target": 1100,
-            "rel_id": 119,
-            "es_name": "concept_male_joakim_noah",
-            "et_name": "concept_stadiumoreventvenue_united_center"
-        },
-        {
-            "id": "402-16-548",
-            "name": "concept:teamplaysagainstteam_inv",
-            "source": 402,
-            "target": 548,
-            "rel_id": 16,
-            "es_name": "concept_sportsteam_raptors",
-            "et_name": "concept_sportsteam_bucks"
-        },
-        {
-            "id": "1137-56-53",
-            "name": "concept:teamplaysinleague_inv",
-            "source": 1137,
-            "target": 53,
-            "rel_id": 56,
-            "es_name": "concept_sportsteam_sixers",
-            "et_name": "concept_sportsleague_nba"
-        },
-        {
-            "id": "548-16-1137",
-            "name": "concept:teamplaysagainstteam_inv",
-            "source": 548,
-            "target": 1137,
-            "rel_id": 16,
-            "es_name": "concept_sportsteam_bucks",
-            "et_name": "concept_sportsteam_sixers"
-        },
-        {
-            "id": "490-15-548",
-            "name": "concept:teamplaysagainstteam",
-            "source": 490,
-            "target": 548,
-            "rel_id": 15,
-            "es_name": "concept_sportsteam_cavaliers",
-            "et_name": "concept_sportsteam_bucks"
-        },
-        {
-            "id": "1137-201-79",
-            "name": "concept:teamplayssport",
-            "source": 1137,
-            "target": 79,
-            "rel_id": 201,
-            "es_name": "concept_sportsteam_sixers",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "8162-68-53",
-            "name": "concept:athleteplaysinleague_inv",
-            "source": 8162,
-            "target": 53,
-            "rel_id": 68,
-            "es_name": "concept_coach_bobby_jackson",
-            "et_name": "concept_sportsleague_nba"
-        },
-        {
-            "id": "8162-33-79",
-            "name": "concept:athleteplayssport",
-            "source": 8162,
-            "target": 79,
-            "rel_id": 33,
-            "es_name": "concept_coach_bobby_jackson",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "490-16-548",
-            "name": "concept:teamplaysagainstteam_inv",
-            "source": 490,
-            "target": 548,
-            "rel_id": 16,
-            "es_name": "concept_sportsteam_cavaliers",
-            "et_name": "concept_sportsteam_bucks"
-        },
-        {
-            "id": "115-108-2545",
-            "name": "concept:sportsgameteam_inv",
-            "source": 115,
-            "target": 2545,
-            "rel_id": 108,
-            "es_name": "concept_sportsgame_games",
-            "et_name": "concept_sportsteam_portland_trailblazers"
-        },
-        {
-            "id": "2545-201-79",
-            "name": "concept:teamplayssport",
-            "source": 2545,
-            "target": 79,
-            "rel_id": 201,
-            "es_name": "concept_sportsteam_portland_trailblazers",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "7518-68-53",
-            "name": "concept:athleteplaysinleague_inv",
-            "source": 7518,
-            "target": 53,
-            "rel_id": 68,
-            "es_name": "concept_athlete_deltha_o_neal",
-            "et_name": "concept_sportsleague_nba"
-        },
-        {
-            "id": "7518-33-79",
-            "name": "concept:athleteplayssport",
-            "source": 7518,
-            "target": 79,
-            "rel_id": 33,
-            "es_name": "concept_athlete_deltha_o_neal",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "470-56-53",
-            "name": "concept:teamplaysinleague_inv",
-            "source": 470,
-            "target": 53,
-            "rel_id": 56,
-            "es_name": "concept_sportsteam_pistons",
-            "et_name": "concept_sportsleague_nba"
-        },
-        {
-            "id": "212-15-470",
-            "name": "concept:teamplaysagainstteam",
-            "source": 212,
-            "target": 470,
-            "rel_id": 15,
-            "es_name": "concept_sportsteam_los_angeles_lakers",
-            "et_name": "concept_sportsteam_pistons"
-        },
-        {
-            "id": "490-15-509",
-            "name": "concept:teamplaysagainstteam",
-            "source": 490,
-            "target": 509,
-            "rel_id": 15,
-            "es_name": "concept_sportsteam_cavaliers",
-            "et_name": "concept_sportsteam_new_jersey_nets"
-        },
-        {
-            "id": "509-201-79",
-            "name": "concept:teamplayssport",
-            "source": 509,
-            "target": 79,
-            "rel_id": 201,
-            "es_name": "concept_sportsteam_new_jersey_nets",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "4566-383-53",
-            "name": "concept:coachesinleague",
             "source": 4566,
             "target": 53,
-            "rel_id": 383,
+            "rel_id": 384,
             "es_name": "concept_coach_al_jefferson",
             "et_name": "concept_sportsleague_nba"
         },
         {
-            "id": "7521-68-53",
+            "id": "4566-119-2552",
+            "name": "concept:athletehomestadium",
+            "source": 4566,
+            "target": 2552,
+            "rel_id": 119,
+            "es_name": "concept_coach_al_jefferson",
+            "et_name": "concept_stadiumoreventvenue_verizon_center"
+        },
+        {
+            "id": "10839-68-53",
             "name": "concept:athleteplaysinleague_inv",
-            "source": 7521,
+            "source": 10839,
             "target": 53,
             "rel_id": 68,
-            "es_name": "concept_athlete_donell_taylor",
+            "es_name": "concept_coach_al_harrington",
             "et_name": "concept_sportsleague_nba"
         },
         {
-            "id": "7521-269-4785",
-            "name": "concept:personalsoknownas",
-            "source": 7521,
-            "target": 4785,
-            "rel_id": 269,
-            "es_name": "concept_athlete_donell_taylor",
-            "et_name": "concept_person_eric_williams"
-        },
-        {
-            "id": "1166-56-53",
-            "name": "concept:teamplaysinleague_inv",
-            "source": 1166,
+            "id": "10839-67-53",
+            "name": "concept:athleteplaysinleague",
+            "source": 10839,
             "target": 53,
-            "rel_id": 56,
-            "es_name": "concept_sportsteam_orlando_magic",
+            "rel_id": 67,
+            "es_name": "concept_coach_al_harrington",
             "et_name": "concept_sportsleague_nba"
         },
         {
-            "id": "1166-201-79",
-            "name": "concept:teamplayssport",
-            "source": 1166,
-            "target": 79,
-            "rel_id": 201,
-            "es_name": "concept_sportsteam_orlando_magic",
-            "et_name": "concept_sport_basketball"
+            "id": "4566-2-4566",
+            "name": "NO_OP_RELATION",
+            "source": 4566,
+            "target": 4566,
+            "rel_id": 2,
+            "es_name": "concept_coach_al_jefferson",
+            "et_name": "concept_coach_al_jefferson"
         },
         {
-            "id": "13450-68-53",
-            "name": "concept:athleteplaysinleague_inv",
-            "source": 13450,
-            "target": 53,
-            "rel_id": 68,
-            "es_name": "concept_athlete_eric_gordon",
-            "et_name": "concept_sportsleague_nba"
+            "id": "53-27-212",
+            "name": "concept:subpartoforganization",
+            "source": 53,
+            "target": 212,
+            "rel_id": 27,
+            "es_name": "concept_sportsleague_nba",
+            "et_name": "concept_sportsteam_los_angeles_lakers"
         },
         {
-            "id": "13450-65-697",
-            "name": "concept:athleteplaysforteam",
-            "source": 13450,
-            "target": 697,
-            "rel_id": 65,
-            "es_name": "concept_athlete_eric_gordon",
-            "et_name": "concept_sportsteam_la_clippers"
-        },
-        {
-            "id": "470-15-1137",
-            "name": "concept:teamplaysagainstteam",
-            "source": 470,
-            "target": 1137,
-            "rel_id": 15,
-            "es_name": "concept_sportsteam_pistons",
-            "et_name": "concept_sportsteam_sixers"
-        },
-        {
-            "id": "9850-68-53",
-            "name": "concept:athleteplaysinleague_inv",
-            "source": 9850,
-            "target": 53,
-            "rel_id": 68,
-            "es_name": "concept_athlete_jason_richardson",
-            "et_name": "concept_sportsleague_nba"
-        },
-        {
-            "id": "9850-183-961",
-            "name": "concept:athleteledsportsteam",
-            "source": 9850,
-            "target": 961,
-            "rel_id": 183,
-            "es_name": "concept_athlete_jason_richardson",
-            "et_name": "concept_sportsteam_golden_state_warriors"
-        },
-        {
-            "id": "509-15-388",
-            "name": "concept:teamplaysagainstteam",
-            "source": 509,
-            "target": 388,
-            "rel_id": 15,
-            "es_name": "concept_sportsteam_new_jersey_nets",
-            "et_name": "concept_sportsteam_spurs"
-        },
-        {
-            "id": "938-274-2197",
-            "name": "concept:athleteinjuredhisbodypart_inv",
-            "source": 938,
-            "target": 2197,
-            "rel_id": 274,
-            "es_name": "concept_athlete_williams",
-            "et_name": "concept_bone_ankle"
-        },
-        {
-            "id": "938-33-332",
-            "name": "concept:athleteplayssport",
-            "source": 938,
-            "target": 332,
-            "rel_id": 33,
-            "es_name": "concept_athlete_williams",
-            "et_name": "concept_sport_tennis"
-        },
-        {
-            "id": "2331-202-79",
-            "name": "concept:teamplayssport_inv",
-            "source": 2331,
-            "target": 79,
-            "rel_id": 202,
-            "es_name": "concept_sportsteam_duke_blue_devils",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "3557-309-309",
-            "name": "concept:athleteplayssportsteamposition",
-            "source": 3557,
-            "target": 309,
-            "rel_id": 309,
-            "es_name": "concept_coach_lebron_james",
-            "et_name": "concept_sportsteamposition_player"
-        },
-        {
-            "id": "6058-310-309",
-            "name": "concept:athleteplayssportsteamposition_inv",
-            "source": 6058,
-            "target": 309,
-            "rel_id": 310,
-            "es_name": "concept_athlete_curtis_martin",
-            "et_name": "concept_sportsteamposition_player"
-        },
-        {
-            "id": "6058-33-58",
-            "name": "concept:athleteplayssport",
-            "source": 6058,
-            "target": 58,
-            "rel_id": 33,
-            "es_name": "concept_athlete_curtis_martin",
-            "et_name": "concept_sport_football"
-        },
-        {
-            "id": "1137-16-548",
+            "id": "886-16-212",
             "name": "concept:teamplaysagainstteam_inv",
-            "source": 1137,
-            "target": 548,
+            "source": 886,
+            "target": 212,
             "rel_id": 16,
-            "es_name": "concept_sportsteam_sixers",
-            "et_name": "concept_sportsteam_bucks"
+            "es_name": "concept_sportsteam_pacers",
+            "et_name": "concept_sportsteam_los_angeles_lakers"
         },
         {
-            "id": "9805-68-53",
-            "name": "concept:athleteplaysinleague_inv",
-            "source": 9805,
+            "id": "212-220-3106",
+            "name": "concept:teamwontrophy_inv",
+            "source": 212,
+            "target": 3106,
+            "rel_id": 220,
+            "es_name": "concept_sportsteam_los_angeles_lakers",
+            "et_name": "concept_awardtrophytournament_nba_championship"
+        },
+        {
+            "id": "13683-34-79",
+            "name": "concept:athleteplayssport_inv",
+            "source": 13683,
+            "target": 79,
+            "rel_id": 34,
+            "es_name": "concept_athlete_t_j__ford",
+            "et_name": "concept_sport_basketball"
+        },
+        {
+            "id": "13683-67-53",
+            "name": "concept:athleteplaysinleague",
+            "source": 13683,
             "target": 53,
-            "rel_id": 68,
-            "es_name": "concept_athlete_deron_williams",
+            "rel_id": 67,
+            "es_name": "concept_athlete_t_j__ford",
             "et_name": "concept_sportsleague_nba"
         },
         {
-            "id": "9805-33-79",
-            "name": "concept:athleteplayssport",
-            "source": 9805,
-            "target": 79,
-            "rel_id": 33,
-            "es_name": "concept_athlete_deron_williams",
-            "et_name": "concept_sport_basketball"
+            "id": "53-27-338",
+            "name": "concept:subpartoforganization",
+            "source": 53,
+            "target": 338,
+            "rel_id": 27,
+            "es_name": "concept_sportsleague_nba",
+            "et_name": "concept_sportsteam_suns"
+        },
+        {
+            "id": "53-28-338",
+            "name": "concept:subpartoforganization_inv",
+            "source": 53,
+            "target": 338,
+            "rel_id": 28,
+            "es_name": "concept_sportsleague_nba",
+            "et_name": "concept_sportsteam_suns"
         },
         {
             "id": "490-15-958",
@@ -1784,67 +1290,175 @@
             "et_name": "concept_sportsteam_bobcats"
         },
         {
-            "id": "958-15-548",
-            "name": "concept:teamplaysagainstteam",
+            "id": "958-55-53",
+            "name": "concept:teamplaysinleague",
             "source": 958,
-            "target": 548,
-            "rel_id": 15,
+            "target": 53,
+            "rel_id": 55,
             "es_name": "concept_sportsteam_bobcats",
-            "et_name": "concept_sportsteam_bucks"
+            "et_name": "concept_sportsleague_nba"
         },
         {
-            "id": "490-15-2149",
+            "id": "53-245-7242",
+            "name": "concept:leaguestadiums",
+            "source": 53,
+            "target": 7242,
+            "rel_id": 245,
+            "es_name": "concept_sportsleague_nba",
+            "et_name": "concept_stadiumoreventvenue_oracle_arena"
+        },
+        {
+            "id": "961-346-7242",
+            "name": "concept:teamhomestadium_inv",
+            "source": 961,
+            "target": 7242,
+            "rel_id": 346,
+            "es_name": "concept_sportsteam_golden_state_warriors",
+            "et_name": "concept_stadiumoreventvenue_oracle_arena"
+        },
+        {
+            "id": "9963-68-53",
+            "name": "concept:athleteplaysinleague_inv",
+            "source": 9963,
+            "target": 53,
+            "rel_id": 68,
+            "es_name": "concept_athlete_zach_randolph",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "9963-67-53",
+            "name": "concept:athleteplaysinleague",
+            "source": 9963,
+            "target": 53,
+            "rel_id": 67,
+            "es_name": "concept_athlete_zach_randolph",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "10867-384-53",
+            "name": "concept:coachesinleague_inv",
+            "source": 10867,
+            "target": 53,
+            "rel_id": 384,
+            "es_name": "concept_coach_doc_rivers",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "10867-383-53",
+            "name": "concept:coachesinleague",
+            "source": 10867,
+            "target": 53,
+            "rel_id": 383,
+            "es_name": "concept_coach_doc_rivers",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "470-16-490",
+            "name": "concept:teamplaysagainstteam_inv",
+            "source": 470,
+            "target": 490,
+            "rel_id": 16,
+            "es_name": "concept_sportsteam_pistons",
+            "et_name": "concept_sportsteam_cavaliers"
+        },
+        {
+            "id": "548-16-490",
+            "name": "concept:teamplaysagainstteam_inv",
+            "source": 548,
+            "target": 490,
+            "rel_id": 16,
+            "es_name": "concept_sportsteam_bucks",
+            "et_name": "concept_sportsteam_cavaliers"
+        },
+        {
+            "id": "548-55-53",
+            "name": "concept:teamplaysinleague",
+            "source": 548,
+            "target": 53,
+            "rel_id": 55,
+            "es_name": "concept_sportsteam_bucks",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "10914-178-3106",
+            "name": "concept:coachwontrophy_inv",
+            "source": 10914,
+            "target": 3106,
+            "rel_id": 178,
+            "es_name": "concept_coach_phil_jackson",
+            "et_name": "concept_awardtrophytournament_nba_championship"
+        },
+        {
+            "id": "10914-383-53",
+            "name": "concept:coachesinleague",
+            "source": 10914,
+            "target": 53,
+            "rel_id": 383,
+            "es_name": "concept_coach_phil_jackson",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "548-15-212",
             "name": "concept:teamplaysagainstteam",
-            "source": 490,
-            "target": 2149,
+            "source": 548,
+            "target": 212,
             "rel_id": 15,
-            "es_name": "concept_sportsteam_cavaliers",
-            "et_name": "concept_sportsteam_hokies"
+            "es_name": "concept_sportsteam_bucks",
+            "et_name": "concept_sportsteam_los_angeles_lakers"
         },
         {
-            "id": "2149-201-79",
-            "name": "concept:teamplayssport",
-            "source": 2149,
+            "id": "9813-34-79",
+            "name": "concept:athleteplayssport_inv",
+            "source": 9813,
             "target": 79,
-            "rel_id": 201,
-            "es_name": "concept_sportsteam_hokies",
+            "rel_id": 34,
+            "es_name": "concept_athlete_dwyane_wade",
             "et_name": "concept_sport_basketball"
         },
         {
-            "id": "285-15-1137",
-            "name": "concept:teamplaysagainstteam",
-            "source": 285,
-            "target": 1137,
-            "rel_id": 15,
-            "es_name": "concept_sportsteam_knicks",
-            "et_name": "concept_sportsteam_sixers"
+            "id": "9813-67-53",
+            "name": "concept:athleteplaysinleague",
+            "source": 9813,
+            "target": 53,
+            "rel_id": 67,
+            "es_name": "concept_athlete_dwyane_wade",
+            "et_name": "concept_sportsleague_nba"
         },
         {
-            "id": "8162-353-886",
-            "name": "concept:coachesteam",
-            "source": 8162,
-            "target": 886,
-            "rel_id": 353,
-            "es_name": "concept_coach_bobby_jackson",
-            "et_name": "concept_sportsteam_pacers"
+            "id": "6491-14-53",
+            "name": "concept:subpartof_inv",
+            "source": 6491,
+            "target": 53,
+            "rel_id": 14,
+            "es_name": "concept_coach_san_antonio_spurs",
+            "et_name": "concept_sportsleague_nba"
         },
         {
-            "id": "490-15-402",
-            "name": "concept:teamplaysagainstteam",
-            "source": 490,
-            "target": 402,
-            "rel_id": 15,
-            "es_name": "concept_sportsteam_cavaliers",
-            "et_name": "concept_sportsteam_raptors"
+            "id": "53-40-6491",
+            "name": "concept:agentcontrols_inv",
+            "source": 53,
+            "target": 6491,
+            "rel_id": 40,
+            "es_name": "concept_sportsleague_nba",
+            "et_name": "concept_coach_san_antonio_spurs"
         },
         {
-            "id": "509-15-548",
-            "name": "concept:teamplaysagainstteam",
-            "source": 509,
-            "target": 548,
-            "rel_id": 15,
-            "es_name": "concept_sportsteam_new_jersey_nets",
-            "et_name": "concept_sportsteam_bucks"
+            "id": "53-245-3391",
+            "name": "concept:leaguestadiums",
+            "source": 53,
+            "target": 3391,
+            "rel_id": 245,
+            "es_name": "concept_sportsleague_nba",
+            "et_name": "concept_stadiumoreventvenue_philips_arena"
+        },
+        {
+            "id": "53-246-3391",
+            "name": "concept:leaguestadiums_inv",
+            "source": 53,
+            "target": 3391,
+            "rel_id": 246,
+            "es_name": "concept_sportsleague_nba",
+            "et_name": "concept_stadiumoreventvenue_philips_arena"
         },
         {
             "id": "4573-119-1100",
@@ -1856,202 +1470,40 @@
             "et_name": "concept_stadiumoreventvenue_united_center"
         },
         {
-            "id": "490-15-338",
-            "name": "concept:teamplaysagainstteam",
-            "source": 490,
-            "target": 338,
-            "rel_id": 15,
-            "es_name": "concept_sportsteam_cavaliers",
-            "et_name": "concept_sportsteam_suns"
+            "id": "9839-66-470",
+            "name": "concept:athleteplaysforteam_inv",
+            "source": 9839,
+            "target": 470,
+            "rel_id": 66,
+            "es_name": "concept_athlete_iverson",
+            "et_name": "concept_sportsteam_pistons"
         },
         {
-            "id": "115-108-338",
-            "name": "concept:sportsgameteam_inv",
-            "source": 115,
-            "target": 338,
-            "rel_id": 108,
-            "es_name": "concept_sportsgame_games",
-            "et_name": "concept_sportsteam_suns"
+            "id": "212-2-212",
+            "name": "NO_OP_RELATION",
+            "source": 212,
+            "target": 212,
+            "rel_id": 2,
+            "es_name": "concept_sportsteam_los_angeles_lakers",
+            "et_name": "concept_sportsteam_los_angeles_lakers"
         },
         {
-            "id": "509-16-490",
-            "name": "concept:teamplaysagainstteam_inv",
-            "source": 509,
-            "target": 490,
-            "rel_id": 16,
-            "es_name": "concept_sportsteam_new_jersey_nets",
-            "et_name": "concept_sportsteam_cavaliers"
-        },
-        {
-            "id": "79-275-83",
-            "name": "concept:sportschoolincountry",
-            "source": 79,
-            "target": 83,
-            "rel_id": 275,
-            "es_name": "concept_sport_basketball",
-            "et_name": "concept_country___america"
-        },
-        {
-            "id": "247-16-490",
-            "name": "concept:teamplaysagainstteam_inv",
-            "source": 247,
-            "target": 490,
-            "rel_id": 16,
-            "es_name": "concept_sportsteam_boston_celtics",
-            "et_name": "concept_sportsteam_cavaliers"
-        },
-        {
-            "id": "247-15-548",
-            "name": "concept:teamplaysagainstteam",
-            "source": 247,
-            "target": 548,
-            "rel_id": 15,
-            "es_name": "concept_sportsteam_boston_celtics",
-            "et_name": "concept_sportsteam_bucks"
-        },
-        {
-            "id": "490-15-753",
-            "name": "concept:teamplaysagainstteam",
-            "source": 490,
-            "target": 753,
-            "rel_id": 15,
-            "es_name": "concept_sportsteam_cavaliers",
-            "et_name": "concept_sportsteam_trail_blazers"
-        },
-        {
-            "id": "753-15-224",
-            "name": "concept:teamplaysagainstteam",
-            "source": 753,
-            "target": 224,
-            "rel_id": 15,
-            "es_name": "concept_sportsteam_trail_blazers",
-            "et_name": "concept_sportsteam_chicago_bulls"
-        },
-        {
-            "id": "509-56-53",
-            "name": "concept:teamplaysinleague_inv",
-            "source": 509,
-            "target": 53,
-            "rel_id": 56,
-            "es_name": "concept_sportsteam_new_jersey_nets",
-            "et_name": "concept_sportsleague_nba"
-        },
-        {
-            "id": "388-16-509",
-            "name": "concept:teamplaysagainstteam_inv",
-            "source": 388,
-            "target": 509,
-            "rel_id": 16,
-            "es_name": "concept_sportsteam_spurs",
-            "et_name": "concept_sportsteam_new_jersey_nets"
-        },
-        {
-            "id": "13325-68-53",
+            "id": "13691-68-53",
             "name": "concept:athleteplaysinleague_inv",
-            "source": 13325,
+            "source": 13691,
             "target": 53,
             "rel_id": 68,
-            "es_name": "concept_athlete_allan_houston",
+            "es_name": "concept_athlete_tim_duncan",
             "et_name": "concept_sportsleague_nba"
         },
         {
-            "id": "13325-33-79",
-            "name": "concept:athleteplayssport",
-            "source": 13325,
-            "target": 79,
-            "rel_id": 33,
-            "es_name": "concept_athlete_allan_houston",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "549-56-53",
-            "name": "concept:teamplaysinleague_inv",
-            "source": 549,
+            "id": "13691-67-53",
+            "name": "concept:athleteplaysinleague",
+            "source": 13691,
             "target": 53,
-            "rel_id": 56,
-            "es_name": "concept_sportsteam_esu_hornets",
+            "rel_id": 67,
+            "es_name": "concept_athlete_tim_duncan",
             "et_name": "concept_sportsleague_nba"
-        },
-        {
-            "id": "549-201-79",
-            "name": "concept:teamplayssport",
-            "source": 549,
-            "target": 79,
-            "rel_id": 201,
-            "es_name": "concept_sportsteam_esu_hornets",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "388-220-3106",
-            "name": "concept:teamwontrophy_inv",
-            "source": 388,
-            "target": 3106,
-            "rel_id": 220,
-            "es_name": "concept_sportsteam_spurs",
-            "et_name": "concept_awardtrophytournament_nba_championship"
-        },
-        {
-            "id": "2149-2-2149",
-            "name": "NO_OP_RELATION",
-            "source": 2149,
-            "target": 2149,
-            "rel_id": 2,
-            "es_name": "concept_sportsteam_hokies",
-            "et_name": "concept_sportsteam_hokies"
-        },
-        {
-            "id": "490-2-490",
-            "name": "NO_OP_RELATION",
-            "source": 490,
-            "target": 490,
-            "rel_id": 2,
-            "es_name": "concept_sportsteam_cavaliers",
-            "et_name": "concept_sportsteam_cavaliers"
-        },
-        {
-            "id": "490-16-2149",
-            "name": "concept:teamplaysagainstteam_inv",
-            "source": 490,
-            "target": 2149,
-            "rel_id": 16,
-            "es_name": "concept_sportsteam_cavaliers",
-            "et_name": "concept_sportsteam_hokies"
-        },
-        {
-            "id": "7657-2-7657",
-            "name": "NO_OP_RELATION",
-            "source": 7657,
-            "target": 7657,
-            "rel_id": 2,
-            "es_name": "concept_athlete_tyrus_thomas",
-            "et_name": "concept_athlete_tyrus_thomas"
-        },
-        {
-            "id": "548-16-285",
-            "name": "concept:teamplaysagainstteam_inv",
-            "source": 548,
-            "target": 285,
-            "rel_id": 16,
-            "es_name": "concept_sportsteam_bucks",
-            "et_name": "concept_sportsteam_knicks"
-        },
-        {
-            "id": "470-15-548",
-            "name": "concept:teamplaysagainstteam",
-            "source": 470,
-            "target": 548,
-            "rel_id": 15,
-            "es_name": "concept_sportsteam_pistons",
-            "et_name": "concept_sportsteam_bucks"
-        },
-        {
-            "id": "470-15-388",
-            "name": "concept:teamplaysagainstteam",
-            "source": 470,
-            "target": 388,
-            "rel_id": 15,
-            "es_name": "concept_sportsteam_pistons",
-            "et_name": "concept_sportsteam_spurs"
         },
         {
             "id": "490-346-7243",
@@ -2063,229 +1515,220 @@
             "et_name": "concept_stadiumoreventvenue_quicken_loans_arena"
         },
         {
-            "id": "2149-15-7227",
-            "name": "concept:teamplaysagainstteam",
-            "source": 2149,
-            "target": 7227,
-            "rel_id": 15,
-            "es_name": "concept_sportsteam_hokies",
-            "et_name": "concept_sportsteam_terps"
-        },
-        {
-            "id": "601-16-388",
+            "id": "212-16-548",
             "name": "concept:teamplaysagainstteam_inv",
-            "source": 601,
-            "target": 388,
+            "source": 212,
+            "target": 548,
             "rel_id": 16,
-            "es_name": "concept_sportsteam_man_utd",
-            "et_name": "concept_sportsteam_spurs"
+            "es_name": "concept_sportsteam_los_angeles_lakers",
+            "et_name": "concept_sportsteam_bucks"
         },
         {
-            "id": "490-16-509",
-            "name": "concept:teamplaysagainstteam_inv",
-            "source": 490,
-            "target": 509,
-            "rel_id": 16,
-            "es_name": "concept_sportsteam_cavaliers",
-            "et_name": "concept_sportsteam_new_jersey_nets"
-        },
-        {
-            "id": "68664-202-79",
-            "name": "concept:teamplayssport_inv",
-            "source": 68664,
-            "target": 79,
-            "rel_id": 202,
-            "es_name": "concept_sportsteam_middle_tennessee_state_university",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "2333-56-53",
-            "name": "concept:teamplaysinleague_inv",
-            "source": 2333,
+            "id": "10839-384-53",
+            "name": "concept:coachesinleague_inv",
+            "source": 10839,
             "target": 53,
-            "rel_id": 56,
-            "es_name": "concept_sportsteam_milwaukee_bucks",
+            "rel_id": 384,
+            "es_name": "concept_coach_al_harrington",
             "et_name": "concept_sportsleague_nba"
         },
         {
-            "id": "2333-201-79",
-            "name": "concept:teamplayssport",
-            "source": 2333,
-            "target": 79,
-            "rel_id": 201,
-            "es_name": "concept_sportsteam_milwaukee_bucks",
-            "et_name": "concept_sport_basketball"
+            "id": "3557-384-53",
+            "name": "concept:coachesinleague_inv",
+            "source": 3557,
+            "target": 53,
+            "rel_id": 384,
+            "es_name": "concept_coach_lebron_james",
+            "et_name": "concept_sportsleague_nba"
         },
         {
-            "id": "212-15-2545",
+            "id": "3106-2-3106",
+            "name": "NO_OP_RELATION",
+            "source": 3106,
+            "target": 3106,
+            "rel_id": 2,
+            "es_name": "concept_awardtrophytournament_nba_championship",
+            "et_name": "concept_awardtrophytournament_nba_championship"
+        },
+        {
+            "id": "247-220-3106",
+            "name": "concept:teamwontrophy_inv",
+            "source": 247,
+            "target": 3106,
+            "rel_id": 220,
+            "es_name": "concept_sportsteam_boston_celtics",
+            "et_name": "concept_awardtrophytournament_nba_championship"
+        },
+        {
+            "id": "212-15-338",
             "name": "concept:teamplaysagainstteam",
             "source": 212,
-            "target": 2545,
+            "target": 338,
             "rel_id": 15,
             "es_name": "concept_sportsteam_los_angeles_lakers",
-            "et_name": "concept_sportsteam_portland_trailblazers"
+            "et_name": "concept_sportsteam_suns"
         },
         {
-            "id": "428-15-2545",
+            "id": "490-15-2537",
             "name": "concept:teamplaysagainstteam",
-            "source": 428,
-            "target": 2545,
+            "source": 490,
+            "target": 2537,
             "rel_id": 15,
-            "es_name": "concept_sportsteam_utah_jazz",
-            "et_name": "concept_sportsteam_portland_trailblazers"
+            "es_name": "concept_sportsteam_cavaliers",
+            "et_name": "concept_sportsteam_charlotte_bobcats"
         },
         {
-            "id": "484-15-285",
-            "name": "concept:teamplaysagainstteam",
-            "source": 484,
-            "target": 285,
-            "rel_id": 15,
-            "es_name": "concept_sportsteam_san_antonio",
-            "et_name": "concept_sportsteam_knicks"
+            "id": "475-18-2537",
+            "name": "concept:mutualproxyfor_inv",
+            "source": 475,
+            "target": 2537,
+            "rel_id": 18,
+            "es_name": "concept_company_los_angeles",
+            "et_name": "concept_sportsteam_charlotte_bobcats"
         },
         {
-            "id": "753-16-484",
+            "id": "509-16-490",
             "name": "concept:teamplaysagainstteam_inv",
-            "source": 753,
-            "target": 484,
+            "source": 509,
+            "target": 490,
             "rel_id": 16,
-            "es_name": "concept_sportsteam_trail_blazers",
-            "et_name": "concept_sportsteam_san_antonio"
+            "es_name": "concept_sportsteam_new_jersey_nets",
+            "et_name": "concept_sportsteam_cavaliers"
         },
         {
-            "id": "65877-10-428",
-            "name": "concept:agentcreated_inv",
-            "source": 65877,
-            "target": 428,
-            "rel_id": 10,
-            "es_name": "concept_professor_toni_morrison",
-            "et_name": "concept_sportsteam_utah_jazz"
-        },
-        {
-            "id": "4189-310-309",
-            "name": "concept:athleteplayssportsteamposition_inv",
-            "source": 4189,
-            "target": 309,
-            "rel_id": 310,
-            "es_name": "concept_personus_jeremy_shockey",
-            "et_name": "concept_sportsteamposition_player"
-        },
-        {
-            "id": "4189-33-58",
-            "name": "concept:athleteplayssport",
-            "source": 4189,
-            "target": 58,
-            "rel_id": 33,
-            "es_name": "concept_personus_jeremy_shockey",
-            "et_name": "concept_sport_football"
-        },
-        {
-            "id": "247-201-79",
-            "name": "concept:teamplayssport",
-            "source": 247,
-            "target": 79,
-            "rel_id": 201,
-            "es_name": "concept_sportsteam_boston_celtics",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "30675-56-53",
-            "name": "concept:teamplaysinleague_inv",
-            "source": 30675,
-            "target": 53,
-            "rel_id": 56,
-            "es_name": "concept_sportsteam_nyu_bobcats",
-            "et_name": "concept_sportsleague_nba"
-        },
-        {
-            "id": "30675-55-53",
+            "id": "509-55-53",
             "name": "concept:teamplaysinleague",
-            "source": 30675,
+            "source": 509,
             "target": 53,
             "rel_id": 55,
-            "es_name": "concept_sportsteam_nyu_bobcats",
+            "es_name": "concept_sportsteam_new_jersey_nets",
             "et_name": "concept_sportsleague_nba"
         },
         {
-            "id": "3557-120-7243",
-            "name": "concept:athletehomestadium_inv",
-            "source": 3557,
-            "target": 7243,
-            "rel_id": 120,
-            "es_name": "concept_coach_lebron_james",
-            "et_name": "concept_stadiumoreventvenue_quicken_loans_arena"
+            "id": "7657-34-79",
+            "name": "concept:athleteplayssport_inv",
+            "source": 7657,
+            "target": 79,
+            "rel_id": 34,
+            "es_name": "concept_athlete_tyrus_thomas",
+            "et_name": "concept_sport_basketball"
         },
         {
-            "id": "20318-68-53",
+            "id": "7657-67-53",
+            "name": "concept:athleteplaysinleague",
+            "source": 7657,
+            "target": 53,
+            "rel_id": 67,
+            "es_name": "concept_athlete_tyrus_thomas",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "518-16-490",
+            "name": "concept:teamplaysagainstteam_inv",
+            "source": 518,
+            "target": 490,
+            "rel_id": 16,
+            "es_name": "concept_sportsteam_washington_wizards",
+            "et_name": "concept_sportsteam_cavaliers"
+        },
+        {
+            "id": "212-16-518",
+            "name": "concept:teamplaysagainstteam_inv",
+            "source": 212,
+            "target": 518,
+            "rel_id": 16,
+            "es_name": "concept_sportsteam_los_angeles_lakers",
+            "et_name": "concept_sportsteam_washington_wizards"
+        },
+        {
+            "id": "484-15-212",
+            "name": "concept:teamplaysagainstteam",
+            "source": 484,
+            "target": 212,
+            "rel_id": 15,
+            "es_name": "concept_sportsteam_san_antonio",
+            "et_name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": "11441-34-79",
+            "name": "concept:athleteplayssport_inv",
+            "source": 11441,
+            "target": 79,
+            "rel_id": 34,
+            "es_name": "concept_male_joakim_noah",
+            "et_name": "concept_sport_basketball"
+        },
+        {
+            "id": "11441-67-53",
+            "name": "concept:athleteplaysinleague",
+            "source": 11441,
+            "target": 53,
+            "rel_id": 67,
+            "es_name": "concept_male_joakim_noah",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "20627-68-53",
             "name": "concept:athleteplaysinleague_inv",
-            "source": 20318,
+            "source": 20627,
             "target": 53,
             "rel_id": 68,
-            "es_name": "concept_athlete_alonzo_mourning",
+            "es_name": "concept_athlete_shannon_brown",
             "et_name": "concept_sportsleague_nba"
         },
         {
-            "id": "20318-33-79",
+            "id": "20627-67-53",
+            "name": "concept:athleteplaysinleague",
+            "source": 20627,
+            "target": 53,
+            "rel_id": 67,
+            "es_name": "concept_athlete_shannon_brown",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "20341-34-79",
+            "name": "concept:athleteplayssport_inv",
+            "source": 20341,
+            "target": 79,
+            "rel_id": 34,
+            "es_name": "concept_athlete_bill_russell",
+            "et_name": "concept_sport_basketball"
+        },
+        {
+            "id": "20341-33-79",
             "name": "concept:athleteplayssport",
-            "source": 20318,
+            "source": 20341,
             "target": 79,
             "rel_id": 33,
-            "es_name": "concept_athlete_alonzo_mourning",
+            "es_name": "concept_athlete_bill_russell",
             "et_name": "concept_sport_basketball"
         },
         {
-            "id": "886-56-53",
+            "id": "548-16-212",
+            "name": "concept:teamplaysagainstteam_inv",
+            "source": 548,
+            "target": 212,
+            "rel_id": 16,
+            "es_name": "concept_sportsteam_bucks",
+            "et_name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": "1166-56-53",
             "name": "concept:teamplaysinleague_inv",
-            "source": 886,
+            "source": 1166,
             "target": 53,
             "rel_id": 56,
-            "es_name": "concept_sportsteam_pacers",
+            "es_name": "concept_sportsteam_orlando_magic",
             "et_name": "concept_sportsleague_nba"
         },
         {
-            "id": "886-201-79",
-            "name": "concept:teamplayssport",
-            "source": 886,
-            "target": 79,
-            "rel_id": 201,
-            "es_name": "concept_sportsteam_pacers",
-            "et_name": "concept_sport_basketball"
-        },
-        {
-            "id": "247-16-2545",
-            "name": "concept:teamplaysagainstteam_inv",
-            "source": 247,
-            "target": 2545,
-            "rel_id": 16,
-            "es_name": "concept_sportsteam_boston_celtics",
-            "et_name": "concept_sportsteam_portland_trailblazers"
-        },
-        {
-            "id": "212-15-886",
-            "name": "concept:teamplaysagainstteam",
-            "source": 212,
-            "target": 886,
-            "rel_id": 15,
-            "es_name": "concept_sportsteam_los_angeles_lakers",
-            "et_name": "concept_sportsteam_pacers"
-        },
-        {
-            "id": "79-267-83",
-            "name": "concept:sportfansincountry",
-            "source": 79,
-            "target": 83,
-            "rel_id": 267,
-            "es_name": "concept_sport_basketball",
-            "et_name": "concept_country___america"
-        },
-        {
-            "id": "4573-183-285",
-            "name": "concept:athleteledsportsteam",
-            "source": 4573,
-            "target": 285,
-            "rel_id": 183,
-            "es_name": "concept_coach_derrick_rose",
-            "et_name": "concept_sportsteam_knicks"
+            "id": "1166-55-53",
+            "name": "concept:teamplaysinleague",
+            "source": 1166,
+            "target": 53,
+            "rel_id": 55,
+            "es_name": "concept_sportsteam_orlando_magic",
+            "et_name": "concept_sportsleague_nba"
         }
     ]
 }
