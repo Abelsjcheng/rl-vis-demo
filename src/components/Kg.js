@@ -18,11 +18,9 @@ class Kg extends React.Component {
         this.nodeGroup = null;
         this.nodeGradient = null;
         this.linkTextGroup = null;
-        this.nodeTextGroup = null;
         this.updateLink = null;
         this.updateNode = null;
         this.updateLinkText = null;
-        this.updateNodeText = null;
         this.svgWidth = null;
         this.svgHeight = null;
         this.kgNetwork = React.createRef();
@@ -43,7 +41,7 @@ class Kg extends React.Component {
             },
             switchSet: {
                 showNodeText: true, // 显示隐藏节点标签
-                showLinkText: false, // 显示隐藏关系标签
+                showLinkText: true, // 显示隐藏关系标签
                 autoZoomFlag: true, // 自适应缩放
                 nodeFocusFlag: true,
             },
@@ -180,8 +178,6 @@ class Kg extends React.Component {
 
         this.linkTextGroup = textGroup.append("g").attr("class", "linkText-group")
 
-        this.nodeTextGroup = textGroup.append("g").attr("class", "nodeText-group")
-
         this.nodeGroup = this.svg_kg.append("g")
             .attr("class", "node-group")
 
@@ -230,43 +226,29 @@ class Kg extends React.Component {
             .attr("d", "M0,-" + forceSet.nodeSize * 0.3 + "L" + forceSet.nodeSize * 0.6 + ",0L0," + forceSet.nodeSize * 0.3)
             .attr('fill', svgStyle.linkStroke)
 
-        let node = this.nodeGroup.selectAll("circle.node").data(nodes, d => d.id);
+        let node = this.nodeGroup.selectAll("g").data(nodes, d => d.id);
 
         node.exit().remove()
 
         let nodeEnter = node.enter()
-            .append("circle")
+            .append('g')
             .attr("id", d => "node" + d.id)
-            .attr("class", "node")
-            .attr("r", forceSet.nodeSize)
             .call(this.drag(this.simulation))
 
-        this.updateNode = nodeEnter.merge(node)
-            .style("fill", d => {
-                if (d.name === caseTriple.sourceEntity) {
-                    return "red"
-                } else if (d.name === caseTriple.targetEntity) {
-                    return "blue"
-                } else {
-                    return "#DE9BF9"
-                }
-            })
 
+        nodeEnter.append("circle")
+            .attr("class", "node")
+            .attr("r", forceSet.nodeSize)
 
-        let nodeText = this.nodeTextGroup.selectAll("text.node-text").data(nodes, d => d.id);
-
-        nodeText.exit().remove();
-
-        let nodeTextEnter = nodeText.enter()
-            .append("text")
+        nodeEnter.append("text")
             .attr("class", "node-text")
             .attr("dy", forceSet.nodeSize * 2)
             .style("visibility", switchSet.showNodeText ? 'visible' : 'hidden')
             .style('fill', "black")
             .attr("font-size", svgStyle.nodeLabelSize)
-            .text(d => splitNodeName(d.name))
             .attr("dx", 0)
             .attr("text-anchor", "middle")
+            .text(d => splitNodeName(d.name))
             .on('mouseover', function (e, d) {
                 d3.select(this)
                     .text(d.name)
@@ -276,8 +258,18 @@ class Kg extends React.Component {
                     .text(splitNodeName(d.name))
             })
 
+        this.updateNode = nodeEnter.merge(node)
 
-        this.updateNodeText = nodeTextEnter.merge(nodeText)
+        this.updateNode.select('.node')
+            .style("fill", d => {
+                if (d.name === caseTriple.sourceEntity) {
+                    return "red"
+                } else if (d.name === caseTriple.targetEntity) {
+                    return "blue"
+                } else {
+                    return "#DE9BF9"
+                }
+            })
 
         let linkText = this.linkTextGroup.selectAll("text.link-text").data(links, d => d.id);
 
@@ -289,17 +281,14 @@ class Kg extends React.Component {
         linkTextEnter
             .attr("class", "link-text")
             .attr("id", d => "linkText" + d.id)
-            .attr("dy", -3 - svgStyle.linkWidth)
             .attr("font-size", svgStyle.linkLabelSize)
             .style("visibility", switchSet.showLinkText ? 'visible' : 'hidden')
             .style('fill', "#CFCFCF")
-            .append("textPath")
-            .attr("xlink:href", d => "#link" + d.id)
-            .attr("startOffset", "50%")
-            .attr("text-anchor", 'middle')
+            .attr("text-anchor", "middle")
             .text(d => splitLinkName(d.name))
 
         this.updateLinkText = linkTextEnter.merge(linkText)
+            .attr("dy", d => d.linknum ? 3 + d.linknum * 20 :-3  + d.linknum * 20)
 
 
     }
@@ -321,17 +310,18 @@ class Kg extends React.Component {
             .attr('fill', svgStyle.linkStroke)
 
         this.updateNode
+            .select('.node')
             .attr("r", forceSet.nodeSize)
+
+        this.updateNode
+            .select('.node-text')
+            .style("visibility", switchSet.showNodeText ? 'visible' : 'hidden')
+            .attr("font-size", svgStyle.nodeLabelSize)
 
         this.updateLinkText
             .attr("dy", -3 - svgStyle.linkWidth)
             .attr("font-size", svgStyle.linkLabelSize)
             .style("visibility", switchSet.showLinkText ? 'visible' : 'hidden')
-
-        this.updateNodeText
-            .style("visibility", switchSet.showNodeText ? 'visible' : 'hidden')
-            .attr("font-size", svgStyle.nodeLabelSize)
-
 
     }
     updateDragTick() {
@@ -343,7 +333,7 @@ class Kg extends React.Component {
                         const x1 = d.source.x - Math.sin(2 * Math.PI / 360 * 60) * forceSet.nodeSize,
                             x2 = d.source.x + Math.sin(2 * Math.PI / 360 * 60) * forceSet.nodeSize,
                             y = d.source.y - Math.cos(2 * Math.PI / 360 * 60) * forceSet.nodeSize
-                        return 'M ' + x1 + ' ' + y + ' C' + (x1 - 20) + ' ' + (y - forceSet.nodeSize * 5) + ' ' + (x2 + 20) + ' ' + (y - forceSet.nodeSize * 5) + ' ' + x2 + ' ' + y
+                        return 'M ' + x1.toFixed(2) + ' ' + y.toFixed(2) + ' C' + (x1 - 20).toFixed(2) + ' ' + (y - forceSet.nodeSize * 5).toFixed(2) + ' ' + (x2 + 20).toFixed(2) + ' ' + (y - forceSet.nodeSize * 5).toFixed(2) + ' ' + x2.toFixed(2) + ' ' + y.toFixed(2)
                     } else {
                         /*
                             cos为负sin+ ++
@@ -361,28 +351,26 @@ class Kg extends React.Component {
                             rotateAngleSin = -rotateAngleSin
                         }
 
-                        return 'M ' + d.source.x + ' ' + d.source.y + ' Q ' + ((d.source.x + d.target.x) / 2 + rotateAngleSin * d.linknum * 20) + ' ' + ((d.source.y + d.target.y) / 2 + rotateAngleCos * d.linknum * 20) + ' ' + d.target.x + ' ' + d.target.y
+                        return 'M ' + d.source.x.toFixed(2) + ' ' + d.source.y.toFixed(2) + ' Q ' + ((d.source.x + d.target.x) / 2 + rotateAngleSin * d.linknum * 20).toFixed(2) + ' ' + ((d.source.y + d.target.y) / 2 + rotateAngleCos * d.linknum * 20).toFixed(2) + ' ' + d.target.x.toFixed(2) + ' ' + d.target.y.toFixed(2)
                     }
                 })
             // 节点显示位置
             this.updateNode
-                .attr("cx", function (d) { return d.x; })
-                .attr("cy", function (d) { return d.y; });
-            // 节点标签显示位置
-            this.updateNodeText
-                .attr('x', (d) => d.x)
-                .attr('y', (d) => d.y);
+                .attr('transform', (d) => {
+                    return 'translate(' + d.x.toFixed(2) + ',' + d.y.toFixed(2) + ')'
+                });
 
-            // // 边显示位置
-            // this.updateLinkText
-            //     .attr('transform', (d) => {
-            //         if (d.target.x <= d.source.x) {
-            //             return 'rotate(180 ' + (d.source.x + d.target.x) / 2 + ' ' + ((d.source.y + d.target.y) / 2 ) + ')';
-            //         }
-            //         else {
-            //             return 'rotate(0)';
-            //         }
-            //     })
+            this.updateLinkText
+                .attr('transform', (d) => {
+                    if (d.type === "self") {
+                        return 'translate(' + ((d.source.x + d.target.x) / 2).toFixed(2) + ',' + ((d.source.y + d.target.y) / 2 - forceSet.nodeSize * 5).toFixed(2) + ')'
+                    } else {
+                        let radian = Math.atan((d.target.y - d.source.y) / (d.target.x - d.source.x)),
+                            angle = Math.floor(180 / (Math.PI / radian));
+                        return 'translate(' + ((d.source.x + d.target.x) / 2).toFixed(2) + ',' + ((d.source.y + d.target.y) / 2).toFixed(2) + ') rotate(' + angle + ')'
+
+                    }
+                });
 
             if (this.simulation.alpha() < this.simulation.alphaMin()) {
                 // 拖拽时不缩放
@@ -415,7 +403,16 @@ class Kg extends React.Component {
         }
     }
     zoomed = (event) => {
-        this.svg_kg.attr('transform', event.transform);
+        this.svg_kg.attr(
+            "transform",
+            "translate(" +
+            event.transform.x.toFixed(4) +
+            "," +
+            event.transform.y.toFixed(4) +
+            ") scale(" +
+            event.transform.k.toFixed(4) +
+            ")"
+        );
     }
     // 拖拽
     drag(simulation) {
@@ -528,22 +525,20 @@ function dataFilter(data) {
 function setDoubleLink(links) {
 
     const linkGroup = {};
-    // 两点之间的线根据两点的 name 属性设置为同一个 key，加入到 linkGroup 中，给两点之间的所有边分成一个组
+    // 两点之间的线根据两点的 id 属性设置为同一个 key，加入到 linkGroup 中，给两点之间的所有边分成一个组
     links.forEach((link) => {
         const key = setLinkName(link);
-
         if (!linkGroup.hasOwnProperty(key)) {
             linkGroup[key] = [];
-
         }
         linkGroup[key].push(link);
     });
     // 遍历给每组去调用 setLinkNumbers 来分配 linkum
     links.forEach((link) => {
         const key = setLinkName(link);
-        link.size = linkGroup[key].length;
         const group = linkGroup[key];
         const keyPair = key.split(':');
+        // 设置自循环
         let type = 'noself';
         if (keyPair[0] === keyPair[1]) {
             type = 'self';
@@ -554,8 +549,8 @@ function setDoubleLink(links) {
 }
 function setLinkNumbers(group) {
     const len = group.length;
-    const linksA = [];
-    const linksB = [];
+    const linksA = []; // 正向link
+    const linksB = []; // 反向link
 
     for (let i = 0; i < len; i++) {
         const link = group[i];
@@ -566,30 +561,33 @@ function setLinkNumbers(group) {
         }
 
     }
-    let startLinkANumber = 1;
+    // 正向组
+    let startLinkANumber = 0;
     for (let i = 0; i < linksA.length; i++) {
         const link = linksA[i];
         if (linksB.length === 0) {
             if (linksA.length > 1) {
-                link.linknum = i % 2 === 0 && i > 0 ? ++startLinkANumber * Math.pow(-1, i) : startLinkANumber * Math.pow(-1, i)
+                // 1 -1 2 -2 3 -3
+                link.linknum = i % 2 === 0 ? (++startLinkANumber) * Math.pow(-1, i) : startLinkANumber * Math.pow(-1, i)
             } else {
                 link.linknum = 0
             }
         } else {
-            link.linknum = startLinkANumber++;
+            link.linknum = ++startLinkANumber;
         }
+
     }
-    let startLinkBNumber = -1;
+    let startLinkBNumber = 0;
     for (let i = 0; i < linksB.length; i++) {
         const link = linksB[i];
         if (linksA.length === 0) {
             if (linksB.length > 1) {
-                link.linknum = i % 2 === 0 && i > 0 ? ++startLinkBNumber * Math.pow(-1, i) : startLinkBNumber * Math.pow(-1, i)
+                link.linknum = i % 2 === 0 ? (++startLinkBNumber) * Math.pow(-1, i) : startLinkBNumber * Math.pow(-1, i)
             } else {
                 link.linknum = 0
             }
         } else {
-            link.linknum = startLinkBNumber--;
+            link.linknum = --startLinkBNumber;
         }
     }
 }
