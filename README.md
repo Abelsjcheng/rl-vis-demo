@@ -19,5 +19,9 @@ Visual analysis demo system of reinforcement learning for knowledge graph infere
 ## 知识图谱可视化的显示优化
     1. 两点之间多边显示
     2. 自循环边
+    3. link文本渲染优化
+        之前使用显示link文本的方式是使用text.textPath,好处是文本可以沿着路径排列，但是当渲染长文本时候渲染性能非常差。
+        原因猜测：textPath需要与path标签进行绑定，每当path路径发生改变，textpath就需要重新去计算绘制路径，并渲染。
+        现初步优化方法：直接用text标签显示文本。为了可以沿着link的path路径排列，可以通过计算sourceNode和targetNode之间夹角。用transform：translate() rotate()实现
 
 
