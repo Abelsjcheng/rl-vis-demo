@@ -4,37 +4,31 @@ import { splitLinkName, splitNodeName } from '../util/tool'
 import CalendarChart from './chart/CalendarChart';
 import { Button, Row, Col, Timeline, Card, Select, Popconfirm, message } from 'antd';
 import { DownCircleOutlined } from '@ant-design/icons';
-import James_jason_train_subKg from '../case/lebron_james_train/James_jason_train_subKg.json'
-import james_train_1 from "../case/lebron_james_train/train_path/concept_athlete_lebron_james_0.json"
-import james_train_2 from "../case/lebron_james_train/train_path/concept_athlete_lebron_james_10.json"
-import james_train_3 from "../case/lebron_james_train/train_path/concept_athlete_lebron_james_20.json"
-import james_train_4 from "../case/lebron_james_train/train_path/concept_athlete_lebron_james_30.json"
-import james_train_5 from "../case/lebron_james_train/train_path/concept_athlete_lebron_james_40.json"
-import james_train_6 from "../case/lebron_james_train/train_path/concept_athlete_lebron_james_50.json"
-import james_train_7 from "../case/lebron_james_train/train_path/concept_athlete_lebron_james_60.json"
-import james_train_8 from "../case/lebron_james_train/train_path/concept_athlete_lebron_james_70.json"
-import james_train_9 from "../case/lebron_james_train/train_path/concept_athlete_lebron_james_80.json"
-import james_train_10 from "../case/lebron_james_train/train_path/concept_athlete_lebron_james_90.json"
-import james_train_11 from "../case/lebron_james_train/train_path/concept_athlete_lebron_james_100.json"
+import pau_gasol_train_kg from '../case/pau_gasol_train/pau_gasol_train_kg.json'
+import pau_gasol_tran_0 from "../case/pau_gasol_train/train_path/concept_athlete_pau_gasol_0.json"
+import pau_gasol_tran_10 from "../case/pau_gasol_train/train_path/concept_athlete_pau_gasol_10.json"
+import pau_gasol_tran_20 from "../case/pau_gasol_train/train_path/concept_athlete_pau_gasol_20.json"
+import pau_gasol_tran_30 from "../case/pau_gasol_train/train_path/concept_athlete_pau_gasol_30.json"
+import pau_gasol_tran_40 from "../case/pau_gasol_train/train_path/concept_athlete_pau_gasol_40.json"
+import pau_gasol_tran_50 from "../case/pau_gasol_train/train_path/concept_athlete_pau_gasol_50.json"
+import pau_gasol_tran_60 from "../case/pau_gasol_train/train_path/concept_athlete_pau_gasol_60.json"
+import pau_gasol_tran_70 from "../case/pau_gasol_train/train_path/concept_athlete_pau_gasol_70.json"
 import james_test_kg from "../case/lebron_james_test/lebron_james_test_subKg.json"
 import james_test_path from "../case/lebron_james_test/lebron_james_test_action_space.json"
 import kobe_test_kg from "../case/kobe_bryant_test/kobe_bryant_subKg.json"
 import kobe_test_path from "../case/kobe_bryant_test/kobe_bryant_test_action_space.json"
-import pau_gasol_kg from "../case/pau_gasol_test/pau_gasol_subKg.json"
+import pau_gasol_kg from "../case/pau_gasol_test/pau_gasol_test_Kg.json"
 import pau_gasol_path from "../case/pau_gasol_test/pau_gasol_test_action_spaces.json"
 const { Option } = Select;
 const dataSet = [
-    { "dataName": "训练1", pathData: james_train_1, kgData: James_jason_train_subKg, caseIndex: 0 },
-    { "dataName": "训练2", pathData: james_train_2, kgData: James_jason_train_subKg, caseIndex: 0 },
-    { "dataName": "训练3", pathData: james_train_3, kgData: James_jason_train_subKg, caseIndex: 0 },
-    { "dataName": "训练4", pathData: james_train_4, kgData: James_jason_train_subKg, caseIndex: 0 },
-    { "dataName": "训练5", pathData: james_train_5, kgData: James_jason_train_subKg, caseIndex: 0 },
-    { "dataName": "训练6", pathData: james_train_6, kgData: James_jason_train_subKg, caseIndex: 0 },
-    { "dataName": "训练7", pathData: james_train_7, kgData: James_jason_train_subKg, caseIndex: 0 },
-    { "dataName": "训练8", pathData: james_train_8, kgData: James_jason_train_subKg, caseIndex: 0 },
-    { "dataName": "训练9", pathData: james_train_9, kgData: James_jason_train_subKg, caseIndex: 0 },
-    { "dataName": "训练10", pathData: james_train_10, kgData: James_jason_train_subKg, caseIndex: 0 },
-    { "dataName": "训练11", pathData: james_train_11, kgData: James_jason_train_subKg, caseIndex: 0 },
+    { "dataName": "训练1", pathData: pau_gasol_tran_0, kgData: pau_gasol_train_kg, caseIndex: 2 },
+    { "dataName": "训练2", pathData: pau_gasol_tran_10, kgData: pau_gasol_train_kg, caseIndex: 2 },
+    { "dataName": "训练3", pathData: pau_gasol_tran_20, kgData: pau_gasol_train_kg, caseIndex: 2 },
+    { "dataName": "训练4", pathData: pau_gasol_tran_30, kgData: pau_gasol_train_kg, caseIndex: 2 },
+    { "dataName": "训练5", pathData: pau_gasol_tran_40, kgData: pau_gasol_train_kg, caseIndex: 2 },
+    { "dataName": "训练6", pathData: pau_gasol_tran_50, kgData: pau_gasol_train_kg, caseIndex: 2 },
+    { "dataName": "训练7", pathData: pau_gasol_tran_60, kgData: pau_gasol_train_kg, caseIndex: 2 },
+    { "dataName": "训练8", pathData: pau_gasol_tran_70, kgData: pau_gasol_train_kg, caseIndex: 2 },
     { "dataName": "验证集", pathData: james_test_path, kgData: james_test_kg, caseIndex: 0 },
     { "dataName": "验证集2", pathData: pau_gasol_path, kgData: pau_gasol_kg, caseIndex: 2 },
     { "dataName": "测试集", pathData: kobe_test_path, kgData: kobe_test_kg, caseIndex: 1 },
@@ -45,7 +39,7 @@ class SidePanel extends React.Component {
         super(props);
         this.testStatus = 'start';
         this.pathOrder = 0;
-        this.pathGroup = initPathGroup(james_train_1);
+        this.pathGroup = initPathGroup(pau_gasol_tran_0);
         this.state = {
             path: this.pathGroup[0]
         };
@@ -107,6 +101,10 @@ class SidePanel extends React.Component {
     }
     handleSelectPathChange = (value) => {
         this.setState({ path: this.pathGroup[value] })
+    }
+    onHightLightPath = () => {
+        const { getKgRef } = this.props
+        getKgRef.handleHightLightPath(this.state.path)
     }
     render() {
         const { path } = this.state
@@ -173,9 +171,10 @@ class SidePanel extends React.Component {
                             extra={!path[2].path_sorce ? path[2].et_name === caseTriple.targetEntity ? "奖励:1" : "奖励:0" : "评分:" + path[2].path_sorce}
                             bodyStyle={{ padding: "12px" }}
                         >
-                            <Row justify="space-around" style={{ marginBottom: "20px" }}>
-                                <Col span={4}>关系</Col>
-                                <Col span={4}>实体</Col>
+                            <Row justify="space-around" align="middle" style={{ marginBottom: "20px", textAlign: 'center' }}>
+                                <Col span={8}>关系</Col>
+                                <Col span={5}> <Button onClick={this.onHightLightPath}>高亮</Button> </Col>
+                                <Col span={8}>实体</Col>
                             </Row>
                             <Timeline mode="alternate">
                                 <Popconfirm
@@ -262,7 +261,6 @@ function initPathGroup(paths) {
                 next_r_space = path[action].r_space_id
                 aciton_dist = path[action].aciton_dist
             }
-
         }
         pathGroup.push(_path)
     }

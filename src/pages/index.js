@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Kg from '../components/Kg.js'
-import James_jason_train_subKg from '../case/lebron_james_train/James_jason_train_subKg.json'
+import pau_gasol_train_kg from '../case/pau_gasol_train/pau_gasol_train_kg.json'
 import SidePanel from '../components/SidePanel.js'
 
 const cases = [
@@ -25,8 +25,8 @@ class IndexPage extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            kgData: James_jason_train_subKg,
-            caseTriple: cases[0],
+            kgData: pau_gasol_train_kg,
+            caseTriple: cases[2],
             kgRef: null
         };
     }

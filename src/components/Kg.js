@@ -28,8 +28,8 @@ class Kg extends React.Component {
             nodes: dataFilter(_kgData.nodes),
             links: dataFilter(_kgData.links),
             forceSet: {
-                bodyStrength: -400, // 节点排斥力，负数为模拟电荷力
-                linkDistance: 200, // 边长度
+                bodyStrength: -1000, // 节点排斥力，负数为模拟电荷力
+                linkDistance: 280, // 边长度
                 nodeSize: 10, // 节点大小
             },
             svgStyle: {
@@ -101,15 +101,15 @@ class Kg extends React.Component {
 
         this.svgWidth = this.kgNetwork.current.offsetWidth
         this.svgHeight = this.kgNetwork.current.offsetHeight
-
         // 加载缩放
         this.zoom.scaleExtent([0.1, 4]).on('zoom', this.zoomed);
 
         this.svg = d3.select('.kg-network')
             .append("svg")
-            .attr("width", "100%")
-            .attr("height", "100%")
+            .attr("width", this.svgWidth)
+            .attr("height", this.svgHeight)
             .call(this.zoom)
+            .on("click", this.handleSvgClick)
 
         this.svg_kg = this.svg
             .append("g")
@@ -197,9 +197,9 @@ class Kg extends React.Component {
 
         let linkEnter = link.enter()
             .append("path")
-            .attr("id", d => "link" + d.id)
+            .attr("id", d => `link${d.id}`)
             .attr("class", "link")
-            .on('mouseover', function (e, d) {
+            .on('mouseover', d => {
                 d3.select(`#linkText${d.id}`)
                     .style("visibility", 'visible')
             })
@@ -213,7 +213,7 @@ class Kg extends React.Component {
         this.marker
             .attr("id", d => d)
             .attr("markerUnits", "userSpaceOnUse")
-            .attr("viewBox", "0 -" + forceSet.nodeSize * 0.3 + " " + forceSet.nodeSize * 0.6 + " " + forceSet.nodeSize * 0.6)
+            .attr("viewBox", `0 ${-forceSet.nodeSize * 0.3} ${forceSet.nodeSize * 0.6} ${forceSet.nodeSize * 0.6}`)
             .attr("refX", d => d === "self" ? forceSet.nodeSize * 0.6 : forceSet.nodeSize * 1.6)
             .attr("refY", 0)
             .attr("markerWidth", forceSet.nodeSize * 0.6)
@@ -221,9 +221,8 @@ class Kg extends React.Component {
             .attr("orient", "auto")
             .attr("stroke-width", svgStyle.linkWidth)
 
-
         this.markerPath
-            .attr("d", "M0,-" + forceSet.nodeSize * 0.3 + "L" + forceSet.nodeSize * 0.6 + ",0L0," + forceSet.nodeSize * 0.3)
+            .attr("d", `M0,${-forceSet.nodeSize * 0.3} L${forceSet.nodeSize * 0.6},0 L0,${forceSet.nodeSize * 0.3}`)
             .attr('fill', svgStyle.linkStroke)
 
         let node = this.nodeGroup.selectAll("g").data(nodes, d => d.id);
@@ -232,7 +231,7 @@ class Kg extends React.Component {
 
         let nodeEnter = node.enter()
             .append('g')
-            .attr("id", d => "node" + d.id)
+            .attr("id", d => `node${d.id}`)
             .call(this.drag(this.simulation))
 
 
@@ -280,7 +279,7 @@ class Kg extends React.Component {
 
         linkTextEnter
             .attr("class", "link-text")
-            .attr("id", d => "linkText" + d.id)
+            .attr("id", d => `linkText${d.id}`)
             .attr("font-size", svgStyle.linkLabelSize)
             .style("visibility", switchSet.showLinkText ? 'visible' : 'hidden')
             .style('fill', "#CFCFCF")
@@ -288,7 +287,7 @@ class Kg extends React.Component {
             .text(d => splitLinkName(d.name))
 
         this.updateLinkText = linkTextEnter.merge(linkText)
-            .attr("dy", d => d.linknum ? 3 + d.linknum * 20 :-3  + d.linknum * 20)
+            .attr("dy", d => d.linknum ? 3 + d.linknum * 20 : -3 + d.linknum * 20)
 
 
     }
@@ -300,13 +299,13 @@ class Kg extends React.Component {
             .style("stroke-width", svgStyle.linkWidth)
 
         this.marker
-            .attr("viewBox", "0 -" + forceSet.nodeSize * 0.3 + " " + forceSet.nodeSize * 0.6 + " " + forceSet.nodeSize * 0.6)
+            .attr("viewBox", `0 ${-forceSet.nodeSize * 0.3} ${forceSet.nodeSize * 0.6} ${forceSet.nodeSize * 0.6}`)
             .attr("refX", d => d === "self" ? forceSet.nodeSize * 0.6 : forceSet.nodeSize * 1.6)
             .attr("markerWidth", forceSet.nodeSize * 0.6)
             .attr("markerHeight", forceSet.nodeSize * 0.6)
 
         this.markerPath
-            .attr("d", "M0,-" + forceSet.nodeSize * 0.3 + "L" + forceSet.nodeSize * 0.6 + ",0L0," + forceSet.nodeSize * 0.3)
+            .attr("d", `M0,${-forceSet.nodeSize * 0.3} L${forceSet.nodeSize * 0.6},0 L0,${forceSet.nodeSize * 0.3}`)
             .attr('fill', svgStyle.linkStroke)
 
         this.updateNode
@@ -330,14 +329,19 @@ class Kg extends React.Component {
             this.updateLink
                 .attr('d', d => {
                     if (d.type === "self") {
+                        /*
+                            x1 圆左上角的点x轴值
+                            x2 圆右上角的点x轴值
+                            y  圆左上角的y轴值
+                        */
                         const x1 = d.source.x - Math.sin(2 * Math.PI / 360 * 60) * forceSet.nodeSize,
                             x2 = d.source.x + Math.sin(2 * Math.PI / 360 * 60) * forceSet.nodeSize,
-                            y = d.source.y - Math.cos(2 * Math.PI / 360 * 60) * forceSet.nodeSize
-                        return 'M ' + x1.toFixed(2) + ' ' + y.toFixed(2) + ' C' + (x1 - 20).toFixed(2) + ' ' + (y - forceSet.nodeSize * 5).toFixed(2) + ' ' + (x2 + 20).toFixed(2) + ' ' + (y - forceSet.nodeSize * 5).toFixed(2) + ' ' + x2.toFixed(2) + ' ' + y.toFixed(2)
+                            y = d.source.y - Math.cos(2 * Math.PI / 360 * 60) * forceSet.nodeSize;
+                        return `M${x1.toFixed(2)},${y.toFixed(2)} C${(x1 - 20).toFixed(2)},${(y - forceSet.nodeSize * 5).toFixed(2)} ${(x2 + 20).toFixed(2)},${(y - forceSet.nodeSize * 5).toFixed(2)} ${x2.toFixed(2)},${y.toFixed(2)}`
                     } else {
-                        /*
-                            cos为负sin+ ++
-                            ++ cos为负sin+
+                        /*  4个象限取值:
+                            cos为负sin+  ++
+                            ++           cos为负sin+
                         */
                         let bevelEdge = Math.sqrt(Math.pow(d.target.x - d.source.x, 2) + Math.pow(d.target.y - d.source.y, 2)),
                             rotateAngleCos = (d.target.x - d.source.x) / bevelEdge,
@@ -350,33 +354,35 @@ class Kg extends React.Component {
                             rotateAngleCos = -rotateAngleCos
                             rotateAngleSin = -rotateAngleSin
                         }
+                        const leftBendDistance = ((d.source.x + d.target.x) / 2 + rotateAngleSin * d.linknum * 20).toFixed(2),
+                            rightBendDistance = ((d.source.y + d.target.y) / 2 + rotateAngleCos * d.linknum * 20).toFixed(2)
 
-                        return 'M ' + d.source.x.toFixed(2) + ' ' + d.source.y.toFixed(2) + ' Q ' + ((d.source.x + d.target.x) / 2 + rotateAngleSin * d.linknum * 20).toFixed(2) + ' ' + ((d.source.y + d.target.y) / 2 + rotateAngleCos * d.linknum * 20).toFixed(2) + ' ' + d.target.x.toFixed(2) + ' ' + d.target.y.toFixed(2)
+                        return `M${d.source.x.toFixed(2)},${d.source.y.toFixed(2)} Q${leftBendDistance},${rightBendDistance} ${d.target.x.toFixed(2)},${d.target.y.toFixed(2)}`
                     }
                 })
             // 节点显示位置
             this.updateNode
                 .attr('transform', (d) => {
-                    return 'translate(' + d.x.toFixed(2) + ',' + d.y.toFixed(2) + ')'
+                    return `translate(${d.x.toFixed(2)},${d.y.toFixed(2)})`
                 });
 
             this.updateLinkText
                 .attr('transform', (d) => {
                     if (d.type === "self") {
-                        return 'translate(' + ((d.source.x + d.target.x) / 2).toFixed(2) + ',' + ((d.source.y + d.target.y) / 2 - forceSet.nodeSize * 5).toFixed(2) + ')'
+                        return `translate(${((d.source.x + d.target.x) / 2).toFixed(2)},${((d.source.y + d.target.y) / 2 - forceSet.nodeSize * 5).toFixed(2)})`
                     } else {
                         let radian = Math.atan((d.target.y - d.source.y) / (d.target.x - d.source.x)),
                             angle = Math.floor(180 / (Math.PI / radian));
-                        return 'translate(' + ((d.source.x + d.target.x) / 2).toFixed(2) + ',' + ((d.source.y + d.target.y) / 2).toFixed(2) + ') rotate(' + angle + ')'
+                        return `translate(${((d.source.x + d.target.x) / 2).toFixed(2)},${((d.source.y + d.target.y) / 2).toFixed(2)}) rotate(${angle.toFixed(2)})`
 
                     }
                 });
 
             if (this.simulation.alpha() < this.simulation.alphaMin()) {
                 // 拖拽时不缩放
-                if (this.state.switchSet.autoZoomFlag)
+                if (this.state.switchSet.autoZoomFlag) {
                     this.autoZoom() // 自适应缩放
-
+                }
             }
         });
         this.firstUpdate(this.simulation)
@@ -405,13 +411,8 @@ class Kg extends React.Component {
     zoomed = (event) => {
         this.svg_kg.attr(
             "transform",
-            "translate(" +
-            event.transform.x.toFixed(4) +
-            "," +
-            event.transform.y.toFixed(4) +
-            ") scale(" +
-            event.transform.k.toFixed(4) +
-            ")"
+            `translate(${event.transform.x.toFixed(4)},${event.transform.y.toFixed(4)}) 
+            scale(${event.transform.k.toFixed(4)})`
         );
     }
     // 拖拽
@@ -442,6 +443,11 @@ class Kg extends React.Component {
             .on('drag', dragged)
             .on('end', dragended);
     }
+    handleSvgClick = (e) => {
+        if (e.target.nodeName === "svg") {
+            this.clearSvg()
+        }
+    }
     clearSvg() {
         const { svgStyle } = this.state
         const { caseTriple } = this.props
@@ -450,6 +456,7 @@ class Kg extends React.Component {
             .style("stroke-width", svgStyle.linkWidth)
 
         this.updateNode
+            .select('.node')
             .style("fill", d => {
                 if (d.name === caseTriple.sourceEntity) {
                     return "red"
@@ -462,13 +469,27 @@ class Kg extends React.Component {
     }
     pathForward(action, wait) {
         const { svgStyle } = this.state
+
         return new Promise(resolve => {
-            d3.select('#link' + action.link_id)
+            d3.select(`#link${action.link_id}`)
                 .style("stroke", "yellow")
                 .style("stroke-width", svgStyle.linkWidth * 3)
-            d3.select('#node' + action.et_id)
+            d3.select(`#node${action.et_id}`)
+                .select('.node')
                 .style("fill", "green")
             setTimeout(resolve, wait)
+        })
+    }
+    handleHightLightPath(path) {
+        const { svgStyle } = this.state
+        this.clearSvg()
+        path.forEach(action => {
+            d3.select(`#link${action.link_id}`)
+                .style("stroke", "yellow")
+                .style("stroke-width", svgStyle.linkWidth * 3)
+            d3.select(`#node${action.et_id}`)
+                .select('.node')
+                .style("fill", "green")
         })
     }
     handleKgSettingChange = (set, setType) => {
@@ -594,10 +615,10 @@ function setLinkNumbers(group) {
 function setLinkName(link) {
     return typeof (link.source) === "object" ?
         link.source.id < link.target.id
-            ? link.source.id + ':' + link.target.id
-            : link.target.id + ':' + link.source.id :
+            ? `${link.source.id}:${link.target.id}`
+            : `${link.target.id}:${link.source.id}` :
         link.source < link.target
-            ? link.source + ':' + link.target
-            : link.target + ':' + link.source
+            ? `${link.source}:${link.target}`
+            : `${link.target}:${link.source}`
 }
 export default Kg;
