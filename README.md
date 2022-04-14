@@ -1,5 +1,6 @@
 # rl-vis-demo
 
+面向知识图谱推理的强化学习可视分析系统
 Visual analysis demo system of reinforcement learning for knowledge graph inference
 
 ## 简介
@@ -17,13 +18,17 @@ Visual analysis demo system of reinforcement learning for knowledge graph infere
     知识图谱通常用（头实体，关系，尾实体）的三元组形式来表达事物以及事物之间的语义关系。
     因此知识图谱补全的目的是从给定三元组中任意两个元素，试图推理出缺失的另外一个元素，以补全图谱。
 ## 知识图谱可视化的显示优化
-    1. 两点之间多边显示
-    2. 自循环边
-    3. link文本渲染优化
-        之前使用显示link文本的方式是使用text.textPath,好处是文本可以沿着路径排列，但是当渲染长文本时候渲染性能非常差。
-        原因猜测：textPath需要与path标签进行绑定，每当path路径发生改变，textpath就需要重新去计算文本相对于path的位置，并渲染。textPath中每个字母都会以path的路径建立坐标系，x轴为path，y轴在任意点上是x轴切线的垂直线，每个字母会有一个坐标系，每个字母相对于是一个block。
-        现初步优化方法：直接用text标签显示文本，整个文本是一个block。为了可以沿着link的path路径排列，可以通过计算sourceNode和targetNode之间夹角。用transform：translate() rotate()实现
-    4.tick中实现元素的平移动画，替换为transform实现。
-        之前实现circle，text平移动画是每次tick迭代中，重新设置元素的x，y。这将导致重新计算所有元素的位置，并重绘。使用transform则不会导致重排和重绘，仅做图层平移后的合成（composite Layers）
+    1. 两点之间多边显示:
+        首先根据link的source和target的id属性，对所有边进行分组。然后对两点之间的每条边进行+-标记计数。渲染时两点之间的边使用贝塞尔曲线，并根据每个边的计数，设置贝塞尔曲线的弯曲度。
+    2. 自循环边:
+        使用path的贝塞尔曲线实现
+    3. link文本渲染优化:
+        之前显示link文本的方式是使用text.textPath, 好处是文本可以沿着路径排列，但是当渲染长文本时候渲染性能非常差。
+        原因猜测：textPath需要与path元素进行绑定，每当path路径发生改变，textpath就需要重新计算文本相对于path的位置，并重新渲染。textPath中每个字母都会以path的路径建立坐标系进行绘制，x轴为path上任意点的切线，y轴是以切点为原点的x轴垂直线。每个字母是一个独立的block。
+        现初步优化方法：直接使用text元素显示文本，整个文本是一个block。为了可以沿着link的path路径排列，可以通过计算sourceNode和targetNode之间夹角。用transform：translate() rotate()实现
+    4.元素平移动画的初步优化:
+        之前实现circle，text平移动画是每次tick迭代中，重新设置元素的x，y。这将导致svg需要重新计算元素的位置（layout），并重绘（paint）。
+        优化方法：使用transform：translate()代替x,y来实现平移动画。
+            transform：translate在执行元素平移时，会创建合成层，在composite Layers任务中执行。
 
 
