@@ -546,7 +546,7 @@ function dataFilter(data) {
 function setDoubleLink(links) {
 
     const linkGroup = {};
-    // 两点之间的线根据两点的 id 属性设置为同一个 key，加入到 linkGroup 中，给两点之间的所有边分成一个组
+    // 根据link的source和target的id属性，对所有边进行分组
     links.forEach((link) => {
         const key = setLinkName(link);
         if (!linkGroup.hasOwnProperty(key)) {
@@ -559,7 +559,7 @@ function setDoubleLink(links) {
         const key = setLinkName(link);
         const group = linkGroup[key];
         const keyPair = key.split(':');
-        // 设置自循环
+        // 设置自循环标签
         let type = 'noself';
         if (keyPair[0] === keyPair[1]) {
             type = 'self';
