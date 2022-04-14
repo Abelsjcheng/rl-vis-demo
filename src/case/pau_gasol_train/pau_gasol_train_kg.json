@@ -1,0 +1,1249 @@
+{
+    "nodes": [
+        {
+            "id": 7292,
+            "name": "concept_athlete_pau_gasol"
+        },
+        {
+            "id": 220,
+            "name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": 473,
+            "name": "concept_sportsgame_title"
+        },
+        {
+            "id": 148,
+            "name": "concept_sportsteam_red_sox"
+        },
+        {
+            "id": 1654,
+            "name": "concept_stadiumoreventvenue_staples_center"
+        },
+        {
+            "id": 4697,
+            "name": "concept_personmexico_shaun_marcum"
+        },
+        {
+            "id": 2293,
+            "name": "concept_sportsteam_los_angeles_clippers"
+        },
+        {
+            "id": 62814,
+            "name": "concept_personus_pau_gasol"
+        },
+        {
+            "id": 16327,
+            "name": "concept_personaustralia_jack_johnson"
+        },
+        {
+            "id": 88,
+            "name": "concept_county_los_angeles_county"
+        },
+        {
+            "id": 28752,
+            "name": "concept_radiostation_krca"
+        },
+        {
+            "id": 2111,
+            "name": "concept_sportsteam_indiana_pacers"
+        },
+        {
+            "id": 550,
+            "name": "concept_sportsteam_nuggets"
+        },
+        {
+            "id": 101,
+            "name": "concept_sport_basketball"
+        },
+        {
+            "id": 61607,
+            "name": "concept_personasia_kareem_abdul_jabbar"
+        },
+        {
+            "id": 23,
+            "name": "concept_sportsteamposition_center"
+        },
+        {
+            "id": 8494,
+            "name": "concept_personmexico_adam_everett"
+        },
+        {
+            "id": 7284,
+            "name": "concept_athlete_mike_dunleavy"
+        },
+        {
+            "id": 699,
+            "name": "concept_sportsteam_la_clippers"
+        },
+        {
+            "id": 9411,
+            "name": "concept_athlete_gasol"
+        },
+        {
+            "id": 973,
+            "name": "concept_sportsteam_golden_state_warriors"
+        },
+        {
+            "id": 739,
+            "name": "concept_sportsteam_trail_blazers"
+        },
+        {
+            "id": 1468,
+            "name": "concept_sportsteam_new_orleans_hornets"
+        },
+        {
+            "id": 9383,
+            "name": "concept_athlete_corey_maggette"
+        },
+        {
+            "id": 77,
+            "name": "concept_sportsleague_nba"
+        },
+        {
+            "id": 6716,
+            "name": "concept_personasia_rick_ankiel"
+        },
+        {
+            "id": 917,
+            "name": "concept_sportsteam_louisville_cardinals"
+        },
+        {
+            "id": 7252,
+            "name": "concept_athlete_jeff_francoeur"
+        },
+        {
+            "id": 12980,
+            "name": "concept_athlete_kwame_brown"
+        },
+        {
+            "id": 460,
+            "name": "concept_sportsteam_pistons"
+        },
+        {
+            "id": 7194,
+            "name": "concept_athlete_andrew_bogut"
+        },
+        {
+            "id": 1152,
+            "name": "concept_sportsteam_orlando_magic"
+        },
+        {
+            "id": 9430,
+            "name": "concept_athlete_jared_reiner"
+        },
+        {
+            "id": 7215,
+            "name": "concept_athlete_chris_duhon"
+        },
+        {
+            "id": 1200,
+            "name": "concept_sportsteam_sixers"
+        },
+        {
+            "id": 7275,
+            "name": "concept_athlete_mark_grace"
+        },
+        {
+            "id": 32,
+            "name": "concept_sportsleague_mlb"
+        },
+        {
+            "id": 407,
+            "name": "concept_sportsteam_raptors"
+        },
+        {
+            "id": 8505,
+            "name": "concept_personmexico_jose_molina"
+        },
+        {
+            "id": 5688,
+            "name": "concept_stadiumoreventvenue_td_banknorth_garden"
+        },
+        {
+            "id": 230,
+            "name": "concept_sportsteam_chicago_bulls"
+        },
+        {
+            "id": 481,
+            "name": "concept_sportsteam_san_antonio"
+        },
+        {
+            "id": 1251,
+            "name": "concept_sportsteam_timberwolves"
+        },
+        {
+            "id": 381,
+            "name": "concept_sportsteam_suns"
+        },
+        {
+            "id": 12900,
+            "name": "concept_athlete_eric_gordon"
+        },
+        {
+            "id": 12890,
+            "name": "concept_athlete_drew_doughty"
+        },
+        {
+            "id": 7828,
+            "name": "concept_coach_chris_quinn"
+        },
+        {
+            "id": 3022,
+            "name": "concept_athlete_hank_aaron"
+        },
+        {
+            "id": 7321,
+            "name": "concept_athlete_tim_dillard"
+        },
+        {
+            "id": 534,
+            "name": "concept_sportsteam_esu_hornets"
+        },
+        {
+            "id": 4968,
+            "name": "concept_athlete_mark_hendrickson"
+        },
+        {
+            "id": 4156,
+            "name": "concept_stadiumoreventvenue_pepsi_center"
+        },
+        {
+            "id": 432,
+            "name": "concept_sportsteam_utah_jazz"
+        },
+        {
+            "id": 4813,
+            "name": "concept_stadiumoreventvenue_palace_of_auburn_hills"
+        },
+        {
+            "id": 386,
+            "name": "concept_sportsteam_hawks"
+        },
+        {
+            "id": 2491,
+            "name": "concept_sportsteam_charlotte_bobcats"
+        },
+        {
+            "id": 7319,
+            "name": "concept_athlete_ted_williams"
+        },
+        {
+            "id": 6743,
+            "name": "concept_personmexico_sean_marshall"
+        },
+        {
+            "id": 7273,
+            "name": "concept_athlete_luis_castillo"
+        },
+        {
+            "id": 182,
+            "name": "concept_sport_hockey"
+        },
+        {
+            "id": 19877,
+            "name": "concept_athlete_travis_metcalf"
+        }
+    ],
+    "links": [
+        {
+            "id": "7292-89-220",
+            "name": "concept:athleteplaysforteam",
+            "source": 7292,
+            "target": 220,
+            "rel_id": 89,
+            "es_name": "concept_athlete_pau_gasol",
+            "et_name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": "473-104-220",
+            "name": "concept:sportsgameteam_inv",
+            "source": 473,
+            "target": 220,
+            "rel_id": 104,
+            "es_name": "concept_sportsgame_title",
+            "et_name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": "473-103-148",
+            "name": "concept:sportsgameteam",
+            "source": 473,
+            "target": 148,
+            "rel_id": 103,
+            "es_name": "concept_sportsgame_title",
+            "et_name": "concept_sportsteam_red_sox"
+        },
+        {
+            "id": "7292-161-1654",
+            "name": "concept:athletehomestadium",
+            "source": 7292,
+            "target": 1654,
+            "rel_id": 161,
+            "es_name": "concept_athlete_pau_gasol",
+            "et_name": "concept_stadiumoreventvenue_staples_center"
+        },
+        {
+            "id": "4697-162-1654",
+            "name": "concept:athletehomestadium_inv",
+            "source": 4697,
+            "target": 1654,
+            "rel_id": 162,
+            "es_name": "concept_personmexico_shaun_marcum",
+            "et_name": "concept_stadiumoreventvenue_staples_center"
+        },
+        {
+            "id": "4697-183-2293",
+            "name": "concept:athleteledsportsteam",
+            "source": 4697,
+            "target": 2293,
+            "rel_id": 183,
+            "es_name": "concept_personmexico_shaun_marcum",
+            "et_name": "concept_sportsteam_los_angeles_clippers"
+        },
+        {
+            "id": "62814-82-220",
+            "name": "concept:personbelongstoorganization_inv",
+            "source": 62814,
+            "target": 220,
+            "rel_id": 82,
+            "es_name": "concept_personus_pau_gasol",
+            "et_name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": "62814-2-62814",
+            "name": "NO_OP_RELATION",
+            "source": 62814,
+            "target": 62814,
+            "rel_id": 2,
+            "es_name": "concept_personus_pau_gasol",
+            "et_name": "concept_personus_pau_gasol"
+        },
+        {
+            "id": "16327-162-1654",
+            "name": "concept:athletehomestadium_inv",
+            "source": 16327,
+            "target": 1654,
+            "rel_id": 162,
+            "es_name": "concept_personaustralia_jack_johnson",
+            "et_name": "concept_stadiumoreventvenue_staples_center"
+        },
+        {
+            "id": "16327-161-1654",
+            "name": "concept:athletehomestadium",
+            "source": 16327,
+            "target": 1654,
+            "rel_id": 161,
+            "es_name": "concept_personaustralia_jack_johnson",
+            "et_name": "concept_stadiumoreventvenue_staples_center"
+        },
+        {
+            "id": "1654-191-88",
+            "name": "concept:stadiumlocatedincity",
+            "source": 1654,
+            "target": 88,
+            "rel_id": 191,
+            "es_name": "concept_stadiumoreventvenue_staples_center",
+            "et_name": "concept_county_los_angeles_county"
+        },
+        {
+            "id": "28752-44-88",
+            "name": "concept:hasofficeincity_inv",
+            "source": 28752,
+            "target": 88,
+            "rel_id": 44,
+            "es_name": "concept_radiostation_krca",
+            "et_name": "concept_county_los_angeles_county"
+        },
+        {
+            "id": "7292-2-7292",
+            "name": "NO_OP_RELATION",
+            "source": 7292,
+            "target": 7292,
+            "rel_id": 2,
+            "es_name": "concept_athlete_pau_gasol",
+            "et_name": "concept_athlete_pau_gasol"
+        },
+        {
+            "id": "2111-16-220",
+            "name": "concept:teamplaysagainstteam_inv",
+            "source": 2111,
+            "target": 220,
+            "rel_id": 16,
+            "es_name": "concept_sportsteam_indiana_pacers",
+            "et_name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": "2111-15-550",
+            "name": "concept:teamplaysagainstteam",
+            "source": 2111,
+            "target": 550,
+            "rel_id": 15,
+            "es_name": "concept_sportsteam_indiana_pacers",
+            "et_name": "concept_sportsteam_nuggets"
+        },
+        {
+            "id": "7292-162-1654",
+            "name": "concept:athletehomestadium_inv",
+            "source": 7292,
+            "target": 1654,
+            "rel_id": 162,
+            "es_name": "concept_athlete_pau_gasol",
+            "et_name": "concept_stadiumoreventvenue_staples_center"
+        },
+        {
+            "id": "220-263-101",
+            "name": "concept:teamplayssport",
+            "source": 220,
+            "target": 101,
+            "rel_id": 263,
+            "es_name": "concept_sportsteam_los_angeles_lakers",
+            "et_name": "concept_sport_basketball"
+        },
+        {
+            "id": "61607-48-101",
+            "name": "concept:athleteplayssport_inv",
+            "source": 61607,
+            "target": 101,
+            "rel_id": 48,
+            "es_name": "concept_personasia_kareem_abdul_jabbar",
+            "et_name": "concept_sport_basketball"
+        },
+        {
+            "id": "7292-97-23",
+            "name": "concept:athleteflyouttosportsteamposition",
+            "source": 7292,
+            "target": 23,
+            "rel_id": 97,
+            "es_name": "concept_athlete_pau_gasol",
+            "et_name": "concept_sportsteamposition_center"
+        },
+        {
+            "id": "8494-98-23",
+            "name": "concept:athleteflyouttosportsteamposition_inv",
+            "source": 8494,
+            "target": 23,
+            "rel_id": 98,
+            "es_name": "concept_personmexico_adam_everett",
+            "et_name": "concept_sportsteamposition_center"
+        },
+        {
+            "id": "8494-97-23",
+            "name": "concept:athleteflyouttosportsteamposition",
+            "source": 8494,
+            "target": 23,
+            "rel_id": 97,
+            "es_name": "concept_personmexico_adam_everett",
+            "et_name": "concept_sportsteamposition_center"
+        },
+        {
+            "id": "7284-162-1654",
+            "name": "concept:athletehomestadium_inv",
+            "source": 7284,
+            "target": 1654,
+            "rel_id": 162,
+            "es_name": "concept_athlete_mike_dunleavy",
+            "et_name": "concept_stadiumoreventvenue_staples_center"
+        },
+        {
+            "id": "7284-353-699",
+            "name": "concept:coachesteam",
+            "source": 7284,
+            "target": 699,
+            "rel_id": 353,
+            "es_name": "concept_athlete_mike_dunleavy",
+            "et_name": "concept_sportsteam_la_clippers"
+        },
+        {
+            "id": "9411-90-220",
+            "name": "concept:athleteplaysforteam_inv",
+            "source": 9411,
+            "target": 220,
+            "rel_id": 90,
+            "es_name": "concept_athlete_gasol",
+            "et_name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": "9411-161-1654",
+            "name": "concept:athletehomestadium",
+            "source": 9411,
+            "target": 1654,
+            "rel_id": 161,
+            "es_name": "concept_athlete_gasol",
+            "et_name": "concept_stadiumoreventvenue_staples_center"
+        },
+        {
+            "id": "220-15-973",
+            "name": "concept:teamplaysagainstteam",
+            "source": 220,
+            "target": 973,
+            "rel_id": 15,
+            "es_name": "concept_sportsteam_los_angeles_lakers",
+            "et_name": "concept_sportsteam_golden_state_warriors"
+        },
+        {
+            "id": "973-15-739",
+            "name": "concept:teamplaysagainstteam",
+            "source": 973,
+            "target": 739,
+            "rel_id": 15,
+            "es_name": "concept_sportsteam_golden_state_warriors",
+            "et_name": "concept_sportsteam_trail_blazers"
+        },
+        {
+            "id": "1468-16-220",
+            "name": "concept:teamplaysagainstteam_inv",
+            "source": 1468,
+            "target": 220,
+            "rel_id": 16,
+            "es_name": "concept_sportsteam_new_orleans_hornets",
+            "et_name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": "1468-263-101",
+            "name": "concept:teamplayssport",
+            "source": 1468,
+            "target": 101,
+            "rel_id": 263,
+            "es_name": "concept_sportsteam_new_orleans_hornets",
+            "et_name": "concept_sport_basketball"
+        },
+        {
+            "id": "9383-162-1654",
+            "name": "concept:athletehomestadium_inv",
+            "source": 9383,
+            "target": 1654,
+            "rel_id": 162,
+            "es_name": "concept_athlete_corey_maggette",
+            "et_name": "concept_stadiumoreventvenue_staples_center"
+        },
+        {
+            "id": "9383-91-77",
+            "name": "concept:athleteplaysinleague",
+            "source": 9383,
+            "target": 77,
+            "rel_id": 91,
+            "es_name": "concept_athlete_corey_maggette",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "6716-98-23",
+            "name": "concept:athleteflyouttosportsteamposition_inv",
+            "source": 6716,
+            "target": 23,
+            "rel_id": 98,
+            "es_name": "concept_personasia_rick_ankiel",
+            "et_name": "concept_sportsteamposition_center"
+        },
+        {
+            "id": "6716-81-917",
+            "name": "concept:personbelongstoorganization",
+            "source": 6716,
+            "target": 917,
+            "rel_id": 81,
+            "es_name": "concept_personasia_rick_ankiel",
+            "et_name": "concept_sportsteam_louisville_cardinals"
+        },
+        {
+            "id": "7252-98-23",
+            "name": "concept:athleteflyouttosportsteamposition_inv",
+            "source": 7252,
+            "target": 23,
+            "rel_id": 98,
+            "es_name": "concept_athlete_jeff_francoeur",
+            "et_name": "concept_sportsteamposition_center"
+        },
+        {
+            "id": "12980-162-1654",
+            "name": "concept:athletehomestadium_inv",
+            "source": 12980,
+            "target": 1654,
+            "rel_id": 162,
+            "es_name": "concept_athlete_kwame_brown",
+            "et_name": "concept_stadiumoreventvenue_staples_center"
+        },
+        {
+            "id": "12980-161-1654",
+            "name": "concept:athletehomestadium",
+            "source": 12980,
+            "target": 1654,
+            "rel_id": 161,
+            "es_name": "concept_athlete_kwame_brown",
+            "et_name": "concept_stadiumoreventvenue_staples_center"
+        },
+        {
+            "id": "77-244-1654",
+            "name": "concept:leaguestadiums_inv",
+            "source": 77,
+            "target": 1654,
+            "rel_id": 244,
+            "es_name": "concept_sportsleague_nba",
+            "et_name": "concept_stadiumoreventvenue_staples_center"
+        },
+        {
+            "id": "77-69-77",
+            "name": "concept:agentcompeteswithagent",
+            "source": 77,
+            "target": 77,
+            "rel_id": 69,
+            "es_name": "concept_sportsleague_nba",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "460-16-220",
+            "name": "concept:teamplaysagainstteam_inv",
+            "source": 460,
+            "target": 220,
+            "rel_id": 16,
+            "es_name": "concept_sportsteam_pistons",
+            "et_name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": "460-79-77",
+            "name": "concept:teamplaysinleague",
+            "source": 460,
+            "target": 77,
+            "rel_id": 79,
+            "es_name": "concept_sportsteam_pistons",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "7194-184-220",
+            "name": "concept:athleteledsportsteam_inv",
+            "source": 7194,
+            "target": 220,
+            "rel_id": 184,
+            "es_name": "concept_athlete_andrew_bogut",
+            "et_name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": "7194-91-77",
+            "name": "concept:athleteplaysinleague",
+            "source": 7194,
+            "target": 77,
+            "rel_id": 91,
+            "es_name": "concept_athlete_andrew_bogut",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "1152-16-220",
+            "name": "concept:teamplaysagainstteam_inv",
+            "source": 1152,
+            "target": 220,
+            "rel_id": 16,
+            "es_name": "concept_sportsteam_orlando_magic",
+            "et_name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": "1152-79-77",
+            "name": "concept:teamplaysinleague",
+            "source": 1152,
+            "target": 77,
+            "rel_id": 79,
+            "es_name": "concept_sportsteam_orlando_magic",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "9430-184-220",
+            "name": "concept:athleteledsportsteam_inv",
+            "source": 9430,
+            "target": 220,
+            "rel_id": 184,
+            "es_name": "concept_athlete_jared_reiner",
+            "et_name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": "9430-91-77",
+            "name": "concept:athleteplaysinleague",
+            "source": 9430,
+            "target": 77,
+            "rel_id": 91,
+            "es_name": "concept_athlete_jared_reiner",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "220-79-77",
+            "name": "concept:teamplaysinleague",
+            "source": 220,
+            "target": 77,
+            "rel_id": 79,
+            "es_name": "concept_sportsteam_los_angeles_lakers",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "77-28-220",
+            "name": "concept:subpartoforganization_inv",
+            "source": 77,
+            "target": 220,
+            "rel_id": 28,
+            "es_name": "concept_sportsleague_nba",
+            "et_name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": "220-15-550",
+            "name": "concept:teamplaysagainstteam",
+            "source": 220,
+            "target": 550,
+            "rel_id": 15,
+            "es_name": "concept_sportsteam_los_angeles_lakers",
+            "et_name": "concept_sportsteam_nuggets"
+        },
+        {
+            "id": "550-15-460",
+            "name": "concept:teamplaysagainstteam",
+            "source": 550,
+            "target": 460,
+            "rel_id": 15,
+            "es_name": "concept_sportsteam_nuggets",
+            "et_name": "concept_sportsteam_pistons"
+        },
+        {
+            "id": "101-316-1654",
+            "name": "concept:sportusesstadium_inv",
+            "source": 101,
+            "target": 1654,
+            "rel_id": 316,
+            "es_name": "concept_sport_basketball",
+            "et_name": "concept_stadiumoreventvenue_staples_center"
+        },
+        {
+            "id": "7215-48-101",
+            "name": "concept:athleteplayssport_inv",
+            "source": 7215,
+            "target": 101,
+            "rel_id": 48,
+            "es_name": "concept_athlete_chris_duhon",
+            "et_name": "concept_sport_basketball"
+        },
+        {
+            "id": "220-15-1200",
+            "name": "concept:teamplaysagainstteam",
+            "source": 220,
+            "target": 1200,
+            "rel_id": 15,
+            "es_name": "concept_sportsteam_los_angeles_lakers",
+            "et_name": "concept_sportsteam_sixers"
+        },
+        {
+            "id": "1200-79-77",
+            "name": "concept:teamplaysinleague",
+            "source": 1200,
+            "target": 77,
+            "rel_id": 79,
+            "es_name": "concept_sportsteam_sixers",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "7275-98-23",
+            "name": "concept:athleteflyouttosportsteamposition_inv",
+            "source": 7275,
+            "target": 23,
+            "rel_id": 98,
+            "es_name": "concept_athlete_mark_grace",
+            "et_name": "concept_sportsteamposition_center"
+        },
+        {
+            "id": "7275-91-32",
+            "name": "concept:athleteplaysinleague",
+            "source": 7275,
+            "target": 32,
+            "rel_id": 91,
+            "es_name": "concept_athlete_mark_grace",
+            "et_name": "concept_sportsleague_mlb"
+        },
+        {
+            "id": "407-16-220",
+            "name": "concept:teamplaysagainstteam_inv",
+            "source": 407,
+            "target": 220,
+            "rel_id": 16,
+            "es_name": "concept_sportsteam_raptors",
+            "et_name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": "407-79-77",
+            "name": "concept:teamplaysinleague",
+            "source": 407,
+            "target": 77,
+            "rel_id": 79,
+            "es_name": "concept_sportsteam_raptors",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "8505-98-23",
+            "name": "concept:athleteflyouttosportsteamposition_inv",
+            "source": 8505,
+            "target": 23,
+            "rel_id": 98,
+            "es_name": "concept_personmexico_jose_molina",
+            "et_name": "concept_sportsteamposition_center"
+        },
+        {
+            "id": "101-315-5688",
+            "name": "concept:sportusesstadium",
+            "source": 101,
+            "target": 5688,
+            "rel_id": 315,
+            "es_name": "concept_sport_basketball",
+            "et_name": "concept_stadiumoreventvenue_td_banknorth_garden"
+        },
+        {
+            "id": "220-346-1654",
+            "name": "concept:teamhomestadium_inv",
+            "source": 220,
+            "target": 1654,
+            "rel_id": 346,
+            "es_name": "concept_sportsteam_los_angeles_lakers",
+            "et_name": "concept_stadiumoreventvenue_staples_center"
+        },
+        {
+            "id": "16327-91-77",
+            "name": "concept:athleteplaysinleague",
+            "source": 16327,
+            "target": 77,
+            "rel_id": 91,
+            "es_name": "concept_personaustralia_jack_johnson",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "220-15-230",
+            "name": "concept:teamplaysagainstteam",
+            "source": 220,
+            "target": 230,
+            "rel_id": 15,
+            "es_name": "concept_sportsteam_los_angeles_lakers",
+            "et_name": "concept_sportsteam_chicago_bulls"
+        },
+        {
+            "id": "481-16-230",
+            "name": "concept:teamplaysagainstteam_inv",
+            "source": 481,
+            "target": 230,
+            "rel_id": 16,
+            "es_name": "concept_sportsteam_san_antonio",
+            "et_name": "concept_sportsteam_chicago_bulls"
+        },
+        {
+            "id": "1251-16-220",
+            "name": "concept:teamplaysagainstteam_inv",
+            "source": 1251,
+            "target": 220,
+            "rel_id": 16,
+            "es_name": "concept_sportsteam_timberwolves",
+            "et_name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": "1251-79-77",
+            "name": "concept:teamplaysinleague",
+            "source": 1251,
+            "target": 77,
+            "rel_id": 79,
+            "es_name": "concept_sportsteam_timberwolves",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "220-345-1654",
+            "name": "concept:teamhomestadium",
+            "source": 220,
+            "target": 1654,
+            "rel_id": 345,
+            "es_name": "concept_sportsteam_los_angeles_lakers",
+            "et_name": "concept_stadiumoreventvenue_staples_center"
+        },
+        {
+            "id": "481-16-220",
+            "name": "concept:teamplaysagainstteam_inv",
+            "source": 481,
+            "target": 220,
+            "rel_id": 16,
+            "es_name": "concept_sportsteam_san_antonio",
+            "et_name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": "77-28-481",
+            "name": "concept:subpartoforganization_inv",
+            "source": 77,
+            "target": 481,
+            "rel_id": 28,
+            "es_name": "concept_sportsleague_nba",
+            "et_name": "concept_sportsteam_san_antonio"
+        },
+        {
+            "id": "699-346-1654",
+            "name": "concept:teamhomestadium_inv",
+            "source": 699,
+            "target": 1654,
+            "rel_id": 346,
+            "es_name": "concept_sportsteam_la_clippers",
+            "et_name": "concept_stadiumoreventvenue_staples_center"
+        },
+        {
+            "id": "699-205-88",
+            "name": "concept:teamplaysincity",
+            "source": 699,
+            "target": 88,
+            "rel_id": 205,
+            "es_name": "concept_sportsteam_la_clippers",
+            "et_name": "concept_county_los_angeles_county"
+        },
+        {
+            "id": "381-16-220",
+            "name": "concept:teamplaysagainstteam_inv",
+            "source": 381,
+            "target": 220,
+            "rel_id": 16,
+            "es_name": "concept_sportsteam_suns",
+            "et_name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": "220-2-220",
+            "name": "NO_OP_RELATION",
+            "source": 220,
+            "target": 220,
+            "rel_id": 2,
+            "es_name": "concept_sportsteam_los_angeles_lakers",
+            "et_name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": "481-79-77",
+            "name": "concept:teamplaysinleague",
+            "source": 481,
+            "target": 77,
+            "rel_id": 79,
+            "es_name": "concept_sportsteam_san_antonio",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "12900-162-1654",
+            "name": "concept:athletehomestadium_inv",
+            "source": 12900,
+            "target": 1654,
+            "rel_id": 162,
+            "es_name": "concept_athlete_eric_gordon",
+            "et_name": "concept_stadiumoreventvenue_staples_center"
+        },
+        {
+            "id": "12900-161-1654",
+            "name": "concept:athletehomestadium",
+            "source": 12900,
+            "target": 1654,
+            "rel_id": 161,
+            "es_name": "concept_athlete_eric_gordon",
+            "et_name": "concept_stadiumoreventvenue_staples_center"
+        },
+        {
+            "id": "77-70-77",
+            "name": "concept:agentcompeteswithagent_inv",
+            "source": 77,
+            "target": 77,
+            "rel_id": 70,
+            "es_name": "concept_sportsleague_nba",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "77-2-77",
+            "name": "NO_OP_RELATION",
+            "source": 77,
+            "target": 77,
+            "rel_id": 2,
+            "es_name": "concept_sportsleague_nba",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "12890-162-1654",
+            "name": "concept:athletehomestadium_inv",
+            "source": 12890,
+            "target": 1654,
+            "rel_id": 162,
+            "es_name": "concept_athlete_drew_doughty",
+            "et_name": "concept_stadiumoreventvenue_staples_center"
+        },
+        {
+            "id": "12890-91-77",
+            "name": "concept:athleteplaysinleague",
+            "source": 12890,
+            "target": 77,
+            "rel_id": 91,
+            "es_name": "concept_athlete_drew_doughty",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "220-71-7828",
+            "name": "concept:organizationhiredperson",
+            "source": 220,
+            "target": 7828,
+            "rel_id": 71,
+            "es_name": "concept_sportsteam_los_angeles_lakers",
+            "et_name": "concept_coach_chris_quinn"
+        },
+        {
+            "id": "7828-383-77",
+            "name": "concept:coachesinleague",
+            "source": 7828,
+            "target": 77,
+            "rel_id": 383,
+            "es_name": "concept_coach_chris_quinn",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "12890-161-1654",
+            "name": "concept:athletehomestadium",
+            "source": 12890,
+            "target": 1654,
+            "rel_id": 161,
+            "es_name": "concept_athlete_drew_doughty",
+            "et_name": "concept_stadiumoreventvenue_staples_center"
+        },
+        {
+            "id": "12890-2-12890",
+            "name": "NO_OP_RELATION",
+            "source": 12890,
+            "target": 12890,
+            "rel_id": 2,
+            "es_name": "concept_athlete_drew_doughty",
+            "et_name": "concept_athlete_drew_doughty"
+        },
+        {
+            "id": "3022-98-23",
+            "name": "concept:athleteflyouttosportsteamposition_inv",
+            "source": 3022,
+            "target": 23,
+            "rel_id": 98,
+            "es_name": "concept_athlete_hank_aaron",
+            "et_name": "concept_sportsteamposition_center"
+        },
+        {
+            "id": "3022-2-3022",
+            "name": "NO_OP_RELATION",
+            "source": 3022,
+            "target": 3022,
+            "rel_id": 2,
+            "es_name": "concept_athlete_hank_aaron",
+            "et_name": "concept_athlete_hank_aaron"
+        },
+        {
+            "id": "7321-98-23",
+            "name": "concept:athleteflyouttosportsteamposition_inv",
+            "source": 7321,
+            "target": 23,
+            "rel_id": 98,
+            "es_name": "concept_athlete_tim_dillard",
+            "et_name": "concept_sportsteamposition_center"
+        },
+        {
+            "id": "7321-91-32",
+            "name": "concept:athleteplaysinleague",
+            "source": 7321,
+            "target": 32,
+            "rel_id": 91,
+            "es_name": "concept_athlete_tim_dillard",
+            "et_name": "concept_sportsleague_mlb"
+        },
+        {
+            "id": "220-15-481",
+            "name": "concept:teamplaysagainstteam",
+            "source": 220,
+            "target": 481,
+            "rel_id": 15,
+            "es_name": "concept_sportsteam_los_angeles_lakers",
+            "et_name": "concept_sportsteam_san_antonio"
+        },
+        {
+            "id": "220-15-534",
+            "name": "concept:teamplaysagainstteam",
+            "source": 220,
+            "target": 534,
+            "rel_id": 15,
+            "es_name": "concept_sportsteam_los_angeles_lakers",
+            "et_name": "concept_sportsteam_esu_hornets"
+        },
+        {
+            "id": "534-79-77",
+            "name": "concept:teamplaysinleague",
+            "source": 534,
+            "target": 77,
+            "rel_id": 79,
+            "es_name": "concept_sportsteam_esu_hornets",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "4968-98-23",
+            "name": "concept:athleteflyouttosportsteamposition_inv",
+            "source": 4968,
+            "target": 23,
+            "rel_id": 98,
+            "es_name": "concept_athlete_mark_hendrickson",
+            "et_name": "concept_sportsteamposition_center"
+        },
+        {
+            "id": "4968-383-32",
+            "name": "concept:coachesinleague",
+            "source": 4968,
+            "target": 32,
+            "rel_id": 383,
+            "es_name": "concept_athlete_mark_hendrickson",
+            "et_name": "concept_sportsleague_mlb"
+        },
+        {
+            "id": "77-243-4156",
+            "name": "concept:leaguestadiums",
+            "source": 77,
+            "target": 4156,
+            "rel_id": 243,
+            "es_name": "concept_sportsleague_nba",
+            "et_name": "concept_stadiumoreventvenue_pepsi_center"
+        },
+        {
+            "id": "432-16-220",
+            "name": "concept:teamplaysagainstteam_inv",
+            "source": 432,
+            "target": 220,
+            "rel_id": 16,
+            "es_name": "concept_sportsteam_utah_jazz",
+            "et_name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": "432-79-77",
+            "name": "concept:teamplaysinleague",
+            "source": 432,
+            "target": 77,
+            "rel_id": 79,
+            "es_name": "concept_sportsteam_utah_jazz",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "460-345-4813",
+            "name": "concept:teamhomestadium",
+            "source": 460,
+            "target": 4813,
+            "rel_id": 345,
+            "es_name": "concept_sportsteam_pistons",
+            "et_name": "concept_stadiumoreventvenue_palace_of_auburn_hills"
+        },
+        {
+            "id": "220-15-386",
+            "name": "concept:teamplaysagainstteam",
+            "source": 220,
+            "target": 386,
+            "rel_id": 15,
+            "es_name": "concept_sportsteam_los_angeles_lakers",
+            "et_name": "concept_sportsteam_hawks"
+        },
+        {
+            "id": "386-79-77",
+            "name": "concept:teamplaysinleague",
+            "source": 386,
+            "target": 77,
+            "rel_id": 79,
+            "es_name": "concept_sportsteam_hawks",
+            "et_name": "concept_sportsleague_nba"
+        },
+        {
+            "id": "2491-16-220",
+            "name": "concept:teamplaysagainstteam_inv",
+            "source": 2491,
+            "target": 220,
+            "rel_id": 16,
+            "es_name": "concept_sportsteam_charlotte_bobcats",
+            "et_name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": "2491-2-2491",
+            "name": "NO_OP_RELATION",
+            "source": 2491,
+            "target": 2491,
+            "rel_id": 2,
+            "es_name": "concept_sportsteam_charlotte_bobcats",
+            "et_name": "concept_sportsteam_charlotte_bobcats"
+        },
+        {
+            "id": "7319-98-23",
+            "name": "concept:athleteflyouttosportsteamposition_inv",
+            "source": 7319,
+            "target": 23,
+            "rel_id": 98,
+            "es_name": "concept_athlete_ted_williams",
+            "et_name": "concept_sportsteamposition_center"
+        },
+        {
+            "id": "7319-91-32",
+            "name": "concept:athleteplaysinleague",
+            "source": 7319,
+            "target": 32,
+            "rel_id": 91,
+            "es_name": "concept_athlete_ted_williams",
+            "et_name": "concept_sportsleague_mlb"
+        },
+        {
+            "id": "6743-98-23",
+            "name": "concept:athleteflyouttosportsteamposition_inv",
+            "source": 6743,
+            "target": 23,
+            "rel_id": 98,
+            "es_name": "concept_personmexico_sean_marshall",
+            "et_name": "concept_sportsteamposition_center"
+        },
+        {
+            "id": "6743-91-32",
+            "name": "concept:athleteplaysinleague",
+            "source": 6743,
+            "target": 32,
+            "rel_id": 91,
+            "es_name": "concept_personmexico_sean_marshall",
+            "et_name": "concept_sportsleague_mlb"
+        },
+        {
+            "id": "7273-98-23",
+            "name": "concept:athleteflyouttosportsteamposition_inv",
+            "source": 7273,
+            "target": 23,
+            "rel_id": 98,
+            "es_name": "concept_athlete_luis_castillo",
+            "et_name": "concept_sportsteamposition_center"
+        },
+        {
+            "id": "7273-91-32",
+            "name": "concept:athleteplaysinleague",
+            "source": 7273,
+            "target": 32,
+            "rel_id": 91,
+            "es_name": "concept_athlete_luis_castillo",
+            "et_name": "concept_sportsleague_mlb"
+        },
+        {
+            "id": "1200-16-220",
+            "name": "concept:teamplaysagainstteam_inv",
+            "source": 1200,
+            "target": 220,
+            "rel_id": 16,
+            "es_name": "concept_sportsteam_sixers",
+            "et_name": "concept_sportsteam_los_angeles_lakers"
+        },
+        {
+            "id": "1200-2-1200",
+            "name": "NO_OP_RELATION",
+            "source": 1200,
+            "target": 1200,
+            "rel_id": 2,
+            "es_name": "concept_sportsteam_sixers",
+            "et_name": "concept_sportsteam_sixers"
+        },
+        {
+            "id": "182-316-1654",
+            "name": "concept:sportusesstadium_inv",
+            "source": 182,
+            "target": 1654,
+            "rel_id": 316,
+            "es_name": "concept_sport_hockey",
+            "et_name": "concept_stadiumoreventvenue_staples_center"
+        },
+        {
+            "id": "19877-48-182",
+            "name": "concept:athleteplayssport_inv",
+            "source": 19877,
+            "target": 182,
+            "rel_id": 48,
+            "es_name": "concept_athlete_travis_metcalf",
+            "et_name": "concept_sport_hockey"
+        }
+    ]
+}

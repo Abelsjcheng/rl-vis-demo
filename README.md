@@ -21,7 +21,9 @@ Visual analysis demo system of reinforcement learning for knowledge graph infere
     2. 自循环边
     3. link文本渲染优化
         之前使用显示link文本的方式是使用text.textPath,好处是文本可以沿着路径排列，但是当渲染长文本时候渲染性能非常差。
-        原因猜测：textPath需要与path标签进行绑定，每当path路径发生改变，textpath就需要重新去计算绘制路径，并渲染。
-        现初步优化方法：直接用text标签显示文本。为了可以沿着link的path路径排列，可以通过计算sourceNode和targetNode之间夹角。用transform：translate() rotate()实现
+        原因猜测：textPath需要与path标签进行绑定，每当path路径发生改变，textpath就需要重新去计算文本相对于path的位置，并渲染。textPath中每个字母都会以path的路径建立坐标系，x轴为path，y轴在任意点上是x轴切线的垂直线，每个字母会有一个坐标系，每个字母相对于是一个block。
+        现初步优化方法：直接用text标签显示文本，整个文本是一个block。为了可以沿着link的path路径排列，可以通过计算sourceNode和targetNode之间夹角。用transform：translate() rotate()实现
+    4.tick中实现元素的平移动画，替换为transform实现。
+        之前实现circle，text平移动画是每次tick迭代中，重新设置元素的x，y。这将导致重新计算所有元素的位置，并重绘。使用transform则不会导致重排和重绘，仅做图层平移后的合成（composite Layers）
 
 
