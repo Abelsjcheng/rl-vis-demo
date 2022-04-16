@@ -1,6 +1,6 @@
 # rl-vis-demo
 
-面向知识图谱推理的强化学习可视分析系统
+面向知识图谱推理的强化学习可视分析系统<br>
 Visual analysis demo system of reinforcement learning for knowledge graph inference
 
 ## 简介
